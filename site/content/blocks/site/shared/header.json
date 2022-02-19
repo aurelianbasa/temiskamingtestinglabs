@@ -1,0 +1,37 @@
+{
+  "images": [
+    {
+      "src": "../../../assets/site/shared/logo.svg",
+      "width": "160px",
+      "alt": "alt text"
+    }
+  ],
+  "collection": [
+    {
+      "buttons": [
+        {
+          "text": "About",
+          "type": "PAGE",
+          "link": "/about",
+          "variant": "links.nav-dark"
+        },
+        {
+          "text": "Services",
+          "type": "PAGE",
+          "link": "/services",
+          "variant": "links.nav-dark"
+        }
+      ]
+    },
+    {
+      "buttons": [
+        {
+          "text": "Contact Us",
+          "type": "PAGE",
+          "link": "/contact",
+          "variant": "secondary"
+        }
+      ]
+    }
+  ]
+}
