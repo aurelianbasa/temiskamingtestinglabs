@@ -1,11 +1,11 @@
 {
   "text": [
     {
-      "text": "We Drive Acquisition for Growing Brands",
+      "text": "**Accuracy and Precision** for a Bankable Decision",
       "variant": "h1"
     },
     {
-      "text": "Hassle-free platform and specialists to help you with your marketing campaigns.",
+      "text": "Here is a Demo of our Secondary Crushing Circuit",
       "variant": "medium"
     }
   ],
@@ -14,42 +14,14 @@
       "src": "../../../assets/site/index/hero.png",
       "alt": "alt text",
       "objectPosition": "center bottom"
-    },
-    {
-      "src": "../../../assets/site/index/hero-overlay-one.png",
-      "alt": "alt text",
-      "radius": "lg",
-      "shadow": "default",
-      "effects": ["fadeInDown", "float"],
-      "position": {
-        "top": "22%",
-        "left": "6%"
-      }
-    },
-    {
-      "src": "../../../assets/site/index/hero-overlay-two.png",
-      "alt": "alt text",
-      "radius": "lg",
-      "shadow": "default",
-      "effects": ["fadeInDown", "floatFaster"],
-      "position": {
-        "bottom": "5%",
-        "right": "2%"
-      }
     }
   ],
   "buttons": [
     {
-      "text": "Singup Now",
-      "type": "MODAL",
-      "link": "authentication",
+      "text": "Watch the video",
+      "type": "VIDEO",
+      "link": "https://www.youtube.com/embed/OoXMe876C7k?autoplay=1&modestbranding=1&showinfo=0&rel=0",
       "variant": "primary"
-    },
-    {
-      "text": "Schedule Demo",
-      "type": "MODAL",
-      "link": "contact",
-      "variant": "primary-light"
     }
   ]
 }

@@ -90,11 +90,11 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                     ml: [2, null, 3]
                   }}
                 >
-                  TSX-V: CCW
+                  Temiskaming
                   <br />
-                  OTCQB: CCWOF
+                  Testing
                   <br />
-                  FF: 9TB
+                  Labs
                 </Text>
               </Flex>
               {collection && (
