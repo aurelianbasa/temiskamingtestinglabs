@@ -1,98 +1,84 @@
 {
   "text": [
     {
-      "text": "Build Your Brand",
+      "text": "Our Facility",
+      "color": "beta",
+      "variant": "h4"
+    },
+    {
+      "text": "Accuracy and Precision",
       "variant": "h2"
     },
     {
-      "text": "We help our clients achieve tangible, high-impact results.",
-      "variant": "medium"
-    },
-    {
-      "text": "tempor incididunt ut labore et dolore magna aliqua.",
+      "text": "Temiskaming Testing Labs assay lab and bulk processing facility was acquired by Canada Silver Cobalt Works in 2020.",
       "variant": "medium"
     }
   ],
   "images": [
     {
-      "src": "../../../assets/site/index/build-brand.jpg",
+      "src": "../../../assets/site/index/ttl.jpg",
       "alt": "alt text",
-      "radius": "lg",
-      "shadow": "lg"
+      "radius": "lg"
     }
   ],
   "collection": [
     {
       "text": [
         {
-          "text": "Targeted SEO",
+          "text": "Assays",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "As an Internet marketing strategy, SEO considers tempor incididunt ut labore et."
+          "text": "(Description Here)"
         }
       ]
     },
     {
       "text": [
         {
-          "text": "Marketing outline",
+          "text": "Bulk Sampling",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Social media marketing is the use of social media tempor incididunt ut labore et."
+          "text": "(Description Here)"
         }
       ]
     },
     {
       "text": [
         {
-          "text": "Content Writing",
+          "text": "Bullion pouring",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Content marketing is a form of marketing focused tempor incididunt ut labore et."
+          "text": "(Description Here)"
         }
       ]
     },
     {
       "text": [
         {
-          "text": "Market Analysis",
+          "text": "E-waste processing",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Content marketing is a form of marketing focused tempor incididunt ut labore et."
+          "text": "(Description Here)"
         }
       ]
-    },
+    }
+  ],
+  "buttons": [
     {
-      "text": [
-        {
-          "text": "Innovative Solutions",
-          "color": "omegaDarker",
-          "variant": "h5"
-        },
-        {
-          "text": "Content marketing is a form of marketing focused tempor incididunt ut labore et."
-        }
-      ]
-    },
-    {
-      "text": [
-        {
-          "text": "Optimal Choice",
-          "color": "omegaDarker",
-          "variant": "h5"
-        },
-        {
-          "text": "Content marketing is a form of marketing focused tempor incididunt ut labore et."
-        }
-      ]
+      "text": "Read More",
+      "type": "PAGE",
+      "width": "100%",
+      "link": "/about/company-history",
+      "variant": "primary",
+      "align": ["right"]
     }
   ]
 }
