@@ -8,8 +8,9 @@ import ModalWithTabs from '@solid-ui-blocks/Modal/Block01'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Hero from '@solid-ui-blocks/Hero/Block01'
-import Companies from '@solid-ui-blocks/Companies/Block01'
+import Tabs from '@solid-ui-components/Tabs'
 import BuildBrand from '@solid-ui-blocks/FeaturesWithPhoto/Block07'
+import Gallery from '@solid-ui-blocks/Blog/Block01'
 import FeatureOne from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import WhyChooseUs from '@solid-ui-blocks/Features/Block04'
 import FeatureTwo from '@solid-ui-blocks/FeaturesWithPhoto/Block02'
@@ -39,14 +40,18 @@ const IndexPage = props => {
       <Container variant='full' sx={styles.heroContainer}>
         <Hero content={content['hero']} reverse />
       </Container>
-      <Divider space='4' />
-      <Companies content={content['companies']} />
       <Divider space='5' />
       <Divider space='5' />
       <Container variant='full' sx={styles.buildBrandContainer}>
         <BuildBrand content={content['build-brand']} />
       </Container>
       <Divider space='5' />
+      <Container variant='wide' sx={styles.tabsContainer}>
+        <Tabs space={5}>
+          <Gallery content={content['gallery-one']} />
+					<Gallery content={content['gallery-two']} />
+        </Tabs>
+      </Container>
       <Divider space='5' />
       <FeatureOne content={content['feature-one']} />
       <Divider space='5' />
