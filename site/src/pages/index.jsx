@@ -42,9 +42,8 @@ const IndexPage = props => {
       </Container>
       <Divider space='5' />
       <Divider space='5' />
-      <Container variant='full' sx={styles.buildBrandContainer}>
-        <BuildBrand content={content['build-brand']} />
-      </Container>
+      <FeatureOne content={content['feature-one']} />
+      <Divider space='5' />
       <Divider space='5' />
       <Container variant='wide' sx={styles.tabsContainer}>
         <Tabs space={5}>
@@ -53,7 +52,9 @@ const IndexPage = props => {
         </Tabs>
       </Container>
       <Divider space='5' />
-      <FeatureOne content={content['feature-one']} />
+      <Container variant='full' sx={styles.buildBrandContainer}>
+        <BuildBrand content={content['build-brand']} />
+      </Container>
       <Divider space='5' />
       <Divider space='5' />
       <WhyChooseUs content={content['why-choose-us']} />

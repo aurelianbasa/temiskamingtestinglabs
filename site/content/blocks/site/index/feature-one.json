@@ -1,35 +1,24 @@
 {
   "text": [
     {
-      "text": "GROW YOUR BUSINESS",
+      "text": "OUR FACILITY",
       "color": "omegaDark",
       "variant": "h4"
     },
     {
-      "text": "Best Marketing Service for **Technological Era**",
+      "text": "Temiskaming Testing Laboratories",
       "variant": "h2"
     },
     {
-      "text": "Target your audience based on their interests. Lorem ipsum dolor sit amet, consectetur magna.",
+      "text": "The assay lab and bulk processing facility was acquired by Canada Silver Cobalt Works in 2020.",
       "variant": "medium"
     }
   ],
   "images": [
     {
-      "src": "../../../assets/site/index/feature-one.jpg",
+      "src": "../../../assets/site/index/feature-one.png",
       "radius": "lg",
       "alt": "alt text"
-    },
-    {
-      "src": "../../../assets/site/index/feature-one-overlay.png",
-      "alt": "alt text",
-      "radius": "lg",
-      "shadow": "default",
-      "effects": ["fadeInLeft", "float"],
-      "position": {
-        "bottom": "15%",
-        "right": "-5%"
-      }
     }
   ],
   "collection": [
@@ -41,12 +30,12 @@
       },
       "text": [
         {
-          "text": "Automatic interest detection",
+          "text": "Bulk Processing",
           "color": "omegaDark",
           "variant": "h5"
         },
         {
-          "text": "Tempor incididunt ut labore et dolore magna aliqua consectetur magna."
+          "text": "A bullion furnace in the the facility was used to produce silver dore bars in a proof-of-concept test."
         }
       ]
     },
@@ -58,12 +47,12 @@
       },
       "text": [
         {
-          "text": "Daily email reports",
+          "text": "Assay Lab",
           "color": "omegaDark",
           "variant": "h5"
         },
         {
-          "text": "Tempor incididunt ut labore et dolore magna aliqua consectetur magna."
+          "text": "Onsite labs is an independent operator with commercial analytical experience."
         }
       ]
     }

@@ -3,14 +3,14 @@
       {
         "text": "Assay Lab",
         "color": "omega",
+        "variant": "h1"
+      },
+      {
+        "text": "OnSite Labs",
         "variant": "h4"
       },
       {
-        "text": "**Innovative Features** Integrated for Teams",
-        "variant": "h2"
-      },
-      {
-        "text": "Lorem ipsum dolor sit amet, consectetur magna aliqua. Eaque ipsa quae ab illo inventore veritatis. Nemo enim ipsam voluptatem voluptas.",
+        "text": "The Assay Lab is leased to OnSite Labs, a commercial analytical lab operator",
         "variant": "medium"
       }
     ],
@@ -22,17 +22,17 @@
         "text": [
           null,
           {
-            "text": "Marketing solutions for startups & businesses",
+            "text": "Prep Lab",
             "color": "omegaDarker",
             "variant": "h4"
           },
           {
-            "text": "As an Internet marketing strategy, SEO considers how search engines work, the computer-programmed algorithms that dictate search engine behavior."
+            "text": "[Description Here]"
           }
         ],
         "images": [
           {
-            "src": "../../../assets/site/index/ttl.jpg",
+            "src": "../../../assets/site/index/prep-lab.jpg",
             "alt": "alt text"
           }
         ],
@@ -52,17 +52,17 @@
         "text": [
           null,
           {
-            "text": "Lead generation & customer experience",
+            "text": "Wet Assay",
             "color": "omegaDarker",
             "variant": "h4"
           },
           {
-            "text": "As an Internet marketing strategy, SEO considers how search engines work, the computer-programmed algorithms that dictate search engine behavior."
+            "text": "[Description Here]"
           }
         ],
         "images": [
           {
-            "src": "../../../assets/site/index/ttl.jpg",
+            "src": "../../../assets/site/index/wet-assay.jpg",
             "alt": "alt text"
           }
         ],
@@ -82,17 +82,17 @@
         "text": [
           null,
           {
-            "text": "Application design & development",
+            "text": "Fire Assay",
             "color": "omegaDarker",
             "variant": "h4"
           },
           {
-            "text": "As an Internet marketing strategy, SEO considers how search engines work, the computer-programmed algorithms that dictate search engine behavior."
+            "text": "[Description Here]"
           }
         ],
         "images": [
           {
-            "src": "../../../assets/site/index/ttl.jpg",
+            "src": "../../../assets/site/index/fire-assay.jpg",
             "alt": "alt text"
           }
         ],

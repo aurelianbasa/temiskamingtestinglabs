@@ -3,14 +3,14 @@
       {
         "text": "Bulk Processing",
         "color": "omega",
+        "variant": "h3"
+      },
+      {
+        "text": "Canada Silver Cobalt Works",
         "variant": "h4"
       },
       {
-        "text": "**Innovative Features** Integrated for Teams",
-        "variant": "h2"
-      },
-      {
-        "text": "Lorem ipsum dolor sit amet, consectetur magna aliqua. Eaque ipsa quae ab illo inventore veritatis. Nemo enim ipsam voluptatem voluptas.",
+        "text": "The bulk processing section of the facility, including the bullion furnace in the basement, is operated by Canada Silver Cobalt.",
         "variant": "medium"
       }
     ],
@@ -22,17 +22,17 @@
         "text": [
           null,
           {
-            "text": "Marketing solutions for startups & businesses",
+            "text": "Processing circuit",
             "color": "omegaDarker",
             "variant": "h4"
           },
           {
-            "text": "As an Internet marketing strategy, SEO considers how search engines work, the computer-programmed algorithms that dictate search engine behavior."
+            "text": "[Description Here]"
           }
         ],
         "images": [
           {
-            "src": "../../../assets/site/index/ttl.jpg",
+            "src": "../../../assets/site/index/processing-circuit.jpg",
             "alt": "alt text"
           }
         ],
@@ -52,17 +52,17 @@
         "text": [
           null,
           {
-            "text": "Lead generation & customer experience",
+            "text": "Bulk sampling",
             "color": "omegaDarker",
             "variant": "h4"
           },
           {
-            "text": "As an Internet marketing strategy, SEO considers how search engines work, the computer-programmed algorithms that dictate search engine behavior."
+            "text": "[Description Here]"
           }
         ],
         "images": [
           {
-            "src": "../../../assets/site/index/ttl.jpg",
+            "src": "../../../assets/site/index/bulk-sampling.jpg",
             "alt": "alt text"
           }
         ],
@@ -82,17 +82,17 @@
         "text": [
           null,
           {
-            "text": "Application design & development",
+            "text": "Smelter",
             "color": "omegaDarker",
             "variant": "h4"
           },
           {
-            "text": "As an Internet marketing strategy, SEO considers how search engines work, the computer-programmed algorithms that dictate search engine behavior."
+            "text": "[Description Here]"
           }
         ],
         "images": [
           {
-            "src": "../../../assets/site/index/ttl.jpg",
+            "src": "../../../assets/site/index/smelter.jpg",
             "alt": "alt text"
           }
         ],
