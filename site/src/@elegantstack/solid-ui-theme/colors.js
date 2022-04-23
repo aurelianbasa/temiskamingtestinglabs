@@ -1,26 +1,26 @@
 import baseColors from '@elegantstack/solid-ui-theme/src/colors'
 
 const blue = {
-  100: '#D7DADD',
+  100: '#5D77AD',
   200: '#6481AD',
-  300: '#2A4DA1',
+  300: '#5D77AD',
   400: '#6481AD',
   500: '#9DB1BC',
-  600: '#2A4DA1',
+  600: '#4665A1',
   700: '#9DB1BC',
-  800: '#2A4DA1',
-  900: '#2A4DA1'
+  800: '#4665A1',
+  900: '#4665A1'
 }
 const green = {
-  100: '#4CB748',
+  100: '#92B686',
   200: '#CBE6BD',
-  300: '#4CB748',
+  300: '#92B686',
   400: '#CBE6BD',
   500: '#CBE6BD',
-  600: '#4CB748',
+  600: '#548D40',
   700: '#CBE6BD',
-  800: '#C7E3BB',
-  900: '#C7E3BB'
+  800: '#548D40',
+  900: '#548D40'
 }
 
 const colors = {
