@@ -7,7 +7,7 @@
     },
     {
       "text": "Learn More About Our Services",
-      "variant": "h2"
+      "variant": "h1"
     },
     {
       "text": "We provide custom solutions to all levels of operations.",
@@ -18,7 +18,7 @@
     {
       "text": [
         {
-          "text": "What are the advantages to custom milling?",
+          "text": "Why custom milling?",
           "variant": "h5"
         },
         {
@@ -51,7 +51,7 @@
     {
       "text": [
         {
-          "text": "What kind of materials can the facility process?",
+          "text": "What materials can the facility process?",
           "variant": "h5"
         },
         {

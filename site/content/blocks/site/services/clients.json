@@ -16,7 +16,7 @@
   ],
   "images": [
     {
-      "src": "../../../assets/site/index/ttl.png",
+      "src": "../../../assets/site/index/feature-one.png",
       "alt": "alt text",
       "radius": "lg",
       "shadow": "lg"

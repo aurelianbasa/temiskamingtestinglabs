@@ -7,6 +7,7 @@ import Divider from '@solid-ui-components/Divider'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Hero from '@solid-ui-blocks/Hero/Block01'
+import FeatureTwo from '@solid-ui-blocks/FeaturesWithPhoto/Block02'
 import Content from '@solid-ui-blocks/Content/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
@@ -29,6 +30,8 @@ const AboutUs01 = props => {
       </Container>
       <Divider space='5' />
       <Content content={content['content-one']} />
+      <Divider space='5' />
+      <FeatureTwo content={content['feature-two']} reverse />
       <Divider space='5' />
       <Container variant='wide' sx={styles.contentTwoContainer}>
         <Content content={content['content-two']} />

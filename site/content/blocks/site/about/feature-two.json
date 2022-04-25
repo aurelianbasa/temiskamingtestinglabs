@@ -1,0 +1,24 @@
+{
+  "text": [
+    {
+      "text": "LOCATED IN THE HEART OF THE CAMP",
+      "color": "omegaDark",
+      "variant": "h4"
+    },
+    {
+      "text": "Independently Operated",
+      "variant": "h2"
+    },
+    {
+      "text": "The perennial difficulty of timely assay results motivated the acquisition in the short term. The longer term implications expand operational capability for a series of projects in the camp, and have the benefit of contributing to the local economy.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/site/about/map.png",
+      "alt": "alt text",
+      "radius": "lg"
+    }
+  ]
+}

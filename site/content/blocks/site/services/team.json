@@ -1,22 +1,22 @@
 {
   "container": {
-    "bg": "linear-gradient(25deg, {{alpha}} 0%, {{beta}} 100%)"
+    "bg": "linear-gradient(25deg, {{alpha}} 0%, {{omegaDarker}} 100%)"
   },
   "text": [
     {
       "text": "Schedule a Consultation",
-      "color": "alphaLight",
+      "color": "omegaLighter",
       "variant": "h3"
     },
     {
-      "text": "Make your impact by acquiring new clients.",
+      "text": "Make your impact by mastering your material.",
       "color": "white",
       "variant": "h1"
     }
   ],
   "images": [
     {
-      "src": "../../../assets/site/services/team.jpg",
+      "src": "../../../assets/site/about/hero.jpg",
       "alt": "alt text",
       "radius": "lg",
       "shadow": "lg",
@@ -28,7 +28,7 @@
       "text": "Contact Us",
       "type": "MODAL",
       "link": "contact",
-      "variant": "primary-light"
+      "variant": "secondary"
     }
   ]
 }
