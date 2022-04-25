@@ -12,10 +12,6 @@ import BuildBrand from '@solid-ui-blocks/FeaturesWithPhoto/Block07'
 import Gallery from '@solid-ui-blocks/Blog/Block01'
 import FeatureOne from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import WhyChooseUs from '@solid-ui-blocks/Features/Block04'
-import FeatureTwo from '@solid-ui-blocks/FeaturesWithPhoto/Block02'
-import Stats from '@solid-ui-blocks/Stats/Block01'
-import Strategies from '@solid-ui-blocks/Features/Block06'
-import Download from '@solid-ui-blocks/CallToAction/Block02'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 import theme from './_theme'
@@ -54,16 +50,6 @@ const IndexPage = props => {
       <Divider space='5' />
       <Divider space='5' />
       <WhyChooseUs content={content['why-choose-us']} />
-      <Divider space='5' />
-      <Divider space='5' />
-      <FeatureTwo content={content['feature-two']} reverse />
-      <Divider space='5' />
-      <Divider space='5' />
-      <Stats content={content['stats']} />
-      <Divider space='4' />
-      <Strategies content={content['strategies']} />
-      <Divider space='4' />
-      <Download content={content['download']} />
       <Divider space='5' />
       <Divider space='5' />
       <Footer content={content['footer']} />

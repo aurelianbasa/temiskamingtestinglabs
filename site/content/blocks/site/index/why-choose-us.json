@@ -6,8 +6,8 @@
       "variant": "h4"
     },
     {
-      "text": "Why Choose Us Over Competition?",
-      "variant": "h2"
+      "text": "Why Choose Us?",
+      "variant": "h1"
     }
   ],
   "collection": [
@@ -19,7 +19,7 @@
           "variant": "h5"
         },
         {
-          "text": "At vero eos et accusamus et. Tempor incididunt ut labore et dolore magna aliqua consectetur magna aliqua."
+          "text": "Our Equipment has undergone thorough rennovations and updates."
         }
       ],
       "icon": {
@@ -36,7 +36,7 @@
           "variant": "h5"
         },
         {
-          "text": "Et harum quidem rerum facilis. Tempor incididunt ut labore et dolore magna aliqua consectetur magna aliqua."
+          "text": "Our Team features credentialed and experienced staff ready to assist you."
         }
       ],
       "icon": {
@@ -48,16 +48,16 @@
     {
       "text": [
         {
-          "text": "Lifetime Access",
+          "text": "Established Reputation",
           "color": "omegaDark",
           "variant": "h5"
         },
         {
-          "text": "Itaque earum rerum hic tenetur. Tempor incididunt ut labore et dolore magna aliqua consectetur magna aliqua."
+          "text": "Our History begins with Cobalt camp and continues to the present day."
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-dna.svg",
+        "src": "../../../assets/flexiblocks/icons/bx-directions.svg",
         "bg": "omegaLighter",
         "color": "alpha"
       }
@@ -70,11 +70,11 @@
           "variant": "h5"
         },
         {
-          "text": "Similique sunt in culpa officia. Tempor incididunt ut labore et dolore magna aliqua consectetur magna aliqua."
+          "text": "We can provide custom solutions tailored to your material and requirements."
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-directions.svg",
+        "src": "../../../assets/flexiblocks/icons/bx-dna.svg",
         "bg": "omegaLighter",
         "color": "alpha"
       }

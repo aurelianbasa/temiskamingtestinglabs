@@ -4,12 +4,10 @@ import { Container } from 'theme-ui'
 import Layout from '@solid-ui-layout/Layout'
 import Seo from '@solid-ui-components/Seo'
 import Divider from '@solid-ui-components/Divider'
-import ModalWithTabs from '@solid-ui-blocks/Modal/Block01'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Features from '@solid-ui-blocks/Features/Block06'
 import Clients from '@solid-ui-blocks/FeaturesWithPhoto/Block05'
-import Companies from '@solid-ui-blocks/Companies/Block01'
 import Team from '@solid-ui-blocks/Hero/Block03'
 import Faq from '@solid-ui-blocks/Faq/Block02'
 import Footer from '@solid-ui-blocks/Footer/Block01'
@@ -34,8 +32,6 @@ const Services01 = props => {
       <Divider space='5' />
       <Divider space='5' />
       <Clients content={content['clients']} />
-      <Divider space='4' />
-      <Companies content={content['companies']} />
       <Divider space='5' />
       <Divider space='5' />
       <Team content={content['team']} />
