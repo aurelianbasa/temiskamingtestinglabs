@@ -4,7 +4,6 @@ import { Container } from 'theme-ui'
 import Layout from '@solid-ui-layout/Layout'
 import Seo from '@solid-ui-components/Seo'
 import Divider from '@solid-ui-components/Divider'
-import ModalWithTabs from '@solid-ui-blocks/Modal/Block01'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Hero from '@solid-ui-blocks/Hero/Block01'
@@ -17,9 +16,6 @@ import FeatureTwo from '@solid-ui-blocks/FeaturesWithPhoto/Block02'
 import Stats from '@solid-ui-blocks/Stats/Block01'
 import Strategies from '@solid-ui-blocks/Features/Block06'
 import Download from '@solid-ui-blocks/CallToAction/Block02'
-import Testimonials from '@solid-ui-blocks/Testimonials/Block02'
-import GetStarted from '@solid-ui-blocks/CallToAction/Block01'
-import Blog from '@solid-ui-blocks/Blog/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 import theme from './_theme'
@@ -69,16 +65,6 @@ const IndexPage = props => {
       <Divider space='4' />
       <Download content={content['download']} />
       <Divider space='5' />
-      <Divider space='5' />
-      <Testimonials content={content['testimonials']} />
-      <Divider space='5' />
-      <Divider space='5' />
-      <Container sx={styles.getStartedContainer}>
-        <GetStarted content={content['get-started']} />
-      </Container>
-      <Divider space='5' />
-      <Divider space='5' />
-      <Blog content={content['latest-blogs']} />
       <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>

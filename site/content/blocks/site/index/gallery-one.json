@@ -27,21 +27,13 @@
             "variant": "h4"
           },
           {
-            "text": "[Description Here]"
+            "text": ""
           }
         ],
         "images": [
           {
             "src": "../../../assets/site/index/processing-circuit.jpg",
             "alt": "alt text"
-          }
-        ],
-        "buttons": [
-          {
-            "text": "Learn More   ➜",
-            "type": "PAGE",
-            "link": "",
-            "variant": "primary-light"
           }
         ]
       },
@@ -57,21 +49,13 @@
             "variant": "h4"
           },
           {
-            "text": "[Description Here]"
+            "text": ""
           }
         ],
         "images": [
           {
             "src": "../../../assets/site/index/bulk-sampling.jpg",
             "alt": "alt text"
-          }
-        ],
-        "buttons": [
-          {
-            "text": "Learn More   ➜",
-            "type": "PAGE",
-            "link": "",
-            "variant": "primary-light"
           }
         ]
       },
@@ -87,21 +71,13 @@
             "variant": "h4"
           },
           {
-            "text": "[Description Here]"
+            "text": ""
           }
         ],
         "images": [
           {
             "src": "../../../assets/site/index/smelter.jpg",
             "alt": "alt text"
-          }
-        ],
-        "buttons": [
-          {
-            "text": "Learn More   ➜",
-            "type": "PAGE",
-            "link": "",
-            "variant": "primary-light"
           }
         ]
       }

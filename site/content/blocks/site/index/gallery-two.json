@@ -27,21 +27,13 @@
             "variant": "h4"
           },
           {
-            "text": "[Description Here]"
+            "text": ""
           }
         ],
         "images": [
           {
             "src": "../../../assets/site/index/prep-lab.jpg",
             "alt": "alt text"
-          }
-        ],
-        "buttons": [
-          {
-            "text": "Learn More   ➜",
-            "type": "PAGE",
-            "link": "",
-            "variant": "primary-light"
           }
         ]
       },
@@ -57,21 +49,13 @@
             "variant": "h4"
           },
           {
-            "text": "[Description Here]"
+            "text": ""
           }
         ],
         "images": [
           {
             "src": "../../../assets/site/index/wet-assay.jpg",
             "alt": "alt text"
-          }
-        ],
-        "buttons": [
-          {
-            "text": "Learn More   ➜",
-            "type": "PAGE",
-            "link": "",
-            "variant": "primary-light"
           }
         ]
       },
@@ -87,21 +71,13 @@
             "variant": "h4"
           },
           {
-            "text": "[Description Here]"
+            "text": ""
           }
         ],
         "images": [
           {
             "src": "../../../assets/site/index/fire-assay.jpg",
             "alt": "alt text"
-          }
-        ],
-        "buttons": [
-          {
-            "text": "Learn More   ➜",
-            "type": "PAGE",
-            "link": "",
-            "variant": "primary-light"
           }
         ]
       }
