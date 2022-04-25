@@ -26,7 +26,7 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-phone.svg",
+        "src": "../../../assets/flexiblocks/icons/bx-brain.svg",
         "bg": "white",
         "color": "alpha"
       }
@@ -43,7 +43,7 @@
       ],
 
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-mobile-alt.svg",
+        "src": "../../../assets/flexiblocks/icons/bx-dollar-circle.svg",
         "bg": "white",
         "color": "alpha"
       }
@@ -59,7 +59,7 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-mail-send.svg",
+        "src": "../../../assets/flexiblocks/icons/mining-gems.svg",
         "bg": "white",
         "color": "alpha"
       }
@@ -76,7 +76,7 @@
       ],
 
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-directions.svg",
+        "src": "../../../assets/flexiblocks/icons/bxs-component.svg",
         "bg": "white",
         "color": "alpha"
       }

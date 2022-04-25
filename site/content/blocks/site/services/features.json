@@ -39,7 +39,7 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-message-detail.svg",
+        "src": "../../../assets/flexiblocks/icons/bx-vial.svg",
         "size": "lg",
         "color": "beta"
       }
@@ -66,7 +66,7 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-planet.svg",
+        "src": "../../../assets/flexiblocks/icons/bx-data.svg",
         "size": "lg",
         "color": "alpha"
       }
@@ -120,7 +120,7 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-box.svg",
+        "src": "../../../assets/flexiblocks/icons/foundry.svg",
         "size": "lg",
         "color": "beta"
       }

@@ -24,7 +24,7 @@
   "collection": [
     {
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-analyse.svg",
+        "src": "../../../assets/flexiblocks/icons/factory.svg",
         "color": "beta",
         "bg": "betaLighter"
       },
@@ -41,7 +41,7 @@
     },
     {
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-directions.svg",
+        "src": "../../../assets/flexiblocks/icons/bx-vial.svg",
         "color": "alpha",
         "bg": "alphaLighter"
       },
