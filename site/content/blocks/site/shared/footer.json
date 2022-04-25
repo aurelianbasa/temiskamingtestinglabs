@@ -37,6 +37,33 @@
     {
       "text": [
         {
+          "text": "Address"
+        }
+      ],
+      "buttons": [
+        {
+          "text": "1 Presley Street",
+          "type": "SUB",
+          "link": "/",
+          "variant": "links.nav-light"
+        },
+        {
+          "text": "Cobalt, Ontario, P0J 1C0",
+          "type": "SUB",
+          "link": "/",
+          "variant": "links.nav-light"
+        },
+        {
+          "text": "Canada",
+          "type": "SUB",
+          "link": "/",
+          "variant": "links.nav-light"
+        }
+      ]
+    },
+    {
+      "text": [
+        {
           "text": "Legal"
         }
       ],

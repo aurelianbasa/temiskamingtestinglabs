@@ -39,7 +39,7 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-vial.svg",
+        "src": "../../../assets/flexiblocks/icons/bxs-vial.svg",
         "size": "lg",
         "color": "beta"
       }
@@ -61,7 +61,7 @@
           "variant": "h5"
         },
         {
-          "text": "Our integrated circuit enables a maximum customization for your material.",
+          "text": "Our integrated circuit allows full customization of your material.",
           "color": "omegaDark"
         }
       ],

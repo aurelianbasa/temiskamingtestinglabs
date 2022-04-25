@@ -25,7 +25,7 @@
     {
       "icon": {
         "src": "../../../assets/flexiblocks/icons/factory.svg",
-        "color": "beta",
+        "color": "omegaDarker",
         "bg": "betaLighter"
       },
       "text": [
@@ -41,8 +41,8 @@
     },
     {
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-vial.svg",
-        "color": "alpha",
+        "src": "../../../assets/flexiblocks/icons/bxs-vial.svg",
+        "color": "omegaDarker",
         "bg": "alphaLighter"
       },
       "text": [
