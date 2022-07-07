@@ -42,7 +42,7 @@ module.exports = {
         short_name: 'TTL',
         start_url: '/',
         background_color: '#ffffff',
-        theme_color: '#5a67d8',
+        theme_color: '#fffff',
         display: 'minimal-ui',
         icon: 'content/assets/favicon.png'
       }
