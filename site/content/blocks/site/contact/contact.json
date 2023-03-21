@@ -28,7 +28,7 @@
         }
       ],
       "form": {
-        "action": "/",
+        "action": "https://formspree.io/f/xqkodqzd",
         "fields": [
           {
             "identifier": "name",
@@ -42,7 +42,7 @@
             }
           },
           {
-            "identifier": "email",
+            "identifier": "_replyto",
             "type": "EMAIL",
             "placeholder": {
               "text": "Email Address"
