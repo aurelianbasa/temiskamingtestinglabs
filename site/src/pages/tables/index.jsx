@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 
 
-const Table = () => {
+const Tables = () => {
   const tableData = [
     { name: 'John Smith', age: 32, email: 'john.smith@example.com' },
     { name: 'Jane Doe', age: 28, email: 'jane.doe@example.com' },
