@@ -28,7 +28,7 @@ const Tables = props => {
           {`
 						table {
               border-collapse: collapse; 
-              width: 100%; 
+              width: 80%; 
               margin: 0;
               border-spacing: 0; 
               padding: 0;
