@@ -8,7 +8,7 @@ import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
-
+import styles from './_styles'
 
 const Tables = props => {
   const { allBlockContent } = props.data
@@ -28,7 +28,7 @@ const Tables = props => {
     <ModalSimple content={content['disclaimer']} />
     {/* Blocks */}
     <Header content={content['header']} />
-    <Container variant='full' >
+    <Container variant='full' sx={styles.heroContainer}>
     <Divider space='5' />
     
    <div className="overflow-x-auto">
