@@ -26,17 +26,6 @@ const Tables = props => {
       <Helmet>
         <style type='text/css'>
           {`
-          body {
-            font-family: sans-serif;
-            -webkit-font-smoothing: auto;
-            -moz-font-smoothing: auto;
-            -moz-osx-font-smoothing: grayscale;
-            font-smoothing: auto;
-            text-rendering: optimizeLegibility;
-            font-smooth: always;
-            -webkit-tap-highlight-color: transparent;
-            -webkit-touch-callout: none;
-            }
 						table {
 							width:100%;
 							border:1px solid #606060;
@@ -45,6 +34,15 @@ const Tables = props => {
               border-radius: 4px;
               border-spacing: 0px;
 							padding:6px;
+              font-family: sans-serif;
+              webkit-font-smoothing: auto;
+              moz-font-smoothing: auto;
+              moz-osx-font-smoothing: grayscale;
+              font-smoothing: auto;
+              text-rendering: optimizeLegibility;
+              font-smooth: always;
+              webkit-tap-highlight-color: transparent;
+              webkit-touch-callout: none;
 						}
 						table th {
 							border:2px solid #606060;
