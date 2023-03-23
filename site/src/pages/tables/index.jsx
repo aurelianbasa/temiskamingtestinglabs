@@ -1,5 +1,13 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import { Container } from 'theme-ui'
+import Layout from '@solid-ui-layout/Layout'
+import Seo from '@solid-ui-components/Seo'
+import Divider from '@solid-ui-components/Divider'
+import ModalSimple from '@solid-ui-blocks/Modal/Block02'
+import Header from '@solid-ui-blocks/Header/Block01'
+import Footer from '@solid-ui-blocks/Footer/Block01'
+import { normalizeBlockContentNodes } from '@blocks-helpers'
 
 
 const Tables = () => {
@@ -10,7 +18,18 @@ const Tables = () => {
   ];
 
   return (
-    <div className="overflow-x-auto">
+    <Layout {...props}>
+    <Seo title='Home' />
+    {/* Modals */}
+    <ModalSimple content={content['privacy-policy']} />
+    <ModalSimple content={content['disclaimer']} />
+    {/* Blocks */}
+    <Header content={content['header']} />
+    <Container variant='full' >
+    <Divider space='5' />
+    </Container>
+    <Footer content={content['footer']} />
+   <div className="overflow-x-auto">
       <table className="min-w-full rounded-lg bg-white overflow-hidden">
         <thead className="bg-gray-50">
           <tr className="text-gray-500 text-sm">
@@ -30,8 +49,10 @@ const Tables = () => {
         </tbody>
       </table>
     </div>
-  );
-};
+    </Layout>
+
+  )
+}
 
 export const query = graphql`
   query siteTablesBlockContent {
