@@ -1,4 +1,5 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import { Container } from 'theme-ui'
 import Layout from '@solid-ui-layout/Layout'
@@ -22,6 +23,36 @@ const Tables = props => {
 
   return (
     <Layout {...props}>
+      <Helmet>
+        <style type='text/css'>
+          {`
+						table {
+							width:100%;
+							border:1px solid #606060;
+							border-collapse:separate;
+              border-left: 1;
+              border-radius: 4px;
+              border-spacing: 0px;
+							padding:6px;
+						}
+						table th {
+							border:2px solid #606060;
+							padding:.5em 5px;
+							background: #f0f0f0;
+							color: #313030;
+							font-size: 1.2em;
+						}
+						table td {
+							border:2px solid #606060;
+							text-align:center;
+							padding:.5em 5px;
+							background: #ffffff;
+							color: #313030;
+							font-size: 1.2em;
+						}
+    			`}
+        </style>
+      </Helmet>
     <Seo title='Tables' />
     {/* Modals */}
     <ModalSimple content={content['privacy-policy']} />
