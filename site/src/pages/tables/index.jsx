@@ -11,17 +11,18 @@ import { normalizeBlockContentNodes } from '@blocks-helpers'
 
 
 const Tables = () => {
+  const { allBlockContent } = props.data
+  const content = normalizeBlockContentNodes(allBlockContent?.nodes)
   const tableData = [
     { name: 'John Smith', age: 32, email: 'john.smith@example.com' },
     { name: 'Jane Doe', age: 28, email: 'jane.doe@example.com' },
     { name: 'Bob Johnson', age: 45, email: 'bob.johnson@example.com' },
   ]
-  const { allBlockContent } = props.data
-  const content = normalizeBlockContentNodes(allBlockContent?.nodes)
+
 
   return (
     <Layout {...props}>
-    <Seo title='Home' />
+    <Seo title='Tables' />
     {/* Modals */}
     <ModalSimple content={content['privacy-policy']} />
     <ModalSimple content={content['disclaimer']} />
