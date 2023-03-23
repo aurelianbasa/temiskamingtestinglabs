@@ -15,7 +15,9 @@ const Tables = () => {
     { name: 'John Smith', age: 32, email: 'john.smith@example.com' },
     { name: 'Jane Doe', age: 28, email: 'jane.doe@example.com' },
     { name: 'Bob Johnson', age: 45, email: 'bob.johnson@example.com' },
-  ];
+  ]
+  const { allBlockContent } = props.data
+  const content = normalizeBlockContentNodes(allBlockContent?.nodes)
 
   return (
     <Layout {...props}>
