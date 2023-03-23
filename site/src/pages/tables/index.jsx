@@ -30,8 +30,7 @@ const Tables = props => {
     <Header content={content['header']} />
     <Container variant='full' >
     <Divider space='5' />
-    </Container>
-    <Footer content={content['footer']} />
+    
    <div className="overflow-x-auto">
       <table className="min-w-full rounded-lg bg-white overflow-hidden">
         <thead className="bg-gray-50">
@@ -52,6 +51,8 @@ const Tables = props => {
         </tbody>
       </table>
     </div>
+    </Container>
+    <Footer content={content['footer']} />
     </Layout>
 
   )
