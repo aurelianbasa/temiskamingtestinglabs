@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-
+import { normalizeBlockContentNodes } from '@blocks-helpers'
+import Header from '@solid-ui-blocks/Header/Block01'
 
 const Tables = () => {
   const tableData = [
@@ -8,8 +9,13 @@ const Tables = () => {
     { name: 'Jane Doe', age: 28, email: 'jane.doe@example.com' },
     { name: 'Bob Johnson', age: 45, email: 'bob.johnson@example.com' },
   ];
+const { allBlockContent } = props.data
+const content = normalizeBlockContentNodes(allBlockContent?.nodes)
 
   return (
+    <div className="bg-gray-100">
+      <Header content={content['header']} />
+      <div className="container mx-auto px-4 py-8">
     <div className="overflow-x-auto">
       <table className="min-w-full rounded-lg bg-white overflow-hidden">
         <thead className="bg-gray-50">
@@ -30,7 +36,9 @@ const Tables = () => {
         </tbody>
       </table>
     </div>
-  );
+  </div>
+ 
+    </div> );
 };
 
 export const query = graphql`
