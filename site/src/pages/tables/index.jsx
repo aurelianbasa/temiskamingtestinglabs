@@ -35,7 +35,6 @@ const Tables = props => {
               border: 0;
               font-size: 100%;
               font: inherit; 
-              vertical-align: baseline
 						}
 						table th {
 							padding: 0.25rem; 
@@ -56,8 +55,9 @@ const Tables = props => {
     <ModalSimple content={content['disclaimer']} />
     {/* Blocks */}
     <Header content={content['header']} />
-    <Container variant='full' sx={styles.heroContainer}>
-    <Divider space='5' />
+    <Container variant='full'>
+   
+    <h1 className="text-3xl font-bold text-gray-900">Tables</h1>
     
    <div className="overflow-x-auto">
       <table className="min-w-full rounded-lg bg-white overflow-hidden">
