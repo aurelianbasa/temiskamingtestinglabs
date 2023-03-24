@@ -28,22 +28,22 @@ const Tables = props => {
           {`
 					h1{
             font-size: 30px;
-            color: #fff;
+            color: #000000;
             text-transform: uppercase;
             font-weight: 300;
             text-align: center;
             margin-bottom: 15px;
           }
           table{
-            width:100%;
-            table-layout: fixed;
+            width:80%;
+            table-layout: auto;
           }
           th{
             padding: 20px 15px;
             text-align: left;
             font-weight: 500;
             font-size: 12px;
-            color: #fff;
+            color: #000000;
             text-transform: uppercase;
           }
           td{
