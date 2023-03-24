@@ -52,7 +52,7 @@ const Tables = props => {
             vertical-align:middle;
             font-weight: 300;
             font-size: 12px;
-            color: #fff;
+            color: #000000;
             border-bottom: solid 1px rgba(255,255,255,0.1);
           }
     			`}
