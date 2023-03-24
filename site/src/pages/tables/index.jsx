@@ -64,6 +64,8 @@ const Tables = props => {
     <ModalSimple content={content['disclaimer']} />
     {/* Blocks */}
     <Header content={content['header']} />
+    <Divider space='5' />
+      <Divider space='5' />
     <Container variant='full'>
   
     
