@@ -38,15 +38,6 @@ const Tables = props => {
             width:100%;
             table-layout: fixed;
           }
-          .tbl-header{
-            background-color: rgba(255,255,255,0.3);
-           }
-          .tbl-content{
-            height:300px;
-            overflow-x:auto;
-            margin-top: 0px;
-            border: 1px solid rgba(255,255,255,0.3);
-          }
           th{
             padding: 20px 15px;
             text-align: left;
@@ -74,8 +65,7 @@ const Tables = props => {
     {/* Blocks */}
     <Header content={content['header']} />
     <Container variant='full'>
-   
-    <h1 className="text-3xl font-bold text-gray-900">Tables</h1>
+  
     
    <div className="overflow-x-auto">
       <table className="min-w-full rounded-lg bg-white overflow-hidden">
