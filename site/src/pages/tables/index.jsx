@@ -47,7 +47,7 @@ const Tables = props => {
     <Header content={content['header']} />
     <Divider space='5' />
       <Divider space='5' />
-    <Container variant='full'>
+    <Container variant='full' align='center'>
   
     
     <h1> Hey girl, take  a look at this <span class="highlight"> highlighted</span> text!</h1>
