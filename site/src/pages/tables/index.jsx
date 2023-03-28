@@ -14,11 +14,6 @@ import styles from './_styles'
 const Tables = props => {
   const { allBlockContent } = props.data
   const content = normalizeBlockContentNodes(allBlockContent?.nodes)
-  const tableData = [
-    { name: 'John Smith', age: 32, email: 'john.smith@example.com' },
-    { name: 'Jane Doe', age: 28, email: 'jane.doe@example.com' },
-    { name: 'Bob Johnson', age: 45, email: 'bob.johnson@example.com' },
-  ]
 
 
   return (
@@ -26,34 +21,20 @@ const Tables = props => {
       <Helmet>
         <style type='text/css'>
           {`
-					h1{
-            font-size: 30px;
-            color: #000000;
-            text-transform: uppercase;
-            font-weight: 300;
-            text-align: center;
-            margin-bottom: 15px;
+					.highlight {
+            background: linear-gradient(180deg,rgba(255,192,203,0) 70%, #FFC0CB	 50%);
           }
-          table{
-            width:80%;
-            table-layout: auto;
+          
+          h1 {
+            
+            font-family: helvetica;
+           
           }
-          th{
-            padding: 20px 15px;
-            text-align: left;
-            font-weight: 500;
-            font-size: 12px;
-            color: #000000;
-            text-transform: uppercase;
-          }
-          td{
-            padding: 15px;
-            text-align: left;
-            vertical-align:middle;
-            font-weight: 300;
-            font-size: 12px;
-            color: #000000;
-            border-bottom: solid 1px rgba(255,255,255,0.1);
+          
+          h2 {
+            
+            font-family: helvetica;
+           color: #ffffff;
           }
     			`}
         </style>
@@ -69,26 +50,7 @@ const Tables = props => {
     <Container variant='full'>
   
     
-   <div className="overflow-x-auto">
-      <table className="min-w-full rounded-lg bg-white overflow-hidden">
-        <thead className="bg-gray-50">
-          <tr className="text-gray-500 text-sm">
-            <th className="py-3 px-4 font-medium text-left">Name</th>
-            <th className="py-3 px-4 font-medium text-left">Age</th>
-            <th className="py-3 px-4 font-medium text-left">Email</th>
-          </tr>
-        </thead>
-        <tbody className="text-gray-500 text-sm divide-y divide-gray-200">
-          {tableData.map((data, index) => (
-            <tr key={index}>
-              <td className="py-3 px-4 text-left">{data.name}</td>
-              <td className="py-3 px-4 text-left">{data.age}</td>
-              <td className="py-3 px-4 text-left">{data.email}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
+    <h1> Hey girl, take  a look at this <span class="highlight"> highlighted</span> text!</h1>
     </Container>
     <Footer content={content['footer']} />
     </Layout>
