@@ -1,7 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import { Container } from 'theme-ui'
-import Helmet from 'react-helmet'
 import Layout from '@solid-ui-layout/Layout'
 import Seo from '@solid-ui-components/Seo'
 import Divider from '@solid-ui-components/Divider'
@@ -24,27 +23,6 @@ const IndexPage = props => {
 
   return (
     <Layout theme={theme} {...props}>
-      <Helmet>
-        <style type='text/css'>
-          {`
-					.highlight {
-            background: linear-gradient(180deg,rgba(255,192,203,0) 70%, #FFC0CB	 50%);
-          }
-          
-          h1 {
-            
-            font-family: helvetica;
-           
-          }
-          
-          h2 {
-            
-            font-family: helvetica;
-           color: #ffffff;
-          }
-    			`}
-        </style>
-      </Helmet>
       <Seo title='Home' />
       {/* Modals */}
       <ModalSimple content={content['privacy-policy']} />
@@ -53,7 +31,6 @@ const IndexPage = props => {
       <Header content={content['header']} />
       <Container variant='full' sx={styles.heroContainer}>
         <Hero content={content['hero']} reverse />
-        <h1> Hey girl, take  a look at this <span class="highlight"> highlighted</span> text!</h1>
       </Container>
       <Divider space='5' />
       <Divider space='5' />
