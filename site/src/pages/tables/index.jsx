@@ -50,7 +50,7 @@ const Tables = props => {
     <Container variant='full' align='center'>
   
     
-    <h1> Hey girl, take  a look at this <span class="highlight"> highlighted</span> text!</h1>
+    <h1> Here is some text <span class="highlight"> highlighted</span> text!</h1>
     </Container>
     <Footer content={content['footer']} />
     </Layout>
