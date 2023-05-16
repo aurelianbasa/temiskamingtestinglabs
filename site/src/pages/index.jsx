@@ -14,7 +14,6 @@ import FeatureOne from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import WhyChooseUs from '@solid-ui-blocks/Features/Block04'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
-import WithRecentPosts from '@solid-ui-blocks/WithRecentPosts'
 import theme from './_theme'
 import styles from './_styles'
 
