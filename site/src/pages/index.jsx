@@ -30,9 +30,8 @@ const IndexPage = props => {
       {/* Blocks */}
       <Header content={content['header']} />
       <Divider space='5' />
-      <Container variant='full' sx={styles.heroContainer}>
+      <Divider space='5' />
         <Hero content={content['hero']} />
-      </Container>
       <Divider space='5' />
       <Divider space='5' />
       <FeatureOne content={content['feature-one']} />
@@ -53,6 +52,9 @@ const IndexPage = props => {
       <WhyChooseUs content={content['why-choose-us']} />
       <Divider space='5' />
       <Divider space='5' />
+      <WithRecentPosts>
+        <Blog content={content['latest-blogs']} />
+      </WithRecentPosts>
       <Footer content={content['footer']} />
     </Layout>
   )
