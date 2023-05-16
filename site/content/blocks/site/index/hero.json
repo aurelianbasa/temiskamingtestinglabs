@@ -7,7 +7,7 @@
     {
       "text": "Temiskaming Testing Labs is a full service assay lab offering bulk processing and geological services.",
       "variant": "medium",
-      "align": "center"
+      "align": ["left"]
     }
   ],
   "images": [
