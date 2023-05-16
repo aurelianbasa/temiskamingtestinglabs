@@ -10,10 +10,12 @@ import Hero from '@solid-ui-blocks/Hero/Block01'
 import Tabs from '@solid-ui-components/Tabs'
 import BuildBrand from '@solid-ui-blocks/FeaturesWithPhoto/Block07'
 import Gallery from '@solid-ui-blocks/Blog/Block01'
+import Blog from '@solid-ui-blocks/Blog/Block01'
 import FeatureOne from '@solid-ui-blocks/FeaturesWithPhoto/Block01'
 import WhyChooseUs from '@solid-ui-blocks/Features/Block04'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
+import WithRecentPosts from '@solid-ui-blocks/WithRecentPosts'
 import theme from './_theme'
 import styles from './_styles'
 
@@ -52,6 +54,9 @@ const IndexPage = props => {
       <Divider space='5' />
       <WhyChooseUs content={content['why-choose-us']} />
       <Divider space='5' />
+      <WithRecentPosts>
+        <Blog content={content['latest-blogs']} />
+      </WithRecentPosts>
       <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>
