@@ -54,23 +54,23 @@ module.exports = {
         colorMode: false,
         fonts: fontFile.fonts
       }
-    }
-    // {
-    //   resolve: '@elegantstack/gatsby-theme-flexiblog-minimal',
-    //   options: {
-    //     basePath: '/news',
-    //     siteUrl: 'https://ttl.com',
-    //     fonts: fontFile.fonts,
-    //     services: {
-    //       algolia: true
-    //       // mailchimp: true
-    //     },
-    //     sources: {
-    //       contentful: true,
-    //       local: false
-    //     }
-    //   }
-    // }
+    },
+     {
+      resolve: '@elegantstack/gatsby-theme-flexiblog-minimal',
+       options: {
+         basePath: '/news',
+         siteUrl: 'https://temiskaminglabs.com',
+       fonts: fontFile.fonts,
+         services: {
+           algolia: false
+           // mailchimp: true
+         },
+         sources: {
+           contentful: false,
+           local: true
+         }
+       }
+   }
   ],
   // Customize your site metadata
   siteMetadata: {
