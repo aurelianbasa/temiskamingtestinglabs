@@ -26,12 +26,6 @@
           "type": "PAGE",
           "link": "/services",
           "variant": "links.nav-dark"
-        },
-        {
-          "text": "News",
-          "type": "PAGE",
-          "link": "/news",
-          "variant": "links.nav-dark"
         }
       ]
     },
