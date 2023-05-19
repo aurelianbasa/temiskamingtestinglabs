@@ -24,10 +24,12 @@ const FormsPage = props => {
       <ModalSimple content={content['disclaimer']} />
       {/* Blocks */}
       <Header content={content['header']} />
-      <Team content={content['team']} />
       <Divider space='5' />
       <Divider space='5' />
       <Download content={content['download']} />
+      <Divider space='5' />
+      <Divider space='5' />
+      <Team content={content['team']} />
       <Divider space='5' />
       <Divider space='5' />
       <Footer content={content['footer']} />
