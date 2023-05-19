@@ -10,21 +10,47 @@
     {
       "buttons": [
         {
+          "text": "Home",
+          "type": "PAGE",
+          "link": "/",
+          "variant": "links.nav-dark"
+        },
+        {
           "text": "About",
           "type": "PAGE",
           "link": "/about",
           "variant": "links.nav-dark"
         },
         {
-          "text": "Tables",
-          "type": "PAGE",
-          "link": "/tables",
-          "variant": "links.nav-dark"
+          "text": "Services",
+          "type": "SUB",
+          "link": "/services",
+          "variant": "links.nav-dark",
+          "buttons": [
+            {
+              "text": "Assay Lab",
+              "type": "PAGE",
+              "link": "/services/assay-lab",
+              "variant": "links.nav-dark"
+            },
+            {
+              "text": "Bulk Processing",
+              "type": "PAGE",
+              "link": "/services/bulk-processing",
+              "variant": "links.nav-dark"
+            },
+            {
+              "text": "Geological Services",
+              "type": "PAGE",
+              "link": "/media/geological-services",
+              "variant": "links.nav-dark"
+            }
+          ]
         },
         {
-          "text": "Services",
+          "text": "Forms",
           "type": "PAGE",
-          "link": "/services",
+          "link": "/forms",
           "variant": "links.nav-dark"
         }
       ]

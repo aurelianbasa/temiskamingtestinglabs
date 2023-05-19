@@ -15,19 +15,19 @@
       ],
       "buttons": [
         {
-          "text": "Home",
+          "text": "Terms",
           "type": "PAGE",
           "link": "/",
           "variant": "links.nav-light"
         },
         {
-          "text": "About",
+          "text": "Careers",
           "type": "PAGE",
           "link": "/about",
           "variant": "links.nav-light"
         },
         {
-          "text": "Services",
+          "text": "Contact",
           "type": "PAGE",
           "link": "/services",
           "variant": "links.nav-light"

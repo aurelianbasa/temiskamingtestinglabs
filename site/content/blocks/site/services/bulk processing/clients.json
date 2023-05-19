@@ -1,0 +1,25 @@
+{
+  "text": [
+    {
+      "text": "Unlimited Possibilities",
+      "color": "beta",
+      "variant": "h4"
+    },
+    {
+      "text": "Our Milling Circuit",
+      "variant": "h2"
+    },
+    {
+      "text": "Years of experience and upgrading have cemented the reputation of Temiskaming Testing Laboratories as a premier service provider in the treatment of precious metal and base metal ores.",
+      "variant": "medium"
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/site/index/feature-one.png",
+      "alt": "alt text",
+      "radius": "lg",
+      "shadow": "lg"
+    }
+  ]
+}
