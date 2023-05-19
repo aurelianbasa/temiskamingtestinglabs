@@ -31,7 +31,11 @@ const AssayPage = props => {
         <Features content={content['features']} />
       </Container>
       <Divider space='5' />
-      <Table content={content['capital-structure']} />
+      <Table content={content['precious-metals']} />
+      <Divider space='5' />
+      <Table content={content['precious-metal-assay']} />
+      <Divider space='5' />
+      <Table content={content['gold-silver-concentrate']} />
       <Divider space='5' />
       <Clients content={content['clients']} />
       <Divider space='5' />

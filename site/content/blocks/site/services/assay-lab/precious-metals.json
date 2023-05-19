@@ -1,0 +1,207 @@
+{
+  "text": [
+    {
+      "text": "Gold and Precious Metals",
+      "color": "alpha",
+      "variant": "h1"
+    },
+    {
+      "text": "(Geochemical Analysis)",
+      "color": "omega",
+      "variant": "h4"
+    }
+  ],
+  "collection": [
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "Fire Assay",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "Finish",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "Detection",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Gold",
+              "variant": "medium",
+              "space": 1
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "1 assay ton",
+              "variant": "medium",
+              "space": 1
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "FA-AAS",
+              "variant": "medium",
+              "space": 1
+            },
+            {
+              "text": "MP AES",
+              "variant": "medium",
+              "space": 0
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "5 ppb",
+              "variant": "medium",
+              "space": 1
+            },
+            {
+              "text": "2 ppb",
+              "variant": "medium",
+              "space": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Platinum",
+              "variant": "medium",
+              "space": 1
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "1 assay ton",
+              "variant": "medium",
+              "space": 1
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "FA-AAS",
+              "variant": "medium",
+              "space": 1
+            },
+            {
+              "text": "MP AES",
+              "variant": "medium",
+              "space": 0
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "5 ppb",
+              "variant": "medium",
+              "space": 1
+            },
+            {
+              "text": "2 ppb",
+              "variant": "medium",
+              "space": 0
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Palladium",
+              "variant": "medium",
+              "space": 1
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "1 assay ton",
+              "variant": "medium",
+              "space": 1
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "FA-AAS",
+              "variant": "medium",
+              "space": 1
+            },
+            {
+              "text": "MP AES",
+              "variant": "medium",
+              "space": 0
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "5 ppb",
+              "variant": "medium",
+              "space": 1
+            },
+            {
+              "text": "2 ppb",
+              "variant": "medium",
+              "space": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

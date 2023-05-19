@@ -24,7 +24,6 @@
         {
           "text": "Services",
           "type": "SUB",
-          "link": "/services",
           "variant": "links.nav-dark",
           "buttons": [
             {

@@ -1,12 +1,12 @@
 {
   "text": [
     {
-      "text": "Capital Structure",
+      "text": "Gold and Silver Concentrate",
       "color": "alpha",
       "variant": "h1"
     },
     {
-      "text": "As of Sept. 8, 2022",
+      "text": "",
       "color": "omega",
       "variant": "h4"
     }
@@ -17,7 +17,7 @@
         {
           "text": [
             {
-              "text": "Issued and Outstanding",
+              "text": "",
               "variant": "h5",
               "space": 0
             }
@@ -26,7 +26,65 @@
         {
           "text": [
             {
-              "text": "260,894,963",
+              "text": "Fire Assay",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "Finish",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "Detection",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Gold",
+              "variant": "medium",
+              "space": 1
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "1 assay ton",
+              "variant": "medium",
+              "space": 1
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "Gravimetry",
+              "variant": "medium",
+              "space": 0
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "0.30 g/tonne",
               "variant": "medium",
               "space": 0
             }
@@ -39,62 +97,26 @@
         {
           "text": [
             {
-              "text": "Stock Options Outstanding",
-              "variant": "h5",
-              "space": 1
-            }
-          ]
-        },
-        {
-          "text": [
-            {
-              "text": "10,918,335",
+              "text": "Silver",
               "variant": "medium",
               "space": 1
-            },
-            {
-              "text": "($0.10 - $0.65)",
-              "variant": "small",
-              "space": 0
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "collection": [
-        {
-          "text": [
-            {
-              "text": "Warrants Outstanding",
-              "variant": "h5",
-              "space": 1
             }
           ]
         },
         {
           "text": [
             {
-              "text": "134,144,649",
+              "text": "1 assay ton",
               "variant": "medium",
               "space": 1
-            },
-            {
-              "text": "($0.075 - $0.70)",
-              "variant": "small",
-              "space": 0
             }
           ]
-        }
-      ]
-    },
-    {
-      "collection": [
+        },
         {
           "text": [
             {
-              "text": "Fully Diluted",
-              "variant": "h5",
+              "text": "Gravimetry",
+              "variant": "medium",
               "space": 0
             }
           ]
@@ -102,7 +124,7 @@
         {
           "text": [
             {
-              "text": "405,957,947",
+              "text": "3.0 g/tonne",
               "variant": "medium",
               "space": 0
             }
