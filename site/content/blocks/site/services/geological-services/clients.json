@@ -1,22 +1,22 @@
 {
   "text": [
     {
-      "text": "Unlimited Possibilities",
+      "text": "Boots on the Ground",
       "color": "beta",
       "variant": "h4"
     },
     {
-      "text": "Our Milling Circuit",
+      "text": "Our Commitment to our Clients",
       "variant": "h2"
     },
     {
-      "text": "Years of experience and upgrading have cemented the reputation of Temiskaming Testing Laboratories as a premier service provider in the treatment of precious metal and base metal ores.",
+      "text": "Our Team has a proven reputation in Northern Ontario for...",
       "variant": "medium"
     }
   ],
   "images": [
     {
-      "src": "../../../assets/site/index/feature-one.png",
+      "src": "../../../assets/site/services/feature-one.png",
       "alt": "alt text",
       "radius": "lg",
       "shadow": "lg"
