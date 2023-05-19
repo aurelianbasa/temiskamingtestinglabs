@@ -9,6 +9,7 @@ import Header from '@solid-ui-blocks/Header/Block01'
 import Features from '@solid-ui-blocks/Features/Block06'
 import Clients from '@solid-ui-blocks/FeaturesWithPhoto/Block05'
 import Team from '@solid-ui-blocks/Hero/Block03'
+import Table from '../../../blocks/Table/Block01'
 import Faq from '@solid-ui-blocks/Faq/Block02'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
@@ -30,6 +31,7 @@ const AssayPage = props => {
         <Features content={content['features']} />
       </Container>
       <Divider space='5' />
+      <Table content={content['capital-structure']} />
       <Divider space='5' />
       <Clients content={content['clients']} />
       <Divider space='5' />

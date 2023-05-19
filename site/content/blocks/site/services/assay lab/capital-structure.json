@@ -1,0 +1,114 @@
+{
+  "text": [
+    {
+      "text": "Capital Structure",
+      "color": "alpha",
+      "variant": "h1"
+    },
+    {
+      "text": "As of Sept. 8, 2022",
+      "color": "omega",
+      "variant": "h4"
+    }
+  ],
+  "collection": [
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Issued and Outstanding",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "260,894,963",
+              "variant": "medium",
+              "space": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Stock Options Outstanding",
+              "variant": "h5",
+              "space": 1
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "10,918,335",
+              "variant": "medium",
+              "space": 1
+            },
+            {
+              "text": "($0.10 - $0.65)",
+              "variant": "small",
+              "space": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Warrants Outstanding",
+              "variant": "h5",
+              "space": 1
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "134,144,649",
+              "variant": "medium",
+              "space": 1
+            },
+            {
+              "text": "($0.075 - $0.70)",
+              "variant": "small",
+              "space": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "Fully Diluted",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "405,957,947",
+              "variant": "medium",
+              "space": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

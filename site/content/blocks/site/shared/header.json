@@ -30,7 +30,7 @@
             {
               "text": "Assay Lab",
               "type": "PAGE",
-              "link": "/services/assay-lab",
+              "link": "/services/assay-lab/",
               "variant": "links.nav-dark"
             },
             {
@@ -42,7 +42,7 @@
             {
               "text": "Geological Services",
               "type": "PAGE",
-              "link": "/media/geological-services",
+              "link": "/services/geological-services",
               "variant": "links.nav-dark"
             }
           ]
