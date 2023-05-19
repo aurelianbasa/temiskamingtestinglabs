@@ -1,17 +1,17 @@
 {
   "text": [
     {
-      "text": "Our Services",
+      "text": "Geological Services",
       "color": "alpha",
       "variant": "h4"
     },
     {
-      "text": "More than just a Lab.",
+      "text": "",
       "color": "omegaDarker",
       "variant": "h1"
     },
     {
-      "text": "We provide a full suite of services to analyze your material",
+      "text": "We provide a full suite of services to assist in your Exploration Programs",
       "color": "omegaDark",
       "variant": "medium"
     }
@@ -24,17 +24,17 @@
       },
       "text": [
         {
-          "text": "Assay",
+          "text": "1",
           "color": "omegaDark",
           "variant": "h5"
         },
         {
-          "text": "Laboratory",
+          "text": "",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Experienced operators can perform both Wet and Fire assays.",
+          "text": "",
           "color": "omegaDark"
         }
       ],
@@ -51,17 +51,17 @@
       },
       "text": [
         {
-          "text": "Bulk Sampling",
+          "text": "2",
           "color": "omegaDark",
           "variant": "h5"
         },
         {
-          "text": "Custom Milling",
+          "text": "",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Our integrated circuit allows full customization of your material.",
+          "text": "",
           "color": "omegaDark"
         }
       ],
@@ -78,17 +78,17 @@
       },
       "text": [
         {
-          "text": "Crushing",
+          "text": "3",
           "color": "omegaDark",
           "variant": "h5"
         },
         {
-          "text": "Grinding",
+          "text": "",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "We operate both Cone and Jaw crushers with a series of mesh filters.",
+          "text": "",
           "color": "omegaDark"
         }
       ],
@@ -105,17 +105,17 @@
       },
       "text": [
         {
-          "text": "Smelting",
+          "text": "4",
           "color": "omegaDark",
           "variant": "h5"
         },
         {
-          "text": "Plant",
+          "text": "",
           "color": "omegaDarker",
           "variant": "h5"
         },
         {
-          "text": "Our Furnace is capable of producing bullion and other types of pours.",
+          "text": "",
           "color": "omegaDark"
         }
       ],

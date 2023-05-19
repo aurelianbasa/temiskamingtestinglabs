@@ -51,9 +51,6 @@ const IndexPage = props => {
         <BuildBrand content={content['build-brand']} />
       </Container>
       <Divider space='5' />
-      <Divider space='5' />
-      <WhyChooseUs content={content['why-choose-us']} />
-      <Divider space='5' />
       <WithRecentPosts>
         <Blog content={content['latest-blogs']} />
       </WithRecentPosts>
