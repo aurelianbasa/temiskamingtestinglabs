@@ -1,19 +1,15 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import { Container } from 'theme-ui'
 import Layout from '@solid-ui-layout/Layout'
 import Seo from '@solid-ui-components/Seo'
 import Divider from '@solid-ui-components/Divider'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
-import Features from '@solid-ui-blocks/Features/Block06'
-import Clients from '@solid-ui-blocks/FeaturesWithPhoto/Block05'
 import Team from '@solid-ui-blocks/Hero/Block03'
 import Table from '../../../blocks/Table/Block01'
-import Faq from '@solid-ui-blocks/Faq/Block02'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
-import styles from './_styles'
+
 
 const AssayPage = props => {
   const { allBlockContent } = props.data
@@ -27,9 +23,6 @@ const AssayPage = props => {
       <ModalSimple content={content['disclaimer']} />
       {/* Blocks */}
       <Header content={content['header']} />
-      <Container variant='full' sx={styles.heroContainer}>
-        <Features content={content['features']} />
-      </Container>
       <Divider space='5' />
       <Table content={content['precious-metals']} />
       <Divider space='5' />
@@ -37,13 +30,7 @@ const AssayPage = props => {
       <Divider space='5' />
       <Table content={content['gold-silver-concentrate']} />
       <Divider space='5' />
-      <Clients content={content['clients']} />
-      <Divider space='5' />
-      <Divider space='5' />
       <Team content={content['team']} />
-      <Divider space='5' />
-      <Divider space='5' />
-      <Faq content={content['faq']} />
       <Divider space='5' />
       <Divider space='5' />
       <Footer content={content['footer']} />
