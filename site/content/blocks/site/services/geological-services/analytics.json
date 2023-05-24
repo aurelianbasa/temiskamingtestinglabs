@@ -1,0 +1,85 @@
+{
+  "text": [
+    {
+      "text": "LEARNING FROM YOUR DATA",
+      "color": "beta",
+      "variant": "h4"
+    },
+    {
+      "text": "Analytics",
+      "variant": "h1"
+    },
+    {
+      "text": "We help you analyze the data so you can leverage the insights.",
+      "variant": "medium"
+    }
+  ],
+  "collection": [
+    {
+      "text": [
+        {
+          "text": "How should you analyze drill core?",
+          "variant": "h5"
+        },
+        {
+          "text": "A full-featured core shack is optimal to perform sample cutting, data entry, digitizing, and georeferencing so you can build a model."
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-brain.svg",
+        "bg": "white",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "What data should be collected?",
+          "variant": "h5"
+        },
+        {
+          "text": "You will need Data collection procedure review and recommendations to make sure you collect the right data to make the most of it."
+        }
+      ],
+
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bx-dollar-circle.svg",
+        "bg": "white",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "How do you ensure Quality and Compliance?",
+          "variant": "h5"
+        },
+        {
+          "text": "You need a statistical review of analyses and build databases. Critical to this is a QA/QC program design and implementation."
+        }
+      ],
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/mining-gems.svg",
+        "bg": "white",
+        "color": "alpha"
+      }
+    },
+    {
+      "text": [
+        {
+          "text": "How can you make interpretations from models?",
+          "variant": "h5"
+        },
+        {
+          "text": "The best way to understand your data is through 3d modelling of geological data. This includes block modelling, resource calculation, and culminates in deliverables like maps and reports you can use. "
+        }
+      ],
+
+      "icon": {
+        "src": "../../../assets/flexiblocks/icons/bxs-component.svg",
+        "bg": "white",
+        "color": "alpha"
+      }
+    }
+  ]
+}

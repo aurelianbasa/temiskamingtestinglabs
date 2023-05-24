@@ -1,16 +1,16 @@
 {
   "text": [
     {
-      "text": "We Are Here To Help You",
+      "text": "GETTING STARTED",
       "color": "beta",
       "variant": "h4"
     },
     {
-      "text": "About Our Services",
+      "text": "Setup",
       "variant": "h1"
     },
     {
-      "text": "We provide custom solutions to all levels of operations.",
+      "text": "Starting with the Right Foundations.",
       "variant": "medium"
     }
   ],
@@ -18,11 +18,11 @@
     {
       "text": [
         {
-          "text": "Why custom milling?",
+          "text": "What do you need to get started?",
           "variant": "h5"
         },
         {
-          "text": "From analyzing your material we can tailor a testing and processing solution you can use to inform your exploration and development programs."
+          "text": "First you'll need to organize your geological file structure, and develop your standard operating procedures."
         }
       ],
       "icon": {
@@ -34,11 +34,11 @@
     {
       "text": [
         {
-          "text": "What are the advantages to bulk sampling?",
+          "text": "Do you have the right documentation?",
           "variant": "h5"
         },
         {
-          "text": "When done effectively it can cut down overall costs significantly by quantifying the value of a deposit, and provide better quality control."
+          "text": "You will need to have your health and safety certification, and all the required permits."
         }
       ],
 
@@ -51,11 +51,11 @@
     {
       "text": [
         {
-          "text": "What materials can the facility process?",
+          "text": "Which permits do you need on your claims?",
           "variant": "h5"
         },
         {
-          "text": "Recent renovation has upgraded the facility to process both precious and base metals."
+          "text": "Permits need to be applied for and claims managed to keep in good standing. This relies on consultation with indigenous nations and an awareness of ESG principles."
         }
       ],
       "icon": {
@@ -67,11 +67,11 @@
     {
       "text": [
         {
-          "text": "What are some examples of end products?",
+          "text": "How are you communicating with stakeholders?",
           "variant": "h5"
         },
         {
-          "text": "Silver and Gold bullion has been poured from both primary and secondary sources."
+          "text": "Your news releases need to reflect your story with presentations, maps, images, and data interpretation."
         }
       ],
 

@@ -6,12 +6,12 @@
       "variant": "h4"
     },
     {
-      "text": "",
+      "text": "The One-stop Shop",
       "color": "omegaDarker",
       "variant": "h1"
     },
     {
-      "text": "We provide a full suite of services to assist in your Exploration Programs",
+      "text": "We have the equipment to get the job done.",
       "color": "omegaDark",
       "variant": "medium"
     }
@@ -24,12 +24,12 @@
       },
       "text": [
         {
-          "text": "1",
+          "text": "Setup",
           "color": "omegaDark",
           "variant": "h5"
         },
         {
-          "text": "",
+          "text": "Need to get Started?",
           "color": "omegaDarker",
           "variant": "h5"
         },
@@ -39,7 +39,7 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bxs-vial.svg",
+        "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
         "size": "lg",
         "color": "beta"
       }
@@ -51,12 +51,12 @@
       },
       "text": [
         {
-          "text": "2",
+          "text": "Field Work",
           "color": "omegaDark",
           "variant": "h5"
         },
         {
-          "text": "",
+          "text": "Get Boots on the Ground",
           "color": "omegaDarker",
           "variant": "h5"
         },
@@ -66,7 +66,7 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-data.svg",
+        "src": "../../../../assets/flexiblocks/icons/bx-target-lock.svg",
         "size": "lg",
         "color": "alpha"
       }
@@ -78,12 +78,12 @@
       },
       "text": [
         {
-          "text": "3",
+          "text": "Analytics",
           "color": "omegaDark",
           "variant": "h5"
         },
         {
-          "text": "",
+          "text": "Are you collecting the right data?",
           "color": "omegaDarker",
           "variant": "h5"
         },
@@ -93,36 +93,9 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-coin.svg",
+        "src": "../../../../assets/flexiblocks/icons/bx-directions.svg",
         "size": "lg",
         "color": "alpha"
-      }
-    },
-    {
-      "container": {
-        "variant": "cards.paper",
-        "bg": "white"
-      },
-      "text": [
-        {
-          "text": "4",
-          "color": "omegaDark",
-          "variant": "h5"
-        },
-        {
-          "text": "",
-          "color": "omegaDarker",
-          "variant": "h5"
-        },
-        {
-          "text": "",
-          "color": "omegaDark"
-        }
-      ],
-      "icon": {
-        "src": "../../../assets/flexiblocks/icons/foundry.svg",
-        "size": "lg",
-        "color": "beta"
       }
     }
   ]

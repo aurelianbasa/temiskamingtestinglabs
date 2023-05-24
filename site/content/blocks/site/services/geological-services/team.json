@@ -16,7 +16,7 @@
   ],
   "images": [
     {
-      "src": "../../../assets/site/about/hero.jpg",
+      "src": "../../../../assets/site/about/hero.jpg",
       "alt": "alt text",
       "radius": "lg",
       "shadow": "lg",
