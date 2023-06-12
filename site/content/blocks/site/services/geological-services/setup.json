@@ -22,19 +22,24 @@
           "variant": "h2"
         },
         {
-          "text": "✔ Building the Initial Geological File Structure"
+          "text": "✔ Building the Initial Geological File Structure",
+          "variant": "h4"
         },
         {
-          "text": "✔ Operating Procedures, Health and Safety Certification"
+          "text": "✔ Operating Procedures, Health and Safety Certification",
+          "variant": "h4"
         },
         {
-          "text": "✔ Permit Applications and Claim Management"
+          "text": "✔ Permit Applications and Claim Management",
+          "variant": "h4"
         },
         {
-          "text": "✔ Indigenous Consultation and ESG Reporting"
+          "text": "✔ Indigenous Consultation and ESG Reporting",
+          "variant": "h4"
         },
         {
-          "text": "✔ Investor Relations and Corporate Communication"
+          "text": "✔ Investor Relations and Corporate Communication",
+          "variant": "h4"
         }
       ],
       "icon": {
@@ -50,19 +55,24 @@
           "variant": "h2"
         },
         {
-          "text": "⌖ Strip, Trench, Pressure Wash and Create Drill Pads"
+          "text": "⌖ Strip, Trench, Pressure Wash and Create Drill Pads",
+          "variant": "h4"
         },
         {
-          "text": "⌖ Geological Mapping, Sample Taking, and Prospecting"
+          "text": "⌖ Geological Mapping, Sample Taking, and Prospecting",
+          "variant": "h4"
         },
         {
-          "text": "⌖ Drillhole Targets, Program Planning and 3d modelling"
+          "text": "⌖ Drillhole Targets, Program Planning and 3d modelling",
+          "variant": "h4"
         },
         {
-          "text": "⌖ Geological logging with Drillcore transport and storage"
+          "text": "⌖ Geological logging with Drillcore transport and storage",
+          "variant": "h4"
         },
         {
-          "text": "⌖ Additional Sampling and Assessment Reporting"
+          "text": "⌖ Additional Sampling and Assessment Reporting",
+          "variant": "h4"
         }
       ],
 
@@ -79,19 +89,24 @@
           "variant": "h2"
         },
         {
-          "text": "➜ Sample Cutting, Data Entry, Digitizing and Georeferencing"
+          "text": "➜ Sample Cutting, Data Entry, Digitizing and Georeferencing",
+          "variant": "h4"
         },
         {
-          "text": "➜ Data collection procedure review with recommendations"
+          "text": "➜ Data collection procedure review with recommendations",
+          "variant": "h4"
         },
         {
-          "text": "➜ Statistical review of analyses for database building"
+          "text": "➜ Statistical review of analyses for database building",
+          "variant": "h4"
         },
         {
-          "text": "➜ QA/QC Program design and implementation"
+          "text": "➜ QA/QC Program design and implementation",
+          "variant": "h4"
         },
         {
-          "text": "➜ Block modelling, Resource calculation and other data "
+          "text": "➜ Block modelling, Resource calculation and other data",
+          "variant": "h4"
         }
       ],
 

@@ -31,16 +31,10 @@ const GeologicalPage = props => {
       </Container>
       <Divider space='5' />
       <Divider space='5' />
-      <Clients content={content['clients']} />
-      <Divider space='5' />
-      <Divider space='5' />
       <Faq content={content['setup']} />
       <Divider space='5' />
       <Divider space='5' />
-      <Faq content={content['field']} />
-      <Divider space='5' />
-      <Divider space='5' />
-      <Faq content={content['analytics']} />
+      <Clients content={content['clients']} />
       <Divider space='5' />
       <Divider space='5' />
       <Team content={content['team']} />

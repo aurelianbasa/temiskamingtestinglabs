@@ -29,7 +29,7 @@
           "variant": "h5"
         },
         {
-          "text": "Need to get Started?",
+          "text": "The Right Foundations",
           "color": "omegaDarker",
           "variant": "h5"
         },
@@ -68,7 +68,7 @@
       "icon": {
         "src": "../../../../assets/flexiblocks/icons/bx-target-lock.svg",
         "size": "lg",
-        "color": "alpha"
+        "color": "beta"
       }
     },
     {
@@ -83,7 +83,7 @@
           "variant": "h5"
         },
         {
-          "text": "Are you collecting the right data?",
+          "text": "Learning from Your Data",
           "color": "omegaDarker",
           "variant": "h5"
         },
@@ -95,7 +95,7 @@
       "icon": {
         "src": "../../../../assets/flexiblocks/icons/bx-directions.svg",
         "size": "lg",
-        "color": "alpha"
+        "color": "beta"
       }
     }
   ]
