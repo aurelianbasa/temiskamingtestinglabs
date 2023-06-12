@@ -25,7 +25,7 @@
           "text": [
             {
               "text": "Code",
-              "variant": "h5",
+              "variant": "sm",
               "space": 0
             }
           ]
@@ -34,7 +34,7 @@
           "text": [
             {
               "text": "Analyte",
-              "variant": "h5",
+              "variant": "sm",
               "space": 0
             }
           ]
@@ -43,7 +43,7 @@
           "text": [
             {
               "text": "Detection Limit (µg/g)",
-              "variant": "h5",
+              "variant": "sm",
               "space": 0
             }
           ]
@@ -52,7 +52,7 @@
           "text": [
             {
               "text": "Upper Limit (µg/g)",
-              "variant": "h5",
+              "variant": "sm",
               "space": 0
             }
           ]
@@ -61,7 +61,7 @@
           "text": [
             {
               "text": "Sample Weight (g)",
-              "variant": "h5",
+              "variant": "sm",
               "space": 0
             }
           ]
