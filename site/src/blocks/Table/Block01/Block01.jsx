@@ -20,7 +20,6 @@ const styles = {
   item: {
     flexBasis: `1/2`,
     py: [2, 3],
-    fontSize: 2,
     m: 0,
     '& + &': {
       borderLeftStyle: [`none`, `solid`],
@@ -32,7 +31,9 @@ const styles = {
 }
 const ContentTable01 = ({ content: { text, collection, buttons } }) => (
   <Container>
-    <Box sx={{ textAlign: `center` }}>
+    <Box sx={{ textAlign: `center`, 
+    minWidth: 100,
+    p: 0 }}>
       <ContentText content={text} />
     </Box>
     <Divider />
