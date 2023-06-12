@@ -1,7 +1,7 @@
 {
   "text": [
     {
-      "text": "Geological Services",
+      "text": "GEOLOGICAL SERVICES",
       "color": "alpha",
       "variant": "h4"
     },
@@ -11,7 +11,7 @@
       "variant": "h1"
     },
     {
-      "text": "We have the equipment to get the job done.",
+      "text": "We have the equipment to get the job done. We provide the full suite of servivces needed on-site for an active exploration program, and we help you analyze the data so you can leverage the insights.",
       "color": "omegaDark",
       "variant": "medium"
     }
@@ -24,7 +24,7 @@
       },
       "text": [
         {
-          "text": "Setup",
+          "text": "SETUP",
           "color": "omegaDark",
           "variant": "h5"
         },
@@ -51,7 +51,7 @@
       },
       "text": [
         {
-          "text": "Field Work",
+          "text": "FIELD WORK",
           "color": "omegaDark",
           "variant": "h5"
         },
@@ -78,7 +78,7 @@
       },
       "text": [
         {
-          "text": "Analytics",
+          "text": "ANALYTICS",
           "color": "omegaDark",
           "variant": "h5"
         },

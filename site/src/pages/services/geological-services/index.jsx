@@ -29,8 +29,7 @@ const GeologicalPage = props => {
       <Container variant='full' sx={styles.heroContainer}>
         <Features content={content['features']} />
       </Container>
-      <Divider space='5' />
-      <Divider space='5' />
+      <Divider space='3' />
       <Faq content={content['setup']} />
       <Divider space='5' />
       <Divider space='5' />
