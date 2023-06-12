@@ -19,5 +19,12 @@ export default {
       zIndex: -1,
       bg: `white`
     }
+  },
+  contentOneContainer: {
+    bg: `omegaDarker`,
+    borderRadius: `xl`,
+    py: [4, 5],
+    px: [4, 0]
   }
 }
+
