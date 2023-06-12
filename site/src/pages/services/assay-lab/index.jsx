@@ -12,7 +12,7 @@ import Content from '@solid-ui-blocks/Content/Block01'
 import Table from '../../../blocks/Table/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
-
+import styles from './_styles'
 
 const AssayPage = props => {
   const { allBlockContent } = props.data
