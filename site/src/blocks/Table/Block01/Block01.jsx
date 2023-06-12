@@ -18,7 +18,7 @@ const styles = {
     }
   },
   item: {
-    flexBasis: `1/2`,
+    flexBasis: 0,
     py: [2, 3],
     m: 0,
     '& + &': {
