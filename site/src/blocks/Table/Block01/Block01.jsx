@@ -20,6 +20,7 @@ const styles = {
   item: {
     flexBasis: `1/2`,
     py: [2, 3],
+    fontSize: 2,
     m: 0,
     '& + &': {
       borderLeftStyle: [`none`, `solid`],
