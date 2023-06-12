@@ -1,19 +1,26 @@
 {
   "text": [
     {
-      "text": "PRECIOUS METALS ANALAYSES",
+      "text": "PRECIOUS METALS ANALYSES",
       "color": "alpha",
       "variant": "h1"
     },
     {
       "text": "Lead Collection Fire Assay with AAS/Gravimetric Finish",
       "color": "omega",
-      "variant": "h4"
+      "variant": "h4",
+      "align": ["left"]
     },
     {
       "text": "Classical fire assay using lead oxide-based flux is employed to separate and collect the precious metals from the sample matrix (gangue), followed by cupellation to separate the precious metals from lead.  The silver bead/prill so obtained is digested with HNO3/HCl and subsequently analyzed by AAS.  For gravimetric finish, the silver bead is digested with dilute HNO3, the Au is washed, dried, annealed and weighed.",
       "color": "omega",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
+    },
+    {
+      "text": "FIRE ASSAY-AAS FINISH",
+      "color": "black",
+      "variant": "h3"
     }
   ],
   "collection": [
@@ -157,7 +164,7 @@
         {
           "text": [
             {
-              "text": "??",
+              "text": "30",
               "variant": "medium",
               "space": 1
             }
@@ -207,7 +214,7 @@
         {
           "text": [
             {
-              "text": "??",
+              "text": "30",
               "variant": "medium",
               "space": 1
             }

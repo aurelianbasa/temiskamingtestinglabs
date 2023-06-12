@@ -1,14 +1,9 @@
 {
   "text": [
     {
-      "text": "Gold and Silver Concentrate",
-      "color": "alpha",
-      "variant": "h1"
-    },
-    {
-      "text": "",
-      "color": "omega",
-      "variant": "h4"
+      "text": "FIRE ASSAY-GRAVIMETRIC FINISH",
+      "color": "black",
+      "variant": "h3"
     }
   ],
   "collection": [
@@ -17,36 +12,95 @@
         {
           "text": [
             {
+              "text": "Code",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "Analyte",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "Detection Limit (µg/g)",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "Upper Limit (µg/g)",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "Sample Weight (g)",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "FA301-GR",
+              "variant": "medium",
+              "space": 1
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "Au",
+              "variant": "medium",
+              "space": 1
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "0.035",
+              "variant": "medium",
+              "space": 1
+            }
+          ]
+        },
+        {
+          "text": [
+            {
               "text": "",
-              "variant": "h5",
-              "space": 0
+              "variant": "medium",
+              "space": 1
             }
           ]
         },
         {
           "text": [
             {
-              "text": "Fire Assay",
-              "variant": "h5",
-              "space": 0
-            }
-          ]
-        },
-        {
-          "text": [
-            {
-              "text": "Finish",
-              "variant": "h5",
-              "space": 0
-            }
-          ]
-        },
-        {
-          "text": [
-            {
-              "text": "Detection",
-              "variant": "h5",
-              "space": 0
+              "text": "30",
+              "variant": "medium",
+              "space": 1
             }
           ]
         }
@@ -57,7 +111,7 @@
         {
           "text": [
             {
-              "text": "Gold",
+              "text": "FA303-GR",
               "variant": "medium",
               "space": 1
             }
@@ -66,7 +120,7 @@
         {
           "text": [
             {
-              "text": "1 assay ton",
+              "text": "Ag",
               "variant": "medium",
               "space": 1
             }
@@ -75,29 +129,7 @@
         {
           "text": [
             {
-              "text": "Gravimetry",
-              "variant": "medium",
-              "space": 0
-            }
-          ]
-        },
-        {
-          "text": [
-            {
-              "text": "0.30 g/tonne",
-              "variant": "medium",
-              "space": 0
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "collection": [
-        {
-          "text": [
-            {
-              "text": "Silver",
+              "text": "3.50",
               "variant": "medium",
               "space": 1
             }
@@ -106,7 +138,7 @@
         {
           "text": [
             {
-              "text": "1 assay ton",
+              "text": "",
               "variant": "medium",
               "space": 1
             }
@@ -115,18 +147,9 @@
         {
           "text": [
             {
-              "text": "Gravimetry",
+              "text": "30",
               "variant": "medium",
-              "space": 0
-            }
-          ]
-        },
-        {
-          "text": [
-            {
-              "text": "3.0 g/tonne",
-              "variant": "medium",
-              "space": 0
+              "space": 1
             }
           ]
         }

@@ -1,14 +1,19 @@
 {
   "text": [
     {
-      "text": "Gold and Precious Metals",
+      "text": "Gold by Aqua Regia Digestion/DIBK-AAS",
       "color": "alpha",
       "variant": "h1"
     },
     {
-      "text": "",
+      "text": "Gold at low concentrations in rocks, ores, soils, sediments and other geological materials is partially digested with aqua regia followed by DIBK solvent extraction and AAS. Samples with high sulphide content will require roasting prior to digestion.",
       "color": "omega",
       "variant": "h4"
+    },
+    {
+      "text": "AQUA REGIA/DIBK -AAS FINISH",
+      "color": "black",
+      "variant": "h3"
     }
   ],
   "collection": [
@@ -17,7 +22,7 @@
         {
           "text": [
             {
-              "text": "",
+              "text": "Code",
               "variant": "h5",
               "space": 0
             }
@@ -26,7 +31,7 @@
         {
           "text": [
             {
-              "text": "Fire Assay",
+              "text": "Analyte",
               "variant": "h5",
               "space": 0
             }
@@ -35,7 +40,7 @@
         {
           "text": [
             {
-              "text": "Finish",
+              "text": "Detection Limit (µg/g)",
               "variant": "h5",
               "space": 0
             }
@@ -44,121 +49,30 @@
         {
           "text": [
             {
-              "text": "Detection",
+              "text": "Upper Limit (µg/g)",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "Sample Weight (g)",
               "variant": "h5",
               "space": 0
             }
           ]
         }
-      ]
-    },
-    {
-      "collection": [
-        {
-          "text": [
-            {
-              "text": "Gold",
-              "variant": "medium",
-              "space": 1
-            }
-          ]
-        },
-        {
-          "text": [
-            {
-              "text": "1 assay ton",
-              "variant": "medium",
-              "space": 1
-            }
-          ]
-        },
-        {
-          "text": [
-            {
-              "text": "FA-AAS",
-              "variant": "medium",
-              "space": 1
-            },
-            {
-              "text": "MP AES",
-              "variant": "medium",
-              "space": 0
-            }
-          ]
-        },
-        {
-          "text": [
-            {
-              "text": "5 ppb",
-              "variant": "medium",
-              "space": 1
-            },
-            {
-              "text": "2 ppb",
-              "variant": "medium",
-              "space": 0
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "collection": [
-        {
-          "text": [
-            {
-              "text": "Platinum",
-              "variant": "medium",
-              "space": 1
-            }
-          ]
-        },
-        {
-          "text": [
-            {
-              "text": "1 assay ton",
-              "variant": "medium",
-              "space": 1
-            }
-          ]
-        },
-        {
-          "text": [
-            {
-              "text": "FA-AAS",
-              "variant": "medium",
-              "space": 1
-            },
-            {
-              "text": "MP AES",
-              "variant": "medium",
-              "space": 0
-            }
-          ]
-        },
-        {
-          "text": [
-            {
-              "text": "5 ppb",
-              "variant": "medium",
-              "space": 1
-            },
-            {
-              "text": "2 ppb",
-              "variant": "medium",
-              "space": 0
-            }
-          ]
-        }
-      ]
-    },
 
+      ]
+    },
     {
       "collection": [
         {
           "text": [
             {
-              "text": "Palladium",
+              "text": "FA301-GR",
               "variant": "medium",
               "space": 1
             }
@@ -167,7 +81,7 @@
         {
           "text": [
             {
-              "text": "1 assay ton",
+              "text": "Au",
               "variant": "medium",
               "space": 1
             }
@@ -176,28 +90,76 @@
         {
           "text": [
             {
-              "text": "FA-AAS",
+              "text": "?",
               "variant": "medium",
               "space": 1
-            },
-            {
-              "text": "MP AES",
-              "variant": "medium",
-              "space": 0
             }
           ]
         },
         {
           "text": [
             {
-              "text": "5 ppb",
+              "text": "?",
               "variant": "medium",
               "space": 1
-            },
+            }
+          ]
+        },
+        {
+          "text": [
             {
-              "text": "2 ppb",
+              "text": "30",
               "variant": "medium",
-              "space": 0
+              "space": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "FA303-GR",
+              "variant": "medium",
+              "space": 1
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "Ag",
+              "variant": "medium",
+              "space": 1
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "?",
+              "variant": "medium",
+              "space": 1
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "?",
+              "variant": "medium",
+              "space": 1
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "30",
+              "variant": "medium",
+              "space": 1
             }
           ]
         }
