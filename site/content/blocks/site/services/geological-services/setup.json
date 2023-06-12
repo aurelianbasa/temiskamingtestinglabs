@@ -1,16 +1,16 @@
 {
   "text": [
     {
-      "text": "GETTING STARTED",
+      "text": "",
       "color": "beta",
       "variant": "h4"
     },
     {
-      "text": "Setup",
+      "text": "",
       "variant": "h1"
     },
     {
-      "text": "Starting with the Right Foundations.",
+      "text": "",
       "variant": "medium"
     }
   ],
@@ -18,15 +18,27 @@
     {
       "text": [
         {
-          "text": "What do you need to get started?",
-          "variant": "h5"
+          "text": "SETUP",
+          "variant": "h2"
         },
         {
-          "text": "‣ First you'll need to organize your geological file structure, and develop your standard operating procedures."
+          "text": "✔ Building the Initial Geological File Structure"
+        },
+        {
+          "text": "✔ Operating Procedures, Health and Safety Certification"
+        },
+        {
+          "text": "✔ Permit Applications and Claim Management"
+        },
+        {
+          "text": "✔ Indigenous Consultation and ESG Reporting"
+        },
+        {
+          "text": "✔ Investor Relations and Corporate Communication"
         }
       ],
       "icon": {
-        "src": "../../../../assets/flexiblocks/icons/bx-brain.svg",
+        "src": "../../../../assets/flexiblocks/icons/bx-check-circle.svg",
         "bg": "white",
         "color": "alpha"
       }
@@ -34,16 +46,28 @@
     { 
       "text": [
         {
-          "text": "Do you have the right documentation?",
-          "variant": "h5"
+          "text": "FIELD WORK",
+          "variant": "h2"
         },
         {
-          "text": "➜ You will need to have your health and safety certification, and all the required permits."
+          "text": "⌖ Strip, Trench, Pressure Wash and Create Drill Pads"
+        },
+        {
+          "text": "⌖ Geological Mapping, Sample Taking, and Prospecting"
+        },
+        {
+          "text": "⌖ Drillhole Targets, Program Planning and 3d modelling"
+        },
+        {
+          "text": "⌖ Geological logging with Drillcore transport and storage"
+        },
+        {
+          "text": "⌖ Additional Sampling and Assessment Reporting"
         }
       ],
 
       "icon": {
-        "src": "../../../../assets/flexiblocks/icons/bx-dollar-circle.svg",
+        "src": "../../../../assets/flexiblocks/icons/bx-target-lock.svg",
         "bg": "white",
         "color": "alpha"
       }
@@ -51,32 +75,28 @@
     {
       "text": [
         {
-          "text": "Which permits do you need on your claims?",
-          "variant": "h5"
+          "text": "ANALYTICS",
+          "variant": "h2"
         },
         {
-          "text": "⌖ Permits need to be applied for and claims managed to keep in good standing. This relies on consultation with indigenous nations and an awareness of ESG principles."
-        }
-      ],
-      "icon": {
-        "src": "../../../../assets/flexiblocks/icons/mining-gems.svg",
-        "bg": "white",
-        "color": "alpha"
-      }
-    },
-    {
-      "text": [
-        {
-          "text": "How are you communicating with stakeholders?",
-          "variant": "h5"
+          "text": "➜ Sample Cutting, Data Entry, Digitizing and Georeferencing"
         },
         {
-          "text": "Your news releases need to reflect your story with presentations, maps, images, and data interpretation."
+          "text": "➜ Data collection procedure review with recommendations"
+        },
+        {
+          "text": "➜ Statistical review of analyses for database building"
+        },
+        {
+          "text": "➜ QA/QC Program design and implementation"
+        },
+        {
+          "text": "➜ Block modelling, Resource calculation and other data "
         }
       ],
 
       "icon": {
-        "src": "../../../../assets/flexiblocks/icons/bxs-component.svg",
+        "src": "../../../../assets/flexiblocks/icons/bx-directions.svg",
         "bg": "white",
         "color": "alpha"
       }
