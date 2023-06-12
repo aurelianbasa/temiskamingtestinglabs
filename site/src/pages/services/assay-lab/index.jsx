@@ -27,7 +27,9 @@ const AssayPage = props => {
       {/* Blocks */}
       <Header content={content['header']} />
       <Divider space='5' />
-      
+      <Container variant='full' sx={styles.heroContainer}>
+      <Hero content={content['hero']} reverse />
+      </Container>
       <Table content={content['precious-metals']} />
       <Divider space='5' />
       <Table content={content['precious-metal-assay']} />
