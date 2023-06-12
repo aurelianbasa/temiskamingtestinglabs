@@ -3,12 +3,14 @@
     {
       "text": "Gold by Aqua Regia Digestion/DIBK-AAS",
       "color": "alpha",
-      "variant": "h1"
+      "variant": "h2",
+      "align": ["left"]
     },
     {
       "text": "Gold at low concentrations in rocks, ores, soils, sediments and other geological materials is partially digested with aqua regia followed by DIBK solvent extraction and AAS. Samples with high sulphide content will require roasting prior to digestion.",
       "color": "omega",
-      "variant": "h4"
+      "variant": "h4",
+      "align": ["left"]
     },
     {
       "text": "AQUA REGIA/DIBK -AAS FINISH",

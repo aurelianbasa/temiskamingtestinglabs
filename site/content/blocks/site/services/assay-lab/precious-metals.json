@@ -3,7 +3,8 @@
     {
       "text": "PRECIOUS METALS ANALYSES",
       "color": "alpha",
-      "variant": "h1"
+      "variant": "h2",
+      "align": ["left"]
     },
     {
       "text": "Lead Collection Fire Assay with AAS/Gravimetric Finish",

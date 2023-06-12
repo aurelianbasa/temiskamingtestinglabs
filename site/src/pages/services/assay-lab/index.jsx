@@ -26,17 +26,17 @@ const AssayPage = props => {
       <ModalSimple content={content['disclaimer']} />
       {/* Blocks */}
       <Header content={content['header']} />
-      <Divider space='5' />
+      <Divider space='3' />
       <Container variant='full' sx={styles.heroContainer}>
       <Hero content={content['hero']} reverse />
       </Container>
-      <Divider space='5' /> 
+      <Divider space='4' /> 
       <Container variant='wide' sx={styles.contentOneContainer}>
       <Content content={content['content-one']} />
       </Container>
       <Divider space='5' /> 
       <Table content={content['precious-metals']} />
-      <Divider space='5' />
+      <Divider space='2' />
       <Table content={content['precious-metal-assay']} />
       <Divider space='5' />
       <Table content={content['gold-silver-concentrate']} />
