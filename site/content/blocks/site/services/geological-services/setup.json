@@ -26,12 +26,12 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-brain.svg",
+        "src": "../../../../assets/flexiblocks/icons/bx-brain.svg",
         "bg": "white",
         "color": "alpha"
       }
     },
-    {
+    { 
       "text": [
         {
           "text": "Do you have the right documentation?",
@@ -43,7 +43,7 @@
       ],
 
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bx-dollar-circle.svg",
+        "src": "../../../../assets/flexiblocks/icons/bx-dollar-circle.svg",
         "bg": "white",
         "color": "alpha"
       }
@@ -59,7 +59,7 @@
         }
       ],
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/mining-gems.svg",
+        "src": "../../../../assets/flexiblocks/icons/mining-gems.svg",
         "bg": "white",
         "color": "alpha"
       }
@@ -76,7 +76,7 @@
       ],
 
       "icon": {
-        "src": "../../../assets/flexiblocks/icons/bxs-component.svg",
+        "src": "../../../../assets/flexiblocks/icons/bxs-component.svg",
         "bg": "white",
         "color": "alpha"
       }
