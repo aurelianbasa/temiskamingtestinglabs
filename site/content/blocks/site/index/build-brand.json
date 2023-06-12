@@ -3,15 +3,18 @@
     {
       "text": "Our Facility",
       "color": "beta",
-      "variant": "h4"
+      "variant": "h4",
+      "align": ["left"]
     },
     {
       "text": "Accuracy and Precision",
-      "variant": "h2"
+      "variant": "h2",
+      "align": ["left"]
     },
     {
       "text": "Temiskaming Testing Labs assay lab and bulk processing facility was acquired in 2020.",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     }
   ],
   "images": [
