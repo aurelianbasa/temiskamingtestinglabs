@@ -8,7 +8,7 @@ import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 
 const styles = {
   row: {
-    display: [`block`, `flex`],
+    display: [`flex`, `flex`],
     '& + &': {
       borderTopStyle: `solid`,
       borderTopWidth: `md`,
