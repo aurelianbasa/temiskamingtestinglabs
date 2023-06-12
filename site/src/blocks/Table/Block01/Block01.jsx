@@ -19,7 +19,7 @@ const styles = {
   },
   item: {
     flexBasis: `1/2`,
-    py: [1, 1],
+    py: [2, 3],
     m: 0,
     '& + &': {
       borderLeftStyle: [`none`, `solid`],
