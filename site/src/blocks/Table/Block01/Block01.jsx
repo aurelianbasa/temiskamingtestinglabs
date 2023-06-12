@@ -13,8 +13,8 @@ const styles = {
       borderTopStyle: `solid`,
       borderTopWidth: `md`,
       borderTopColor: `omegaLight`,
-      pt: [2, 0],
-      mt: [2, 0]
+      pt: [1, 0],
+      mt: [1, 0]
     }
   },
   item: {
@@ -25,7 +25,7 @@ const styles = {
       borderLeftStyle: [`none`, `solid`],
       borderLeftWidth: `sm`,
       borderLeftColor: `omega`,
-      pl: [0, 4]
+      pl: [0, 1]
     }
   }
 }
@@ -33,6 +33,7 @@ const ContentTable01 = ({ content: { text, collection, buttons } }) => (
   <Container>
     <Box sx={{ textAlign: `center`, 
     minWidth: 100,
+    flexWrap: `wrap`,
     p: 0 }}>
       <ContentText content={text} />
     </Box>
