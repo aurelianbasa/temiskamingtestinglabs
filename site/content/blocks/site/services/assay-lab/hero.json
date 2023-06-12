@@ -13,7 +13,7 @@
   ],
   "images": [
     {
-      "src": "../../../assets/site/services/assay-lab/hero.jpg",
+      "src": "../../../../assets/site/services/assay-lab/hero.jpg",
       "alt": "alt text",
       "radius": "lg",
       "shadow": "xl",

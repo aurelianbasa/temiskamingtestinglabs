@@ -34,6 +34,7 @@ const AssayPage = props => {
       <Container variant='wide' sx={styles.contentOneContainer}>
       <Content content={content['content-one']} />
       </Container>
+      <Divider space='5' /> 
       <Table content={content['precious-metals']} />
       <Divider space='5' />
       <Table content={content['precious-metal-assay']} />

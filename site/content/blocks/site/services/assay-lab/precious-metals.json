@@ -1,14 +1,19 @@
 {
   "text": [
     {
-      "text": "Gold and Precious Metals",
+      "text": "PRECIOUS METALS ANALAYSES",
       "color": "alpha",
       "variant": "h1"
     },
     {
-      "text": "(Geochemical Analysis)",
+      "text": "Lead Collection Fire Assay with AAS/Gravimetric Finish",
       "color": "omega",
       "variant": "h4"
+    },
+    {
+      "text": "Classical fire assay using lead oxide-based flux is employed to separate and collect the precious metals from the sample matrix (gangue), followed by cupellation to separate the precious metals from lead.  The silver bead/prill so obtained is digested with HNO3/HCl and subsequently analyzed by AAS.  For gravimetric finish, the silver bead is digested with dilute HNO3, the Au is washed, dried, annealed and weighed.",
+      "color": "omega",
+      "variant": "medium"
     }
   ],
   "collection": [
@@ -17,7 +22,7 @@
         {
           "text": [
             {
-              "text": "",
+              "text": "Code",
               "variant": "h5",
               "space": 0
             }
@@ -26,7 +31,7 @@
         {
           "text": [
             {
-              "text": "Fire Assay",
+              "text": "Analyte",
               "variant": "h5",
               "space": 0
             }
@@ -35,7 +40,7 @@
         {
           "text": [
             {
-              "text": "Finish",
+              "text": "Detection Limit (µg/g)",
               "variant": "h5",
               "space": 0
             }
@@ -44,9 +49,68 @@
         {
           "text": [
             {
-              "text": "Detection",
+              "text": "Upper Limit (µg/g)",
               "variant": "h5",
               "space": 0
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "Sample Weight (g)",
+              "variant": "h5",
+              "space": 0
+            }
+          ]
+        }
+
+      ]
+    },
+    {
+      "collection": [
+        {
+          "text": [
+            {
+              "text": "FA301-AA",
+              "variant": "medium",
+              "space": 1
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "Au",
+              "variant": "medium",
+              "space": 1
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "0.005",
+              "variant": "medium",
+              "space": 1
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "10",
+              "variant": "medium",
+              "space": 1
+            }
+          ]
+        },
+        {
+          "text": [
+            {
+              "text": "30",
+              "variant": "medium",
+              "space": 1
             }
           ]
         }
@@ -57,7 +121,7 @@
         {
           "text": [
             {
-              "text": "Gold",
+              "text": "FA303-AA",
               "variant": "medium",
               "space": 1
             }
@@ -66,7 +130,7 @@
         {
           "text": [
             {
-              "text": "1 assay ton",
+              "text": "Pd",
               "variant": "medium",
               "space": 1
             }
@@ -75,39 +139,7 @@
         {
           "text": [
             {
-              "text": "FA-AAS",
-              "variant": "medium",
-              "space": 1
-            },
-            {
-              "text": "MP AES",
-              "variant": "medium",
-              "space": 0
-            }
-          ]
-        },
-        {
-          "text": [
-            {
-              "text": "5 ppb",
-              "variant": "medium",
-              "space": 1
-            },
-            {
-              "text": "2 ppb",
-              "variant": "medium",
-              "space": 0
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "collection": [
-        {
-          "text": [
-            {
-              "text": "Platinum",
+              "text": "??",
               "variant": "medium",
               "space": 1
             }
@@ -116,7 +148,7 @@
         {
           "text": [
             {
-              "text": "1 assay ton",
+              "text": "??",
               "variant": "medium",
               "space": 1
             }
@@ -125,28 +157,9 @@
         {
           "text": [
             {
-              "text": "FA-AAS",
+              "text": "??",
               "variant": "medium",
               "space": 1
-            },
-            {
-              "text": "MP AES",
-              "variant": "medium",
-              "space": 0
-            }
-          ]
-        },
-        {
-          "text": [
-            {
-              "text": "5 ppb",
-              "variant": "medium",
-              "space": 1
-            },
-            {
-              "text": "2 ppb",
-              "variant": "medium",
-              "space": 0
             }
           ]
         }
@@ -158,7 +171,7 @@
         {
           "text": [
             {
-              "text": "Palladium",
+              "text": "FA304-AA",
               "variant": "medium",
               "space": 1
             }
@@ -167,7 +180,7 @@
         {
           "text": [
             {
-              "text": "1 assay ton",
+              "text": "Pt",
               "variant": "medium",
               "space": 1
             }
@@ -176,28 +189,27 @@
         {
           "text": [
             {
-              "text": "FA-AAS",
+              "text": "??",
               "variant": "medium",
               "space": 1
-            },
-            {
-              "text": "MP AES",
-              "variant": "medium",
-              "space": 0
             }
           ]
         },
         {
           "text": [
             {
-              "text": "5 ppb",
+              "text": "??",
               "variant": "medium",
               "space": 1
-            },
+            }
+          ]
+        },
+        {
+          "text": [
             {
-              "text": "2 ppb",
+              "text": "??",
               "variant": "medium",
-              "space": 0
+              "space": 1
             }
           ]
         }
