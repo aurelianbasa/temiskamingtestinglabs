@@ -18,8 +18,8 @@ const styles = {
     }
   },
   item: {
-    flexBasis: `1/8`,
-    py: [2, 3],
+    flexBasis: `1/2`,
+    py: [1, 1],
     m: 0,
     '& + &': {
       borderLeftStyle: [`none`, `solid`],
