@@ -32,6 +32,7 @@ const styles = {
 const ContentTable01 = ({ content: { text, collection, buttons } }) => (
   <Container>
     <Box sx={{ textAlign: `center`, 
+    fontsize: '20%',
     minWidth: 100,
     flexWrap: `wrap`,
     p: 0 }}>
