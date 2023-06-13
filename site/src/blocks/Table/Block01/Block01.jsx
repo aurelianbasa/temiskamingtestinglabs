@@ -10,6 +10,7 @@ const styles = {
   row: {
     display: [`flex`, `flex`],
     '& + &': {
+      fontsize: '20%',
       borderTopStyle: `solid`,
       borderTopWidth: `md`,
       borderTopColor: `omegaLight`,
@@ -22,6 +23,7 @@ const styles = {
     py: [2, 3],
     m: 0,
     '& + &': {
+      fontsize: '20%',
       borderLeftStyle: [`none`, `solid`],
       borderLeftWidth: `sm`,
       borderLeftColor: `omega`,
