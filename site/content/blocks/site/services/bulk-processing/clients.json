@@ -11,7 +11,8 @@
     },
     {
       "text": "Years of experience and upgrading have cemented the reputation of Temiskaming Testing Laboratories as a premier service provider in the treatment of precious metal and base metal ores.",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     }
   ],
   "images": [

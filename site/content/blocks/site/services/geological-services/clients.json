@@ -11,11 +11,13 @@
     },
     {
       "text": "We have the equipment to get the job done. We provide the full suite of servivces needed on-site for an active exploration program, and we help you analyze the data so you can leverage the insights.",
-      "variant": "h5"
+      "variant": "h5",
+      "align": ["left"]
     },
     {
       "text": "We maintain a well-equipped coreshack on Highway 11 in Coleman with corefarm, logging space, cutshack, and office space. Our staff has access to forklifts and other conveniences.",
-      "variant": "h5"
+      "variant": "h5",
+      "align": ["left"]
     }
   ],
   "images": [

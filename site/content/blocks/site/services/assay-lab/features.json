@@ -3,17 +3,20 @@
     {
       "text": "Our Services",
       "color": "alpha",
-      "variant": "h4"
+      "variant": "h4",
+      "align": ["left"]
     },
     {
       "text": "More than just a Lab.",
       "color": "omegaDarker",
-      "variant": "h1"
+      "variant": "h1",
+      "align": ["left"]
     },
     {
       "text": "We provide a full suite of services to analyze your material",
       "color": "omegaDark",
-      "variant": "medium"
+      "variant": "medium",
+      "align": ["left"]
     }
   ],
   "collection": [

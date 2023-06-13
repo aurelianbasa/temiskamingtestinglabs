@@ -5,12 +5,14 @@
         {
           "text": "Sample Preparation",
           "color": "alphaLight",
-          "variant": "h4"
+          "variant": "h4",
+          "align": ["left"]
         },
         {
           "text": "The preparation of a sample is the most critical facet in the analysis of geological materials.",
           "color": "white",
-          "variant": "h3"
+          "variant": "h3",
+          "align": ["left"]
         }
       ],
       "buttons": [
@@ -26,11 +28,13 @@
       "text": [
         {
           "text": "It entails the crushing of all the sample, riffle splitting to obtain a sub-sample (typically, 250 g) that represents the entire sample followed by pulverization for subsequent analysis.",
-          "color": "omegaLight"
+          "color": "omegaLight",
+          "align": ["left"]
         },
         {
           "text": "TTL maintains a stringent QA/QC protocol to ensure the integrity of the sample is not compromised.   Jaw crushers and pulverizer bowls are frequently cleaned with barren material to bring sample contamination to the barest minimum.  A portion of pulverized barren material is tested to monitor contamination and the remainder kept for future analysis if necessary.  For every 20 samples, sample duplicate is created at the riffle splitting step and sample replicate created by taking an aliquot from the same pulp bag during the weighing process.",
-          "color": "omegaLight"
+          "color": "omegaLight",
+          "align": ["left"]
         }
       ]
     }
