@@ -26,7 +26,8 @@
       "text": [
         {
           "text": "PolyMet Labs first purchased the facility in 2000 and began operating as an Assay Laboratory, and Bulk Sampling, Crushing, Grinding, Processing, Upgrading, and Smelting Plant. When the facility changed ownership in 2020 it was relaunched as Temiskaming Testing Laboratories Inc.",
-          "color": "omegaLight"
+          "color": "omegaLight",
+          "variant": "h5"
         }
       ]
     }
