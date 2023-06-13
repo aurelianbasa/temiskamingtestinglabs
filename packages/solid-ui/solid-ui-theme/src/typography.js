@@ -40,7 +40,8 @@ typographyTheme.fontSizes = [
   '2.25rem',
   '3rem',
   '4rem',
-  '4.5rem'
+  '4.5rem',
+  '5rem'
 ]
 
 export default typographyTheme
