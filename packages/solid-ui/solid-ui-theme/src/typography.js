@@ -29,6 +29,8 @@ typographyTheme.fontWeights = {
 }
 
 typographyTheme.fontSizes = [
+  '0.25rem',
+  '0.50rem',
   '0.75rem',
   '0.875rem',
   '1rem',

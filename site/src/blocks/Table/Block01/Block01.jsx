@@ -36,7 +36,7 @@ const ContentTable01 = ({ content: { text, collection, buttons } }) => (
     minWidth: 100,
     flexWrap: `wrap`,
     p: 0 }}>
-      <ContentText content={text} fontsize='20%' />
+      <ContentText content={text} />
     </Box>
     <Divider />
     <Card variant='paper'>
@@ -44,7 +44,7 @@ const ContentTable01 = ({ content: { text, collection, buttons } }) => (
         <Box key={`item-${i}`} sx={styles.row}>
           {collection?.map(({ text }, i) => (
             <Box sx={styles.item}>
-              <ContentText content={text} fontsize='20%' />
+              <ContentText content={text}  />
             </Box>
           ))}
         </Box>
