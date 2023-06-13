@@ -10,7 +10,6 @@ const styles = {
   row: {
     display: [`flex`, `flex`],
     '& + &': {
-      fontsize: '20%',
       borderTopStyle: `solid`,
       borderTopWidth: `md`,
       borderTopColor: `omegaLight`,
@@ -23,7 +22,6 @@ const styles = {
     py: [2, 3],
     m: 0,
     '& + &': {
-      fontsize: '20%',
       borderLeftStyle: [`none`, `solid`],
       borderLeftWidth: `sm`,
       borderLeftColor: `omega`,
@@ -34,11 +32,11 @@ const styles = {
 const ContentTable01 = ({ content: { text, collection, buttons } }) => (
   <Container>
     <Box sx={{ textAlign: `center`, 
-    fontsize: '20%',
+    textsize: '20%',
     minWidth: 100,
     flexWrap: `wrap`,
     p: 0 }}>
-      <ContentText content={text} />
+      <ContentText content={text} fontsize='20%' />
     </Box>
     <Divider />
     <Card variant='paper'>
@@ -46,7 +44,7 @@ const ContentTable01 = ({ content: { text, collection, buttons } }) => (
         <Box key={`item-${i}`} sx={styles.row}>
           {collection?.map(({ text }, i) => (
             <Box sx={styles.item}>
-              <ContentText content={text} />
+              <ContentText content={text} fontsize='20%' />
             </Box>
           ))}
         </Box>
