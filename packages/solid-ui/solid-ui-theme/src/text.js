@@ -39,7 +39,7 @@ export default {
     mb: 0
   },
   medium: {
-    fontSize: 2,
+    fontSize: 3,
     mb: 3
   },
   small: {
@@ -50,11 +50,8 @@ export default {
     fontSize: 0,
     m: 0
   },
-  xxsmall: {
-    fontSize: 0,
-    m: 0
-  },
   p: {
+    fontSize: 3,
     fontFamily: `body`,
     mb: 3
   }
