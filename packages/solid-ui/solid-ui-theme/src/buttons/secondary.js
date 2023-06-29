@@ -2,7 +2,7 @@ import common from './common'
 
 export default {
   ...common.button,
-  fontSize: 5,
+  size: '80%',
   color: `white`,
   '::after': {
     ...common.button['::after'],
