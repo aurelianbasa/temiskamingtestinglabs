@@ -2,7 +2,7 @@
   "text": [
     {
       "text": "**Fast Turnaround** with Competitive Pricing",
-      "variant": "h1",
+      "variant": "h2",
       "align": ["left"]
     },
     {
@@ -15,7 +15,12 @@
     {
       "src": "../../../assets/site/index/hero.png",
       "alt": "alt text",
-      "objectPosition": "center bottom"
+      "objectPosition": "center bottom !important",
+      "effects": ["fadeInLeft"],
+      "position": {
+        "bottom": "10%",
+        "left": "5%"
+      }
     }
   ],
   "buttons": [
