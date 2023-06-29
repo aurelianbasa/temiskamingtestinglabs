@@ -21,14 +21,6 @@
         "bottom": "60%"
       }
     }
-  ],
-  "buttons": [
-    {
-      "text": "Watch a video of our circuit in action",
-      "type": "VIDEO",
-      "link": "https://www.youtube.com/embed/9NsQ-Q7NiTU?autoplay=1&modestbranding=1&showinfo=0&rel=0",
-      "variant": "primary",
-      "width": "100%"
-    }
   ]
 }
+
