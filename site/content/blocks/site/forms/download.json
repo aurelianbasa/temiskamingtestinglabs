@@ -14,17 +14,17 @@
       "text": "Request for Analysis",
       "type": "PAGE",
       "link": "/",
-      "variant": "primary-light",
-      "width": "100%",
-      "space": 10
+      "variant": "primary",
+      "width": "48%",
+      "space": 20
     },
     {
-      "space": 10,
+      "space": 20,
       "text": "Credit Application",
       "type": "PAGE",
       "link": "/",
-      "variant": "primary-light",
-      "width": "100%" 
+      "variant": "primary",
+      "width": "48%" 
     }
   ]
 }
