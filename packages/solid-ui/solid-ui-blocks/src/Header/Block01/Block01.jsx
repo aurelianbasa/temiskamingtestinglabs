@@ -30,7 +30,7 @@ const styles = {
     //Make buttons in header smaller
     '.button-group-button': {
       minWidth: 120,
-      fontSize: 3,
+      fontSize: 5,
       px: 3,
       py: 1
     }
