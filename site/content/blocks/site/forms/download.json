@@ -14,13 +14,15 @@
       "text": "Request for Analysis",
       "type": "PAGE",
       "link": "/",
-      "variant": "primary"
+      "variant": "primary",
+      "width": "50%" 
     },
     {
       "text": "Credit Application",
       "type": "PAGE",
       "link": "/",
-      "variant": "secondary"
+      "variant": "secondary",
+      "width": "50%" 
     }
   ]
 }
