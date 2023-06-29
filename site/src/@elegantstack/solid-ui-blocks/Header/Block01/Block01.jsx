@@ -81,7 +81,8 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                 </GLink>
                 <Text
                   sx={{
-                    fontSize: 1,
+                    fontSize: 3,
+                    fontWeight: `bold`,
                     borderLeftStyle: `solid`,
                     borderLeftWidth: `md`,
                     borderLeftColor: `omegaLight`,
