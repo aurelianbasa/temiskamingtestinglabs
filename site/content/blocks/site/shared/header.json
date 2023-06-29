@@ -22,6 +22,12 @@
           "variant": "links.nav-dark"
         },
         {
+          "text": "Forms",
+          "type": "PAGE",
+          "link": "/forms",
+          "variant": "links.nav-dark"
+        },
+        {
           "text": "Services",
           "type": "SUB",
           "variant": "links.nav-dark",
@@ -45,12 +51,6 @@
               "variant": "links.nav-dark"
             }
           ]
-        },
-        {
-          "text": "Forms",
-          "type": "PAGE",
-          "link": "/forms",
-          "variant": "links.nav-dark"
         }
       ]
     },

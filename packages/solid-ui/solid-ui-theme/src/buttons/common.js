@@ -3,6 +3,8 @@ const button = {
   display: `inline-flex`,
   minWidth: `10rem`,
   alignItems: `center`,
+  fontSize: 3,
+  fontWeight: `bolder`,
   justifyContent: `space-evenly`,
   outline: 0,
   userSelect: `none`,
