@@ -56,6 +56,7 @@ const styles = {
   },
   mobileMenu: {
     display: [`block`, null, `none`],
+    fontSize: 5,
     order: [3, null, `unset`]
   }
 }
