@@ -11,6 +11,6 @@ export default {
   colors: {
     background: `#FFFFFF`,
     headerBg: `#FFFFFF`,
-    footerBg: `#F6F7FA`
+    footerBg: `#FFFFFF`
   }
 }

@@ -102,6 +102,7 @@
           "variant": "links.nav-light",
           "icon": {
             "src": "../../../assets/flexiblocks/icons/bxl-twitter.svg",
+            "size": "lg",
             "color": "#1da1f2"
           }
         },
@@ -112,6 +113,7 @@
           "variant": "links.nav-light",
           "icon": {
             "src": "../../../assets/flexiblocks/icons/bxl-linkedin-square.svg",
+            "size": "lg",
             "color": "#0073AF"
           }
         },
@@ -122,16 +124,18 @@
           "variant": "links.nav-light",
           "icon": {
             "src": "../../../assets/flexiblocks/icons/bxl-facebook.svg",
+            "size": "lg",
             "color": "#4064AC"
           }
         },
         {
           "text": "YouTube",
           "type": "PAGE",
-          "link": "https://www.youtube.com/canadasilvercobalt/",
+          "link": "https://www.youtube.com/@canadasilvercobalt",
           "variant": "links.nav-light",
           "icon": {
             "src": "../../../assets/flexiblocks/icons/bxl-youtube.svg",
+            "size": "lg",
             "color": "#0073AF"
           }
         }

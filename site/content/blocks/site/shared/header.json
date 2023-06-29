@@ -13,6 +13,7 @@
           "text": "Home",
           "type": "PAGE",
           "link": "/",
+          "size": "lg",
           "variant": "links.nav-dark"
         },
         {
