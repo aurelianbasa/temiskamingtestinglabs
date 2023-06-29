@@ -41,16 +41,6 @@
         {
           "text": "5 min"
         }
-      ],
-      "avatar": {
-       
-        "alt": "alt text"
-      },
-      "images": [
-        {
-          "src": "../../../assets/flexiblocks/blog/blog-1.jpg",
-          "alt": "alt text"
-        }
       ]
     },
     {
@@ -84,15 +74,6 @@
         {
           "text": "10 min"
         }
-      ],
-      "avatar": {
-        "alt": "alt text"
-      },
-      "images": [
-        {
-          "src": "../../../assets/flexiblocks/blog/blog-2.jpg",
-          "alt": "alt text"
-        }
       ]
     },
     {
@@ -125,15 +106,6 @@
         },
         {
           "text": "7 min"
-        }
-      ],
-      "avatar": {
-        "alt": "alt text"
-      },
-      "images": [
-        {
-          "src": "../../../assets/flexiblocks/blog/blog-3.jpg",
-          "alt": "alt text"
         }
       ]
     }

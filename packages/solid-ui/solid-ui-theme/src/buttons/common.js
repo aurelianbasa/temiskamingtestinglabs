@@ -3,7 +3,7 @@ const button = {
   display: `inline-flex`,
   minWidth: `10rem`,
   alignItems: `center`,
-  fontSize: 3,
+  fontSize: 4,
   fontWeight: `bolder`,
   justifyContent: `space-evenly`,
   outline: 0,
