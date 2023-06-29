@@ -1,6 +1,7 @@
 const button = {
   fontFamily: `body`,
   variant: 'h3',
+  fontSize: '20px',
   display: `inline-flex`,
   minWidth: `10rem`,
   alignItems: `center`,
