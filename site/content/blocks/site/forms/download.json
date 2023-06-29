@@ -14,7 +14,7 @@
       "text": "Request for Analysis",
       "type": "PAGE",
       "link": "/",
-      "variant": "vertical",
+      "variant": "links.normal",
       "width": "100%",
       "space": 10
     },
@@ -22,7 +22,7 @@
       "text": "Credit Application",
       "type": "PAGE",
       "link": "/",
-      "variant": "vertical",
+      "variant": "links.normal",
       "width": "100%" 
     }
   ]
