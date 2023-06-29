@@ -56,8 +56,7 @@ const styles = {
   },
   mobileMenu: {
     display: [`block`, null, `none`],
-    fontSize: 5,
-    flexGrow: 2,
+    fontSize: `100%`,
     order: [3, null, `unset`]
   }
 }
@@ -131,6 +130,7 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                       </Flex>
                     </Reveal>
                   </Box>
+                  
                   <Box sx={styles.mobileMenu}>
                     <Drawer
                       buttonStyle={{

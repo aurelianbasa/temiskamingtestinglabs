@@ -15,15 +15,15 @@
       "type": "PAGE",
       "link": "/",
       "variant": "primary",
-      "width": "50%",
-      "space": 5
+      "width": "30%",
+      "space": 10
     },
     {
       "text": "Credit Application",
       "type": "PAGE",
       "link": "/",
       "variant": "secondary",
-      "width": "50%" 
+      "width": "30%" 
     }
   ]
 }
