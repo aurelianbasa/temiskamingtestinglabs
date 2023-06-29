@@ -1,5 +1,6 @@
 const button = {
   fontFamily: `body`,
+  variant: 'h3',
   display: `inline-flex`,
   minWidth: `10rem`,
   alignItems: `center`,

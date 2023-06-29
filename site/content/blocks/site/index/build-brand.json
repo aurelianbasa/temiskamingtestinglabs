@@ -1,7 +1,7 @@
 {
   "text": [
     {
-      "text": "Our Facility",
+      "text": "OUR MISSION",
       "color": "beta",
       "variant": "h4",
       "align": ["left"]
@@ -12,7 +12,7 @@
       "align": ["left"]
     },
     {
-      "text": "Temiskaming Testing Labs assay lab and bulk processing facility was acquired in 2020.",
+      "text": "Temiskaming Testing Labs assay lab and bulk processing facility was acquired in 2020 with the express purpose of serving the Northern Ontario region.",
       "variant": "medium",
       "align": ["left"]
     }
@@ -30,7 +30,7 @@
         {
           "text": "Assays",
           "color": "omegaDarker",
-          "variant": "h5"
+          "variant": "h4"
         },
         {
           "text": ""
@@ -42,7 +42,7 @@
         {
           "text": "Bulk Sampling",
           "color": "omegaDarker",
-          "variant": "h5"
+          "variant": "h4"
         },
         {
           "text": ""
@@ -54,7 +54,7 @@
         {
           "text": "Bullion pouring",
           "color": "omegaDarker",
-          "variant": "h5"
+          "variant": "h4"
         },
         {
           "text": ""
@@ -66,7 +66,7 @@
         {
           "text": "E-waste processing",
           "color": "omegaDarker",
-          "variant": "h5"
+          "variant": "h4"
         },
         {
           "text": ""

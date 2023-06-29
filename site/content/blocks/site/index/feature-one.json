@@ -12,7 +12,7 @@
       "align": ["left"]
     },
     {
-      "text": "The assay lab and bulk processing facility was acquired in 2020.",
+      "text": "The assay lab and bulk processing facility are together housed in the former regional office of the Ministry of Mines. An expanded suite of exploration and analytical services are also offered through a geological office along the Trans-Canada highway.",
       "variant": "medium",
       "align": ["left"]
     }
@@ -38,7 +38,8 @@
           "variant": "h5"
         },
         {
-          "text": "A bullion furnace in the the facility was used to produce silver dore bars in a proof-of-concept test."
+          "text": "A bullion furnace in the the facility was used to produce silver dore bars in a proof-of-concept test.",
+          "variant": "medium"
         }
       ]
     },
@@ -55,7 +56,8 @@
           "variant": "h5"
         },
         {
-          "text": "Operated independently with commercial analytical experience."
+          "text": "Operated independently with commercial analytical experience.",
+          "variant": "medium"
         }
       ]
     }
