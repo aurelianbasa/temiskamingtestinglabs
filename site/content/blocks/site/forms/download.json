@@ -9,6 +9,8 @@
       "text": "Both forms use PDF Format and require Adobe Acrobat Reader to open."
     }
   ],
+  "collection": [
+    {
   "buttons": [
     {
       "text": "Request for Analysis",
@@ -28,4 +30,5 @@
     }
   ]
 }
- 
+  ]
+}
