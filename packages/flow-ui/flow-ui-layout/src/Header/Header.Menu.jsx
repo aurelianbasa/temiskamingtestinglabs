@@ -31,7 +31,7 @@ export const HeaderMenu = ({ mobileMenu = {} }) => {
     <Drawer>
       <Navigation
         variant='vertical'
-        headingProps={{ variant: 'h3' }}
+        headingProps={{ variant: 'h2' }}
         items={[
           {
             title: 'Main Menu',

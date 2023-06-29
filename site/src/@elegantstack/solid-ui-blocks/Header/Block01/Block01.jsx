@@ -34,7 +34,7 @@ const styles = {
     //Make buttons in header smaller
     '.button-group-button': {
       minWidth: 120,
-      fontSize: 4,
+      fontSize: 5,
       px: 3,
       py: 1
     }
@@ -146,7 +146,7 @@ const HeaderBlock01 = ({ content: { images, collection }, menuJustify }) => {
                             <Box
                               key={`item-${index}`}
                               sx={{
-                                fontSize: 5,
+                                fontSize: 7,
                                 '.button-group-link.level-1, button-group-link.level-1:visited':
                                   {
                                     // color: `headerActiveColor`
