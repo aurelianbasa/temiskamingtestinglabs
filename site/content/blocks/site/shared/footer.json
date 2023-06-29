@@ -102,7 +102,7 @@
           "variant": "links.nav-light",
           "icon": {
             "src": "../../../assets/flexiblocks/icons/bxl-twitter.svg",
-            "size": "lg",
+            "size": "sm",
             "color": "#1da1f2"
           }
         },
@@ -113,7 +113,7 @@
           "variant": "links.nav-light",
           "icon": {
             "src": "../../../assets/flexiblocks/icons/bxl-linkedin-square.svg",
-            "size": "lg",
+            "size": "sm",
             "color": "#0073AF"
           }
         },
@@ -124,7 +124,7 @@
           "variant": "links.nav-light",
           "icon": {
             "src": "../../../assets/flexiblocks/icons/bxl-facebook.svg",
-            "size": "lg",
+            "size": "sm",
             "color": "#4064AC"
           }
         },
@@ -135,7 +135,7 @@
           "variant": "links.nav-light",
           "icon": {
             "src": "../../../assets/flexiblocks/icons/bxl-youtube.svg",
-            "size": "lg",
+            "size": "sm",
             "color": "#0073AF"
           }
         }

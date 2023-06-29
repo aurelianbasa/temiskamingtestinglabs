@@ -1,6 +1,7 @@
 export default {
   color: `omegaDarker`,
-  fontWeight: `medium`,
+  fontWeight: `bold`,
+  fontSize: 4,
   textDecoration: `none`,
   userSelect: `none`,
   whiteSpace: `pre`,

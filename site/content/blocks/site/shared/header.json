@@ -3,7 +3,7 @@
     {
       "src": "../../../assets/site/shared/logo.svg",
       "width": "160px",
-      "alt": "alt text"
+      "alt": "Temiskaming Testing Labs"
     }
   ],
   "collection": [
@@ -13,7 +13,6 @@
           "text": "Home",
           "type": "PAGE",
           "link": "/",
-          "size": "lg",
           "variant": "links.nav-dark"
         },
         {
