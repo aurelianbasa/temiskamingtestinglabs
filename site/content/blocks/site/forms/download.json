@@ -15,7 +15,7 @@
       "type": "PAGE",
       "link": "/",
       "variant": "primary",
-      "width": "30%",
+      "width": "45%",
       "space": 10
     },
     {
@@ -23,7 +23,7 @@
       "type": "PAGE",
       "link": "/",
       "variant": "secondary",
-      "width": "30%" 
+      "width": "45%" 
     }
   ]
 }

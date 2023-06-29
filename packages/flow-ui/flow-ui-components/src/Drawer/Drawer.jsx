@@ -25,7 +25,7 @@ const styles = {
     zIndex: 2,
     bg: `contentBg`,
     overflowY: `scroll`,
-    fontSize: 3,
+    fontSize: 5,
     p: 5
   },
   overlay: {
