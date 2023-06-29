@@ -4,6 +4,11 @@
       "text": "**Fast Turnaround** with Competitive Pricing",
       "variant": "h1",
       "align": ["left"]
+    },
+    {
+      "text": "Temiskaming Testing Labs is a full service assay lab offering bulk processing and geological services.",
+      "variant": "h5",
+      "align": ["left"]
     }
   ],
   "images": [
@@ -24,13 +29,6 @@
       "link": "https://www.youtube.com/embed/9NsQ-Q7NiTU?autoplay=1&modestbranding=1&showinfo=0&rel=0",
       "variant": "primary",
       "width": "100%"
-    }
-  ],
-  "collection": [
-    {
-      "text": "Temiskaming Testing Labs is a full service assay lab offering bulk processing and geological services.",
-      "variant": "h5",
-      "align": ["left"]
     }
   ]
 }
