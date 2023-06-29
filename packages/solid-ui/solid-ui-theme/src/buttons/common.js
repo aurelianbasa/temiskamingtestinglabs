@@ -1,6 +1,5 @@
 const button = {
   fontFamily: `heading`,
-  fontSize: `18px`,
   display: `inline-flex`,
   minWidth: `10rem`,
   alignItems: `center`,
@@ -59,5 +58,6 @@ const button = {
 }
 
 export default {
-  button
+  button:
+ { fontsize: 6 }
 }
