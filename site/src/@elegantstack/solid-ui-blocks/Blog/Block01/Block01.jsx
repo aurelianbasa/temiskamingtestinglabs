@@ -13,7 +13,7 @@ import { FaRegClock } from 'react-icons/fa'
 const styles = {
   wrapper: {
     flex: [`100%`, null, null, 1],
-    minWidth: 100,
+    minWidth: 300,
     maxWidth: [`none`, null, null, 500],
     cursor: `pointer`,
     p: 3
@@ -32,11 +32,7 @@ const styles = {
     flexDirection: `column`,
     justifyContent: `center`,
     flex: 1,
-    p: 4,
-    borderRadius: `full`,
-    borderStyle: `solid`,
-    borderWidth: `md`,
-    borderColor: `omegaLighter`,
+    p: 4
   },
   footerWrapper: {
     alignItems: `center`
@@ -55,13 +51,17 @@ const styles = {
     height: `full`
   },
   image: {
+    display: [`none`, `block`],
+    height: `full`,
+    bg: `omegaLighter`,
     borderRadius: `default`,
+    minHeight: `15rem`,
     div: {
       p: `0 !important`
     }
   },
   avatar: {
-    size: 5,
+    size: 42,
     bg: `omegaLighter`,
     borderRadius: `full`,
     borderStyle: `solid`,
@@ -94,10 +94,10 @@ const BlogBlock01 = ({ content: { text, collection, buttons } }) => (
                   <Flex as='article' sx={styles.content}>
                     {/* Image */}
                     <Box sx={{ flex: [0, 1], m: 2, mb: [null, null, null, 0] }}>
-                      <Box sx={styles.content}>
+                      <Box sx={styles.imageWrapper}>
                         <ContentImages
                           content={{ images }}
-                          sx={styles.body}
+                          sx={styles.image}
                           imageEffect='fadeIn'
                         />
                       </Box>
