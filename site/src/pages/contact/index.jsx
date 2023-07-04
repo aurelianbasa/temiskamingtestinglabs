@@ -27,11 +27,6 @@ const AboutPage = props => {
       <Divider space='5' />
       <Divider space='5' />
       <Contact content={content['contact']} />
-      <Divider space='2' />
-      <Subscribe content={content['subscribe']} />
-      <Divider space='2' />
-      <Table content={content['administration']} />
-      <Divider space='5' />
       <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>

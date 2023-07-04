@@ -16,7 +16,7 @@ const CallToActionBlock02 = ({ content: { container, text, buttons } }) => (
           textAlign: [`left`, `left`]
         }}
       >
-        <Box sx={{ mb: [3, 0] }}>
+        <Box sx={{ mb: [5, null, 0] }}>
           <ContentText content={text} />
         </Box>
         <ContentButtons content={buttons} />
