@@ -51,11 +51,11 @@ const styles = {
     height: `full`
   },
   image: {
+    size: 50,
     display: [`block`, `block`],
     height: `full`,
     bg: `omegaLighter`,
-    borderRadius: `default`,
-    minHeight: `15rem`
+    borderRadius: `default`
   },
   avatar: {
     size: 5,
