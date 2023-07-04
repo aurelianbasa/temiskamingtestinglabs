@@ -1,9 +1,10 @@
 {
   "text": [
     {
-      "text": "Our Forms for Clients new and Returning",
+      "text": "Our Forms for Clients New and Returning",
       "color": "alpha",
-      "variant": "h3"
+      "variant": "h3",
+      "space": 2
     },
     {
       "text": "Both forms use PDF Format and require Adobe Acrobat Reader to open.",
@@ -15,13 +16,15 @@
       "text": "Request for Analysis",
       "type": "PAGE",
       "link": "/requestforanalysis.pdf",
-      "variant": "secondary"
+      "variant": "secondary",
+      "width": "100%"
     },
     {
       "text": "Credit Application",
       "type": "PAGE",
       "link": "/creditapplication.pdf",
-      "variant": "primary"
+      "variant": "primary",
+      "width": "100%"
     }
   ]
 }

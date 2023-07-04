@@ -19,6 +19,7 @@ const CallToActionBlock02 = ({ content: { container, text, buttons } }) => (
       <Box sx={{ mb: [3, 0] }}>
           <ContentText content={text} />
         </Box>
+        <Divider space={3} />
         <ContentButtons
                 content={buttons}
                 wrapperStyles={{ textAlign: `center` }}
