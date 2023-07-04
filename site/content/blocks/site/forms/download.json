@@ -6,7 +6,8 @@
       "variant": "h3"
     },
     {
-      "text": "Both forms use PDF Format and require Adobe Acrobat Reader to open."
+      "text": "Both forms use PDF Format and require Adobe Acrobat Reader to open.",
+      "variant": "h5"
     }
   ],
   "buttons": [
