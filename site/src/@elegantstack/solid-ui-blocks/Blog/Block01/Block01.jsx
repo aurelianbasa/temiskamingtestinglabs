@@ -90,10 +90,10 @@ const BlogBlock01 = ({ content: { text, collection, buttons } }) => (
                   <Flex as='article' sx={styles.content}>
                     {/* Image */}
                     <Box sx={{ flex: [0, 1], m: 2, mb: [null, null, null, 0] }}>
-                      <Box sx={styles.imageWrapper}>
+                      <Box sx={styles.content}>
                         <ContentImages
                           content={{ images }}
-                          sx={styles.image}
+                          sx={styles.body}
                           imageEffect='fadeIn'
                         />
                       </Box>
