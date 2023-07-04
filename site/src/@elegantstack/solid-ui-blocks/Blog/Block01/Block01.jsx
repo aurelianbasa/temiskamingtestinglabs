@@ -51,10 +51,7 @@ const styles = {
     height: `full`
   },
   image: {
-    size: 'regular',
-    bg: `omegaLighter`,
     borderRadius: `default`,
-    boxSizing: `content-box`,
     div: {
       p: `0 !important`
     }
