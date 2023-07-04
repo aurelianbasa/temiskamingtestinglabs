@@ -16,7 +16,7 @@ const styles = {
     zIndex: 10,
     '.nav-container': {
       // bg: `headerBg`,
-      bg: `transparent`,
+      bg: `white`,
       position: `fixed`,
       transition: `all 250ms ease-in`,
       py: 3
