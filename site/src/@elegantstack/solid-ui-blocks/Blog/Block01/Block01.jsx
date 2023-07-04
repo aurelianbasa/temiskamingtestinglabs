@@ -51,8 +51,7 @@ const styles = {
     height: `full`
   },
   image: {
-    size: 5,
-    display: [`block`, `block`],
+    size: 'regular',
     bg: `omegaLighter`,
     borderRadius: `default`,
     boxSizing: `content-box`,
