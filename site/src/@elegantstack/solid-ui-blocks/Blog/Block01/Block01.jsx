@@ -61,7 +61,7 @@ const styles = {
     }
   },
   avatar: {
-    size: 42,
+    size: 5,
     bg: `omegaLighter`,
     borderRadius: `full`,
     borderStyle: `solid`,
