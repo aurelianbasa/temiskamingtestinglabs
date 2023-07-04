@@ -51,6 +51,7 @@ const styles = {
     height: `full`
   },
   image: {
+    size: 200,
     display: [`none`, `block`],
     bg: `omegaLighter`,
     borderRadius: `default`,
