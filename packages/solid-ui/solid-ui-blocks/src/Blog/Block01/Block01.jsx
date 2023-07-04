@@ -13,7 +13,7 @@ import { FaRegClock } from 'react-icons/fa'
 const styles = {
   wrapper: {
     flex: [`100%`, null, null, 1],
-    minWidth: 300,
+    minWidth: 100,
     maxWidth: [`none`, null, null, 500],
     cursor: `pointer`,
     p: 3
@@ -61,7 +61,7 @@ const styles = {
     }
   },
   avatar: {
-    size: 42,
+    size: 5,
     bg: `omegaLighter`,
     borderRadius: `full`,
     borderStyle: `solid`,
