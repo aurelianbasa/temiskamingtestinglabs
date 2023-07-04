@@ -16,11 +16,11 @@ const CardBodyExcerpt = ({ variant, excerpt, omitExcerpt }) => {
 
   const visibility = responsiveVariant.reduce(
     (mobileVisibility, variant) =>
-      mobileVisibility === true &&
-      get(context.theme, variant, {}).display === 'block'
-        ? true
+      mobileVisibility === false &&
+      get(context.theme, variant, {}).display === 'none'
+        ? false
         : true,
-    true
+    false
   )
 
   return !omitExcerpt && visibility ? (
