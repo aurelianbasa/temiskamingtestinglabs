@@ -32,7 +32,11 @@ const styles = {
     flexDirection: `column`,
     justifyContent: `center`,
     flex: 1,
-    p: 4
+    p: 4,
+    borderRadius: `full`,
+    borderStyle: `solid`,
+    borderWidth: `md`,
+    borderColor: `omegaLighter`,
   },
   footerWrapper: {
     alignItems: `center`
