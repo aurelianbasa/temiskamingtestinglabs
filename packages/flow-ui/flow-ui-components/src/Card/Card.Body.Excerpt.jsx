@@ -20,7 +20,7 @@ const CardBodyExcerpt = ({ variant, excerpt, omitExcerpt }) => {
       get(context.theme, variant, {}).display === 'block'
         ? false
         : true,
-    false
+    true
   )
 
   return !omitExcerpt && visibility ? (
