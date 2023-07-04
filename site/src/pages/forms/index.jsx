@@ -26,9 +26,7 @@ const FormsPage = props => {
       <Header content={content['header']} />
       <Divider space='5' />
       <Divider space='5' />
-      <Container variant='full' sx={styles.heroContainer}>
       <Download content={content['download']} />
-      </Container>
       <Divider space='5' />
       <Divider space='5' />
       <Team content={content['team']} />

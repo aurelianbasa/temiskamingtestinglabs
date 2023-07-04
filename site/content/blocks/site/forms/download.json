@@ -16,15 +16,13 @@
       "text": "Request for Analysis",
       "type": "PAGE",
       "link": "/requestforanalysis.pdf",
-      "variant": "secondary",
-      "width": "100%"
+      "variant": "secondary"
     },
     {
       "text": "Credit Application",
       "type": "PAGE",
       "link": "/creditapplication.pdf",
-      "variant": "primary",
-      "width": "100%"
+      "variant": "primary"
     }
   ]
 }
