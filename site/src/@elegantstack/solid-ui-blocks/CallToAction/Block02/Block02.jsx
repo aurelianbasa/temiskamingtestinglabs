@@ -8,12 +8,13 @@ import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 const CallToActionBlock02 = ({ content: { container, text, buttons } }) => (
   <Container>
     <ContentContainer content={container} variant='cards.paper'>
-      <Flex
+    <Flex
         sx={{
-          flexDirection: [`column`, `row`],
-          justifyContent: `space-between`,
-          alignItems: `center`,
-          textAlign: [`left`, `left`]
+          alignItems: `stretch`,
+          flexDirection: [
+            reverse ? `column-reverse` : `column`,
+            reverse ? `row-reverse` : `row`
+          ]
         }}
       >
         <Box sx={{ mb: [5, null, 0] }}>
