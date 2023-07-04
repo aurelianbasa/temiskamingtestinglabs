@@ -9,22 +9,19 @@
       "text": "Both forms use PDF Format and require Adobe Acrobat Reader to open."
     }
   ],
-  "collection": [
-    {
   "buttons": [
     {
       "text": "Request for Analysis",
       "type": "PAGE",
-      "link": "/",
+      "link": "/requestforanalysis.pdf",
       "variant": "secondary"
     },
     {
       "text": "Credit Application",
       "type": "PAGE",
-      "link": "/",
+      "link": "/creditapplication.pdf",
       "variant": "primary"
     }
   ]
 }
-  ]
-}
+  
