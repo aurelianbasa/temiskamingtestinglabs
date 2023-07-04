@@ -46,15 +46,13 @@ const styles = {
   imageWrapper: {
     textAlign: `center`,
     position: `relative`,
-    display: `block`,
-    height: `full`
+    display: `flex`
   },
   image: {
     display: [`none`, `block`],
-    height: `full`,
+    alignItems: `stretch`,
     bg: `omegaLighter`,
     borderRadius: `default`,
-    minHeight: `15rem`,
     div: {
       p: `0 !important`
     }
