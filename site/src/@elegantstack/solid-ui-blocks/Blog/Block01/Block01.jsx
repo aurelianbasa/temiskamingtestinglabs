@@ -51,14 +51,11 @@ const styles = {
     height: `full`
   },
   image: {
-    display: [`none`, `block`],
+    display: [`block`, `block`],
     height: `full`,
     bg: `omegaLighter`,
     borderRadius: `default`,
-    minHeight: `15rem`,
-    div: {
-      p: `0 !important`
-    }
+    minHeight: `15rem`
   },
   avatar: {
     size: 5,
@@ -94,10 +91,10 @@ const BlogBlock01 = ({ content: { text, collection, buttons } }) => (
                   <Flex as='article' sx={styles.content}>
                     {/* Image */}
                     <Box sx={{ flex: [0, 1], m: 2, mb: [null, null, null, 0] }}>
-                      <Box sx={styles.body}>
+                      <Box sx={styles.imageWrapper}>
                         <ContentImages
                           content={{ images }}
-                          sx={styles.avatar}
+                          sx={styles.image}
                           imageEffect='fadeIn'
                         />
                       </Box>
