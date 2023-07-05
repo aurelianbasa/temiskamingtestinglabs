@@ -93,7 +93,7 @@ const BlogBlock01 = ({ content: { text, collection, buttons } }) => (
           {collection.map(
             ({ container, text, images, avatar, buttons }, index) => (
               <Box key={`item-${index}`} sx={{
-                flexBasis: [`1/2`, null, `1/4`, `1/5`],
+                flexBasis: `1/2`,
                 flexGrow: 2,
                 p: 3
               }}>
