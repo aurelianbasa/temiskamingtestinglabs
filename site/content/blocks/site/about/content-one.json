@@ -5,12 +5,14 @@
         {
           "text": "A Public Initiative",
           "color": "alpha",
-          "variant": "h4"
+          "variant": "h4",
+          "align": ["left"]
         },
         {
           "text": "Founded to Support Local Mine Operators",
           "color": "omegaDarker",
-          "variant": "h3"
+          "variant": "h3",
+          "align": ["left"]
         }
       ]
     },
@@ -19,12 +21,14 @@
         {
           "text": "The Ontario Department of Mines established the Temiskaming Testing Laboratory in 1921 to serve local mine operators. Since few of the mining operations were large enough to justify their own assay office and specialized equipment, it was decided the provincical government should build and manage the service.",
           "color": "omegaDark",
-          "variant": "h6"
+          "variant": "h6",
+          "align": ["left"]
         },
         {
           "text": "The facility was extensively renovated and updated over the years by the Ministry of Northern Development & Mines as a technically advanced bulk sampling and testing station for minerals and precious metals. By the 1990s the operation was decommissioned due to a decrease in Silver mining in the area.",
           "color": "omegaDark",
-          "variant": "p"
+          "variant": "p",
+          "align": ["left"]
         }
       ]
     }

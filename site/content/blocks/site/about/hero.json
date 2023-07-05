@@ -9,7 +9,7 @@
     {
       "text": "We are a team of mining and geotechnical experts with deep roots in the area. The lab and bulk sampling facility known as Temiskaming Testing Labs is based in the historic town of Cobalt and has built a reputation around its bulk sampling and processing of ores, particularly silver ores.",
       "color": "omegaDark",
-      "variant": "medium",
+      "variant": "h5",
       "align": ["left"]
     }
   ],
@@ -17,7 +17,6 @@
     {
       "src": "../../../assets/site/about/hero.jpg",
       "alt": "alt text",
-      "radius": "lg",
       "shadow": "xl",
       "effects": ["fadeInLeft"]
     }

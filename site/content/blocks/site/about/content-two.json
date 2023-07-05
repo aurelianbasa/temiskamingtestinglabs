@@ -5,12 +5,14 @@
         {
           "text": "Our Approach to Mining",
           "color": "alphaLight",
-          "variant": "h4"
+          "variant": "h4",
+          "align": ["left"]
         },
         {
           "text": "Securing the Facility was a Strategic decision to consolidate the camp",
           "color": "white",
-          "variant": "h3"
+          "variant": "h3",
+          "align": ["left"]
         }
       ],
       "buttons": [
@@ -27,7 +29,8 @@
         {
           "text": "PolyMet Labs first purchased the facility in 2000 and began operating as an Assay Laboratory, and Bulk Sampling, Crushing, Grinding, Processing, Upgrading, and Smelting Plant. When the facility changed ownership in 2020 it was relaunched as Temiskaming Testing Laboratories Inc.",
           "color": "omegaLight",
-          "variant": "h5"
+          "variant": "h5",
+          "align": ["left"]
         }
       ]
     }
