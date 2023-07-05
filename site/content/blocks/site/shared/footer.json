@@ -10,33 +10,6 @@
     {
       "text": [
         {
-          "text": "Links"
-        }
-      ],
-      "buttons": [
-        {
-          "text": "Terms",
-          "type": "PAGE",
-          "link": "/",
-          "variant": "links.nav-light"
-        },
-        {
-          "text": "Careers",
-          "type": "PAGE",
-          "link": "/about",
-          "variant": "links.nav-light"
-        },
-        {
-          "text": "Contact",
-          "type": "PAGE",
-          "link": "/services",
-          "variant": "links.nav-light"
-        }
-      ]
-    },
-    {
-      "text": [
-        {
           "text": "Address"
         }
       ],
