@@ -60,10 +60,10 @@ const styles = {
     borderBottomWidth: `md`,
     borderBottomStyle: `solid`,
     boxSizing: `content-box`,
-    borderRadius: `default`,
+    borderRadius: `xl`,
     mx: `auto`,
     img: {
-      borderRadius: `default`,
+      borderRadius: `xl`,
       objectPosition: `top center !important`
     }
   },
