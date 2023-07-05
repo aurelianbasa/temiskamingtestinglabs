@@ -16,8 +16,8 @@
       "buttons": [
         {
           "text": "Schedule a Consultation",
-          "type": "MODAL",
-          "link": "authentication",
+          "type": "PAGE",
+          "link": "mailto:info@temiskaminglabs.com",
           "variant": "secondary"
         }
       ]
