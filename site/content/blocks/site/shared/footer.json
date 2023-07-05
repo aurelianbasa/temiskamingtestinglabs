@@ -21,7 +21,13 @@
           "variant": "links.nav-light"
         },
         {
-          "text": "Cobalt, Ontario, P0J 1C0",
+          "text": "Cobalt, ON",
+          "type": "SUB",
+          "link": "/",
+          "variant": "links.nav-light"
+        },
+        {
+          "text": "P0J 1C0",
           "type": "SUB",
           "link": "/",
           "variant": "links.nav-light"
