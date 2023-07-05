@@ -93,7 +93,7 @@ const BlogBlock01 = ({ content: { text, collection, buttons } }) => (
           {collection.map(
             ({ container, text, images, avatar, buttons }, index) => (
               <Box key={`item-${index}`} sx={{
-                flexBasis: [`1`, null, `1`, `1`],
+                flexBasis: [`1/2`, null, `1/4`, `1/5`],
                 flexGrow: 2,
                 p: 3
               }}>
@@ -104,7 +104,7 @@ const BlogBlock01 = ({ content: { text, collection, buttons } }) => (
                 >
                   <Flex as='article' sx={styles.content}>
                     {/* Image */}
-                    <Box sx={{ flex: [0, 1], m: 2, mb: [null, null, null, 0] }}>
+                    <Box sx={{ flex: [2, 1], m: 2, mb: [null, null, null, 0] }}>
                       
                         <ContentImages
                           content={{ images }}
