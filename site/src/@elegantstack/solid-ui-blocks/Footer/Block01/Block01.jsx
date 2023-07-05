@@ -26,7 +26,7 @@ const FooterBlock01 = ({ content: { images, collection } }) => {
       <Container px='4'>
         <Flex sx={styles.footer}>
           <Box
-            sx={{ textAlign: [`center`, `left`], minWidth: [null, null, 350] }}
+            sx={{ textAlign: [`center`, `left`], minWidth: [null, null, 450] }}
           >
             <Box pb='1' mb='2' mt={[3, 0]}>
               <GLink to='/'>
