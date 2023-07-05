@@ -13,6 +13,7 @@ import { FaRegClock } from 'react-icons/fa'
 const styles = {
   wrapper: {
     flex: [`100%`, null, null, 1],
+    minWidth: 300,
     maxWidth: [`none`, null, null, 500],
     cursor: `pointer`,
     p: 3
@@ -46,13 +47,15 @@ const styles = {
   imageWrapper: {
     textAlign: `center`,
     position: `relative`,
-    display: `flex`
+    display: `block`,
+    height: `full`
   },
   image: {
     display: [`none`, `block`],
-    alignItems: `stretch`,
+    height: `full`,
     bg: `omegaLighter`,
     borderRadius: `default`,
+    minHeight: `15rem`,
     div: {
       p: `0 !important`
     }
@@ -91,7 +94,7 @@ const BlogBlock01 = ({ content: { text, collection, buttons } }) => (
                   <Flex as='article' sx={styles.content}>
                     {/* Image */}
                     <Box sx={{ flex: [0, 1], m: 2, mb: [null, null, null, 0] }}>
-                      <Box sx={styles.wrapper}>
+                      <Box sx={styles.imageWrapper}>
                         <ContentImages
                           content={{ images }}
                           sx={styles.image}
