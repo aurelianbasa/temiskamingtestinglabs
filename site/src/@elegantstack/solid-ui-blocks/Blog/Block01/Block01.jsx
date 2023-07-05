@@ -96,12 +96,7 @@ const BlogBlock01 = ({ content: { text, collection, buttons } }) => (
                 <ContentContainer
                   content={container}
                   variant='cards.primary'
-                  sx={{
-                    flexBasis: [`1/2`, null, `1/3`, `1/5`],
-                    flexGrow: 1,
-                    maxWidth: 240,
-                    p: 3
-                  }}
+                  sx={styles.card}
                 >
                   <Flex as='article' sx={styles.content}>
                     {/* Image */}
@@ -109,7 +104,7 @@ const BlogBlock01 = ({ content: { text, collection, buttons } }) => (
                       <Box sx={styles.imageWrapper}>
                         <ContentImages
                           content={{ images }}
-                          sx={styles.image}
+                          sx={{ textAlign: `center`, height: `100%`, p: 2 }}
                           imageEffect='fadeIn'
                         />
                       </Box>
