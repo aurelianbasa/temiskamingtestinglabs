@@ -76,10 +76,10 @@
   ],
   "buttons": [
     {
-      "text": "Read More",
+      "text": "Read our Full Story",
       "type": "PAGE",
       "width": "100%",
-      "link": "/about/company-history",
+      "link": "/TTLarticle.pdf",
       "variant": "primary",
       "align": ["right"]
     }

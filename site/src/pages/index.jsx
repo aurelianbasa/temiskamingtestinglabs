@@ -39,7 +39,7 @@ const IndexPage = props => {
       <Divider space='5' />
       <Divider space='5' />
       <Container variant='wide' sx={styles.tabsContainer}>
-        <Tabs space={5}>
+        <Tabs space={3}>
           <Gallery content={content['gallery-one']} />
 					<Gallery content={content['gallery-two']} />
         </Tabs>
