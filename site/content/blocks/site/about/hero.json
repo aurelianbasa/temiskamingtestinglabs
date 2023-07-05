@@ -25,7 +25,7 @@
   "buttons": [
     {
       "text": "Contact Us",
-      "type": "MODAL",
+      "type": "PAGE",
       "link": "/contact",
       "variant": "primary"
     }

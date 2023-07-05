@@ -76,11 +76,11 @@
   ],
   "buttons": [
     {
-      "text": "Read our Full Story",
+      "text": "Read the Full Story",
       "type": "PAGE",
       "width": "100%",
       "link": "/TTLarticle.pdf",
-      "variant": "primary",
+      "variant": "secondary",
       "align": ["right"]
     }
   ]
