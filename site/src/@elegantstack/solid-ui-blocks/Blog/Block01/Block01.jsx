@@ -51,13 +51,20 @@ const styles = {
     height: `full`
   },
   image: {
-    display: [`none`, `block`],
-    height: `full`,
-    bg: `omegaLighter`,
-    borderRadius: `default`,
-    minHeight: `15rem`,
-    div: {
-      p: `0 !important`
+    height: 230,
+    bg: `omegaLight`,
+    borderTopColor: `omegaLight`,
+    borderTopWidth: `xxl`,
+    borderTopStyle: `solid`,
+    borderBottomColor: `beta`,
+    borderBottomWidth: `md`,
+    borderBottomStyle: `solid`,
+    boxSizing: `content-box`,
+    borderRadius: `top`,
+    mx: `auto`,
+    img: {
+      borderRadius: `top`,
+      objectPosition: `top center !important`
     }
   },
   avatar: {
@@ -88,7 +95,7 @@ const BlogBlock01 = ({ content: { text, collection, buttons } }) => (
               <Box key={`item-${index}`} sx={styles.wrapper}>
                 <ContentContainer
                   content={container}
-                  variant='cards.interactive'
+                  variant='cards.primary'
                   sx={styles.card}
                 >
                   <Flex as='article' sx={styles.content}>
