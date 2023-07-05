@@ -3,7 +3,7 @@
     {
       "text": "UNLIMITED POSSIBILITIES",
       "color": "beta",
-      "variant": "h4"
+      "variant": "h5"
     },
     {
       "text": "Our Milling Circuit",
@@ -11,7 +11,7 @@
     },
     {
       "text": "Years of experience and upgrading have cemented the reputation of Temiskaming Testing Laboratories as a premier service provider in the treatment of precious metal and base metal ores.",
-      "variant": "h3",
+      "variant": "h4",
       "align": ["left"]
     }
   ],
