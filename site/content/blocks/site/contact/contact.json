@@ -18,7 +18,8 @@
         },
         {
           "text": "We'll get back to you within 24 hours.",
-          "color": "omegaDark"
+          "color": "omegaDark",
+          "variant": "p"
         }
       ],
       "images": [
@@ -115,7 +116,8 @@
         },
         {
           "text": "Give us a call or send an email.",
-          "color": "omegaDark"
+          "color": "omegaDark",
+          "variant": "p"
         }
       ],
       "images": [
