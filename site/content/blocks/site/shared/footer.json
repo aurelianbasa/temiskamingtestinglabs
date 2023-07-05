@@ -77,7 +77,7 @@
         {
           "text": "Twitter",
           "type": "PAGE",
-          "link": "https://twitter.com/temiskamingtestinglabs/",
+          "link": "https://twitter.com/temiskaminglabs/",
           "variant": "links.nav-light",
           "icon": {
             "src": "../../../assets/flexiblocks/icons/bxl-twitter.svg",
