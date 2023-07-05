@@ -77,7 +77,7 @@
         {
           "text": "Twitter",
           "type": "PAGE",
-          "link": "https://twitter.com/canadacobalt/",
+          "link": "https://twitter.com/temiskamingtestinglabs/",
           "variant": "links.nav-light",
           "icon": {
             "src": "../../../assets/flexiblocks/icons/bxl-twitter.svg",
@@ -88,7 +88,7 @@
         {
           "text": "Linkedin",
           "type": "PAGE",
-          "link": "https://ca.linkedin.com/company/canada-cobalt-works/",
+          "link": "https://ca.linkedin.com/company/temiskaming-testing-labs/",
           "variant": "links.nav-light",
           "icon": {
             "src": "../../../assets/flexiblocks/icons/bxl-linkedin-square.svg",
@@ -99,23 +99,12 @@
         {
           "text": "Facebook",
           "type": "PAGE",
-          "link": "https://www.facebook.com/canadacobaltworks/",
+          "link": "https://www.facebook.com/temiskamingtestinglabs/",
           "variant": "links.nav-light",
           "icon": {
             "src": "../../../assets/flexiblocks/icons/bxl-facebook.svg",
             "size": "sm",
             "color": "#4064AC"
-          }
-        },
-        {
-          "text": "YouTube",
-          "type": "PAGE",
-          "link": "https://www.youtube.com/@canadasilvercobalt",
-          "variant": "links.nav-light",
-          "icon": {
-            "src": "../../../assets/flexiblocks/icons/bxl-youtube.svg",
-            "size": "sm",
-            "color": "#0073AF"
           }
         }
       ]

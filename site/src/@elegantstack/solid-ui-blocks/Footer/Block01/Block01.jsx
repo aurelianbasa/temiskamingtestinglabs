@@ -5,7 +5,7 @@ import ContentText from '@solid-ui-components/ContentText'
 import ContentImages from '@solid-ui-components/ContentImages'
 import ContentButtons from '@solid-ui-components/ContentButtons'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
-import Newsletter from '../../../../components/NewsletterFooter'
+
 
 const styles = {
   wrapper: {
@@ -36,9 +36,7 @@ const FooterBlock01 = ({ content: { images, collection } }) => {
             <Box pt='2' mb={3}>
               © {new Date().getFullYear()}, All Rights Reserved.
             </Box>
-            <Box>
-              <Newsletter />
-            </Box>
+          
           </Box>
           {collection?.map(
             ({ text, buttons }, index) =>
