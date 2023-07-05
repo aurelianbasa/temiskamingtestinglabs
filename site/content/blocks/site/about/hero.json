@@ -1,6 +1,12 @@
 {
   "text": [
     {
+      "text": "ABOUT US",
+      "color": "alpha",
+      "variant": "h4",
+      "align": ["left"]
+    },
+    {
       "text": "Overview",
       "color": "omegaDarker",
       "variant": "h1",

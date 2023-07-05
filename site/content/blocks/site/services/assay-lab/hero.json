@@ -15,7 +15,7 @@
     {
       "text": "Temiskaming Testing Laboratories (TTL) Geochemistry Department offers a suite of assay/geochemical analytical services including but not limited to determination of precious metals (Au, Ag, Pd, Pt) by fire assay with instrumental and/or gravimetric finish, aqua regia, 4-acid digestion for multielement (Cu, Co, Ni, Pb, Cr and Zn) by AAS.",
       "color": "omegaDark",
-      "variant": "medium",
+      "variant": "h5",
       "align": ["left"]
     }
   ],
@@ -24,7 +24,6 @@
       "src": "../../../../assets/site/services/assay-lab/hero.jpg",
       "alt": "alt text",
       "radius": "lg",
-      "shadow": "xl",
       "effects": ["fadeInLeft"]
     }
   ]

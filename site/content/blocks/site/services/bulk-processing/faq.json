@@ -1,17 +1,17 @@
 {
   "text": [
     {
-      "text": "We Are Here To Help You",
+      "text": "ABOUT OUR SERVICES",
       "color": "beta",
       "variant": "h4"
     },
     {
-      "text": "About Our Services",
-      "variant": "h1"
+      "text": "We Are Here To Help You",
+      "variant": "h2"
     },
     {
       "text": "We provide custom solutions to all levels of operations.",
-      "variant": "medium"
+      "variant": "h3"
     }
   ],
   "collection": [
@@ -22,7 +22,8 @@
           "variant": "h5"
         },
         {
-          "text": "From analyzing your material we can tailor a testing and processing solution you can use to inform your exploration and development programs."
+          "text": "From analyzing your material we can tailor a testing and processing solution you can use to inform your exploration and development programs.",
+          "variant": "p"
         }
       ],
       "icon": {
@@ -38,7 +39,8 @@
           "variant": "h5"
         },
         {
-          "text": "When done effectively it can cut down overall costs significantly by quantifying the value of a deposit, and provide better quality control."
+          "text": "When done effectively it can cut down overall costs significantly by quantifying the value of a deposit, and provide better quality control.",
+          "variant": "p"
         }
       ],
 
@@ -55,7 +57,8 @@
           "variant": "h5"
         },
         {
-          "text": "Recent renovation has upgraded the facility to process both precious and base metals."
+          "text": "Recent renovation has upgraded the facility to process both precious and base metals.",
+          "variant": "p"
         }
       ],
       "icon": {
@@ -71,7 +74,8 @@
           "variant": "h5"
         },
         {
-          "text": "Silver and Gold bullion has been poured from both primary and secondary sources."
+          "text": "Silver and Gold bullion has been poured from both primary and secondary sources.",
+          "variant": "p"
         }
       ],
 

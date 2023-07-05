@@ -24,8 +24,7 @@
     {
       "src": "../../../../assets/site/services/overview.jpg",
       "alt": "alt text",
-      "radius": "lg",
-      "shadow": "lg"
+      "radius": "lg"
     }
   ]
 }
