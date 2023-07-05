@@ -6,28 +6,26 @@
     {
       "text": "Schedule a Consultation",
       "color": "omegaLighter",
-      "variant": "h3"
+      "variant": "h4"
     },
     {
       "text": "Make your impact by mastering your material",
       "color": "white",
-      "variant": "h1"
+      "variant": "h3"
     }
   ],
   "images": [
     {
       "src": "../../../../assets/site/services/assay-lab/team.jpg",
       "alt": "alt text",
-      "radius": "lg",
-      "shadow": "lg",
-      "effects": ["fadeInLeft"]
+      "effects": ["fadeInUp"]
     }
   ],
   "buttons": [
     {
       "text": "Contact Us",
-      "type": "MODAL",
-      "link": "contact",
+      "type": "PAGE",
+      "link": "/contact",
       "variant": "secondary"
     }
   ]

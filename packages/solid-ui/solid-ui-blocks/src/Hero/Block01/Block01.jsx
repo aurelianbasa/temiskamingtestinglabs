@@ -3,7 +3,6 @@ import { Container, Flex, Box, css } from 'theme-ui'
 import ContentText from '@solid-ui-components/ContentText'
 import Reveal from '@solid-ui-components/Reveal'
 import Divider from '@solid-ui-components/Divider'
-import FlexImage from '@solid-ui-components/FlexImage'
 import ContentImages from '@solid-ui-components/ContentImages'
 import QuickSignupForm from '@solid-ui-components/QuickSignupForm'
 import ContentButtons from '@solid-ui-components/ContentButtons'
@@ -33,14 +32,12 @@ const HeroBlock01 = ({
           textAlign: `left`
         }}
       >
-        <FlexImage>
         <ContentImages
           content={{ images }}
           loading='eager'
           reverse={reverse}
           imagePosition='center'
         />
-</FlexImage>
       </Box>
       <Box
         sx={{
