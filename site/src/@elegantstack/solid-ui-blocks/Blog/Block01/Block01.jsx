@@ -104,7 +104,7 @@ const BlogBlock01 = ({ content: { text, collection, buttons } }) => (
                 >
                   <Flex as='article' sx={styles.content}>
                     {/* Image */}
-                    <Box sx={{ flex: [2, 1], m: 2, mb: [null, null, null, 0] }}>
+                    <Box sx={{ flex: [0, 1], m: 2, mb: [null, null, null, 0] }}>
                       
                         <ContentImages
                           content={{ images }}
