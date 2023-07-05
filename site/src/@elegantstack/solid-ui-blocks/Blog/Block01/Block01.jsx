@@ -96,7 +96,12 @@ const BlogBlock01 = ({ content: { text, collection, buttons } }) => (
                 <ContentContainer
                   content={container}
                   variant='cards.primary'
-                  sx={styles.card}
+                  sx={{
+                    flexBasis: [`1/2`, null, `1/3`, `1/5`],
+                    flexGrow: 1,
+                    maxWidth: 240,
+                    p: 3
+                  }}
                 >
                   <Flex as='article' sx={styles.content}>
                     {/* Image */}
