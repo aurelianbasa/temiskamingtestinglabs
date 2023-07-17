@@ -15,6 +15,7 @@
     {
       "src": "../../../assets/site/index/hero.jpg",
       "alt": "alt text",
+      "radius": "lg",
       "objectPosition": "center bottom !important",
       "effects": ["fadeInLeft"],
       "position": {

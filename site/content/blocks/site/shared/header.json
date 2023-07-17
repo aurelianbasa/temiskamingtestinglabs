@@ -39,12 +39,6 @@
               "variant": "links.nav-dark"
             },
             {
-              "text": "Bulk Processing",
-              "type": "PAGE",
-              "link": "/services/bulk-processing",
-              "variant": "links.nav-dark"
-            },
-            {
               "text": "Geological Services",
               "type": "PAGE",
               "link": "/services/geological-services",
