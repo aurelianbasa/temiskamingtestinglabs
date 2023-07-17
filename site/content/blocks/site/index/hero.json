@@ -13,7 +13,7 @@
   ],
   "images": [
     {
-      "src": "../../../assets/site/index/hero.png",
+      "src": "../../../assets/site/index/hero.jpg",
       "alt": "alt text",
       "objectPosition": "center bottom !important",
       "effects": ["fadeInLeft"],

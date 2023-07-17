@@ -7,7 +7,6 @@ import Divider from '@solid-ui-components/Divider'
 import ModalSimple from '@solid-ui-blocks/Modal/Block02'
 import Header from '@solid-ui-blocks/Header/Block01'
 import Hero from '@solid-ui-blocks/Hero/Block01'
-import Tabs from '@solid-ui-components/Tabs'
 import BuildBrand from '@solid-ui-blocks/FeaturesWithPhoto/Block07'
 import Gallery from '@solid-ui-blocks/Blog/Block01'
 import Blog from '@solid-ui-blocks/Blog/Block01'
@@ -38,16 +37,7 @@ const IndexPage = props => {
       <FeatureOne content={content['feature-one']} />
       <Divider space='5' />
       <Divider space='5' />
-      <Container variant='wide' sx={styles.tabsContainer}>
-        <Tabs space={3}>
-          <Gallery content={content['gallery-one']} />
 					<Gallery content={content['gallery-two']} />
-        </Tabs>
-      </Container>
-      <Divider space='5' />
-      <Container variant='full' sx={styles.buildBrandContainer}>
-        <BuildBrand content={content['build-brand']} />
-      </Container>
       <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>
