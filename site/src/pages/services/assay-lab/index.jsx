@@ -39,8 +39,6 @@ const AssayPage = props => {
       <Divider space='2' />
       <Table content={content['precious-metal-assay']} />
       <Divider space='5' />
-      <Table content={content['gold-silver-concentrate']} />
-      <Divider space='5' />
       <Team content={content['team']} />
       <Divider space='5' />
       <Divider space='5' />
