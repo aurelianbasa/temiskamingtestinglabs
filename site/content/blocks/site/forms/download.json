@@ -7,7 +7,7 @@
       "space": 2
     },
     {
-      "text": "Both forms use PDF Format and require Adobe Acrobat Reader to open.",
+      "text": "All of our forms use PDF Format and require Adobe Acrobat Reader to open.",
       "variant": "h5"
     }
   ],
@@ -23,6 +23,12 @@
       "type": "PAGE",
       "link": "/creditapplication.pdf",
       "variant": "primary"
+    },
+    {
+      "text": "Schedule of Fees",
+      "type": "PAGE",
+      "link": "/schedule.pdf",
+      "variant": "primary-light"
     }
   ]
 }

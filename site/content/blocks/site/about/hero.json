@@ -1,38 +1,36 @@
 {
   "text": [
     {
-      "text": "ABOUT US",
+      "text": "LAB MANAGER",
       "color": "alpha",
       "variant": "h4",
-      "align": ["left"]
+      "align": ["right"]
     },
     {
-      "text": "Overview",
+      "text": "Anthony Dapaah **Ph. D.**",
       "color": "omegaDarker",
       "variant": "h1",
-      "align": ["left"]
+      "align": ["right"]
     },
     {
-      "text": "We are a team of mining and geotechnical experts with deep roots in the area. The facility known as Temiskaming Testing Labs is based in the historic town of Cobalt and has built a reputation around its processing of local ores, particularly silver ores.",
+      "text": "Anthony Dapaah has over 30 years in-depth experience in the laboratory industry, including 20 years in laboratory operations/management.  After obtaining his bachelor's degree,  Dr. Dapaah held an assay lab position as an assayer for Tarkwa Goldfields and later joined Analabs Ghana Ltd (subsidiary of Analabs, Australia) as a senior chemist.   Dr. Dapaah obtained his Masters and PhD degrees in Japan and worked with Sumitomo Metals Technology in Japan as section manager for the ultra trace metals analysis department from 1998 to 2004; where he led a team in the development of improved analytical methods for the determination of ultratrace impurities in semiconductor related materials and in high purity metal alloys.",
       "color": "omegaDark",
       "variant": "h5",
-      "align": ["left"]
+      "align": ["right"]
+    },
+    {
+      "text": "On immigrating to Canada, Dr. Dapaah worked with Maxxam Analytics (now Bureau Veritas) as supervisor in the inorganic processing department for 4 years.  He joined Agat Laboratories, Environmental Division as inorganic lab manager and successfully initiated several kaizen projects.  After 6 years with Agat Laboratories, Dr. Dapaah worked with SGS in New Jersey as general chemistry lab manager for 1 year before rejoining Agat Laboratories Mining Geochemistry Division as laboratory manager.",
+      "color": "omegaDark",
+      "variant": "h5",
+      "align": ["right"]
     }
   ],
   "images": [
     {
-      "src": "../../../assets/site/about/hero.jpg",
+      "src": "../../../assets/site/about/profile.png",
       "alt": "alt text",
       "radius": "lg",
       "effects": ["fadeInLeft"]
-    }
-  ],
-  "buttons": [
-    {
-      "text": "Contact Us",
-      "type": "PAGE",
-      "link": "/contact",
-      "variant": "primary"
     }
   ]
 }

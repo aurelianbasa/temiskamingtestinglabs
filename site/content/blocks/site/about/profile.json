@@ -1,0 +1,38 @@
+{
+  "text": [
+    {
+      "text": "ABOUT US",
+      "color": "alpha",
+      "variant": "h4",
+      "align": ["left"]
+    },
+    {
+      "text": "Overview",
+      "color": "omegaDarker",
+      "variant": "h1",
+      "align": ["left"]
+    },
+    {
+      "text": "We are a team of mining and geotechnical experts with deep roots in the area. The facility known as Temiskaming Testing Labs is based in the historic town of Cobalt and has built a reputation around its processing of local ores, particularly silver ores.",
+      "color": "omegaDark",
+      "variant": "h5",
+      "align": ["left"]
+    }
+  ],
+  "images": [
+    {
+      "src": "../../../assets/site/about/hero.jpg",
+      "alt": "alt text",
+      "radius": "lg",
+      "effects": ["fadeInLeft"]
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Contact Us",
+      "type": "PAGE",
+      "link": "/contact",
+      "variant": "primary"
+    }
+  ]
+}

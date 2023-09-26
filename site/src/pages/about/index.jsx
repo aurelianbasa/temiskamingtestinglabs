@@ -31,6 +31,8 @@ const AboutUs01 = props => {
       <Divider space='5' />
       <Content content={content['content-one']} />
       <Divider space='5' />
+      <Hero content={content['profile']} reverse />
+      <Divider space='5' />
       <FeatureTwo content={content['feature-two']} reverse />
       <Divider space='5' />
       <Container variant='wide' sx={styles.contentTwoContainer}>
