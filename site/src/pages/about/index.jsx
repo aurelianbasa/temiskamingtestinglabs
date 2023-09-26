@@ -26,12 +26,12 @@ const AboutUs01 = props => {
       {/* Blocks */}
       <Header content={content['header']} />
       <Container variant='full' sx={styles.heroContainer}>
-        <Hero content={content['hero']} />
+        <Hero content={content['profile']} />
       </Container>
       <Divider space='5' />
       <Content content={content['content-one']} />
       <Divider space='5' />
-      <Hero content={content['profile']} reverse />
+      <Hero content={content['hero']} reverse />
       <Divider space='5' />
       <FeatureTwo content={content['feature-two']} reverse />
       <Divider space='5' />
