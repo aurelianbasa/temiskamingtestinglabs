@@ -31,7 +31,7 @@ const AboutUs01 = props => {
       <Divider space='5' />
       <Content content={content['content-one']} />
       <Divider space='5' />
-      <Hero content={content['hero']} reverse />
+      <Hero content={content['hero']} />
       <Divider space='5' />
       <FeatureTwo content={content['feature-two']} reverse />
       <Divider space='5' />
