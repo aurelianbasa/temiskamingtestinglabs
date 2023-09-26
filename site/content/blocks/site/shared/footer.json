@@ -15,6 +15,12 @@
       ],
       "buttons": [
         {
+          "text": "(705) 679-5500",
+          "type": "SUB",
+          "link": "/",
+          "variant": "links.nav-light"
+        },
+        {
           "text": "1 Presley Street",
           "type": "SUB",
           "link": "/",
@@ -28,12 +34,6 @@
         },
         {
           "text": "P0J 1C0",
-          "type": "SUB",
-          "link": "/",
-          "variant": "links.nav-light"
-        },
-        {
-          "text": "Canada",
           "type": "SUB",
           "link": "/",
           "variant": "links.nav-light"
