@@ -3,6 +3,7 @@ import { Link as GLink } from 'gatsby'
 import { Container, Box, Flex } from 'theme-ui'
 import ContentText from '@solid-ui-components/ContentText'
 import ContentImages from '@solid-ui-components/ContentImages'
+import PoweredByGatsby from '@solid-ui-components/PoweredByGatsby'
 import ContentButtons from '@solid-ui-components/ContentButtons'
 import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 
@@ -35,6 +36,9 @@ const FooterBlock01 = ({ content: { images, collection } }) => {
             </Box>
             <Box pt='2' mb={3}>
               © {new Date().getFullYear()}, All Rights Reserved.
+            </Box>
+            <Box>
+              <PoweredByGatsby />
             </Box>
           
           </Box>

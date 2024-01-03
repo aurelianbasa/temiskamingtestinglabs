@@ -16,7 +16,7 @@ const styles = {
       color: `#663399`
     },
     svg: {
-      height: 24,
+      height: 12,
       ml: 2
     }
   }
@@ -26,7 +26,7 @@ const PoweredByGatsby = () => (
   <Link
     target='_blank'
     title='Gatsby'
-    href='https://www.gatsbyjs.org'
+    href='https://www.resourceactive.com'
     rel='noopener'
     sx={styles.link}
   >
