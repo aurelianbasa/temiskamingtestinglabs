@@ -17,6 +17,7 @@ const styles = {
     },
     svg: {
       height: 18,
+      width: 18,
       mr: 2
     }
   }
