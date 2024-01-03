@@ -31,7 +31,7 @@ const PoweredByGatsby = () => (
     sx={styles.link}
   >
     {gatsbySVG && <SVG src={gatsbySVG} />}
-    Designed By Resource Active
+    {' '}Designed By Resource Active
   </Link>
 )
 
