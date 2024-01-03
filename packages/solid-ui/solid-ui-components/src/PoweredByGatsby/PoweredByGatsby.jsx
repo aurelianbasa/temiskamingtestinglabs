@@ -13,11 +13,11 @@ const styles = {
       color: `heading`
     },
     ':hover': {
-      color: `#663399`
+      color: `#9cc2dd`
     },
     svg: {
-      height: 18,
-      ml: 0
+      height: 16,
+      ml: 2
     }
   }
 }
@@ -30,8 +30,8 @@ const PoweredByGatsby = () => (
     rel='noopener'
     sx={styles.link}
   >
-    Designed By Resource Active
     {gatsbySVG && <SVG src={gatsbySVG} />}
+    Designed By Resource Active
   </Link>
 )
 
