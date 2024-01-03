@@ -17,7 +17,7 @@ const styles = {
     },
     svg: {
       height: 16,
-      ml: 2
+      ml: 0
     }
   }
 }
