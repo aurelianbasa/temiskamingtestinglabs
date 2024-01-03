@@ -16,8 +16,8 @@ const styles = {
       color: `#9cc2dd`
     },
     svg: {
-      height: 16,
-      mr: 8
+      height: 18,
+      mr: 2
     }
   }
 }
@@ -31,7 +31,7 @@ const PoweredByGatsby = () => (
     sx={styles.link}
   >
     {gatsbySVG && <SVG src={gatsbySVG} />}
-    {' '}Designed By Resource Active
+    Designed By Resource Active
   </Link>
 )
 
