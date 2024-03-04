@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link as GLink } from 'gatsby'
-import { Flex, Card, Grid, Link, Text, Heading } from 'theme-ui'
+import { Flex, Card, Grid, Link, Heading } from 'theme-ui'
 import Section from '@components/Section'
 
 const styles = {
@@ -37,15 +37,20 @@ const TableOfContentsExpanded = ({
           }}
         >
           {items.map((item, index) => (
-            <Link as={GLink} to={item.url} variant='vertical'>
+            <Link
+              key={`item-${index}`}
+              as={GLink}
+              to={item.url}
+              variant='vertical'
+            >
               <Flex sx={{ alignItems: `center` }}>
-                <Heading variant='h3' sx={styles.number}>
+                <Heading variant='h3' as='div' sx={styles.number}>
                   {(index + 1).toLocaleString('en-US', {
                     minimumIntegerDigits: 2,
                     useGrouping: false
                   })}
                 </Heading>
-                <Heading variant='h4' sx={styles.text}>
+                <Heading variant='h4' as='div' sx={styles.text}>
                   {item.title}
                 </Heading>
               </Flex>

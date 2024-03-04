@@ -34,9 +34,9 @@ const logoQuery = graphql`
       childImageSharp {
         gatsbyImageData(
           width: 150
-          layout: FIXED
+          layout: CONSTRAINED
           quality: 100
-          placeholder: TRACED_SVG
+          placeholder: NONE
         )
       }
     }
@@ -47,9 +47,9 @@ const logoQuery = graphql`
       childImageSharp {
         gatsbyImageData(
           width: 150
-          layout: FIXED
+          layout: CONSTRAINED
           quality: 100
-          placeholder: TRACED_SVG
+          placeholder: NONE
         )
       }
     }

@@ -18,9 +18,12 @@ module.exports = pluginOptions => {
   const createDemoPages = getValue(pluginOptions, 'createDemoPages', true)
   const colorMode = getValue(pluginOptions, 'colorMode', true)
 
+  const isDevelopment = process?.env?.NODE_ENV === 'development'
+
   const pageContextOptions = {
     createDemoPages,
-    colorMode
+    colorMode,
+    isDevelopment
   }
 
   return {

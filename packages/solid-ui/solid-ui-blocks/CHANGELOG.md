@@ -3,6 +3,57 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.0](https://github.com/ElegantStack/gatsby-themes/compare/@elegantstack/solid-ui-blocks@3.4.0...@elegantstack/solid-ui-blocks@4.0.0) (2023-03-11)
+
+
+### Features
+
+* upgrade to Gatsby v5 and update other dependencies ([aba9eb2](https://github.com/ElegantStack/gatsby-themes/commit/aba9eb243ebe39f0f02885b9693703a316c0a91f))
+
+
+### Bug Fixes
+
+* fix react warnings and hydration errors ([cd0f1e9](https://github.com/ElegantStack/gatsby-themes/commit/cd0f1e9dc127a426c95550e46b925047f1e7d1ca))
+
+
+
+
+## [3.4.0](https://github.com/ElegantStack/gatsby-themes/compare/@elegantstack/solid-ui-blocks@3.3.0...@elegantstack/solid-ui-blocks@3.4.0) (2022-02-28)
+
+
+### Features
+
+* upgrade Gatsby and other dependencies ([c42e47d](https://github.com/ElegantStack/gatsby-themes/commit/c42e47d5aea6364d7671bf5f75fbed7cee431c73))
+
+
+### Bug Fixes
+
+* **solid-ui-blocks:** fix React key warning in FeaturesWithPhoto/Block01 ([5bd3168](https://github.com/ElegantStack/gatsby-themes/commit/5bd316899ed0a4fc23968f9b56a4556cbf9a291e))
+
+
+### Refactor
+
+* **solid-ui-blocks, gatsby-blocks-core:** hide block debug information in production mode ([782779e](https://github.com/ElegantStack/gatsby-themes/commit/782779e8ba0997d1159cc745f4f07035fde9bd6f))
+* **solid-ui-blocks:** add scrollbar to Modal/Block02 ([04dd7fe](https://github.com/ElegantStack/gatsby-themes/commit/04dd7fe6a947d0fd031b8411d36f7244e76ff57e))
+
+
+
+
+## [3.3.0](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/solid-ui-blocks@3.2.0...@elegantstack/solid-ui-blocks@3.3.0) (2021-11-15)
+
+
+### Features
+
+* upgrade to Gatsby v4 ([e481e4a](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/e481e4ab705d20c9d3daf3b2048f29eef308f420))
+
+
+### Bug Fixes
+
+* **solid-ui-blocks:** fix footer menu overflow in mobile ([fd80f08](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/fd80f080097da9596cd103ff521a6c3045c9f706))
+
+
+
+
 ## [3.2.0](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/solid-ui-blocks@3.1.0...@elegantstack/solid-ui-blocks@3.2.0) (2021-06-17)
 
 

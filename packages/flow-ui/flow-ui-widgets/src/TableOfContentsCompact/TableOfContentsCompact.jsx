@@ -30,9 +30,15 @@ const TableOfContentsCompact = ({ tableOfContents: { items = [] } }) =>
     <Section aside title='Table Of Contents'>
       <Card variant='paper'>
         {items.map((item, index) => (
-          <Link as={GLink} to={item.url} variant='vertical' sx={styles.item}>
+          <Link
+            key={`item-${index}`}
+            as={GLink}
+            to={item.url}
+            variant='vertical'
+            sx={styles.item}
+          >
             <Flex sx={{ alignItems: `baseline` }}>
-              <Heading variant='h5' sx={styles.number}>
+              <Heading variant='h5' as='div' sx={styles.number}>
                 {index + 1}
               </Heading>
               <Text sx={styles.text}>{item.title}</Text>

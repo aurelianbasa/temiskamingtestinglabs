@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { css } from 'theme-ui'
 import Reveal from '@solid-ui-components/Reveal'
+import { ModalContext } from '@solid-ui-components/Modal'
+import { TabsContext } from '@solid-ui-components/Tabs'
+import { buildLinkProps } from '@solid-ui-components/ContentButtons'
 
 const ImageComponent = ({ image, sx, ...props }) => {
   if (!image?.src) return null
@@ -34,9 +37,7 @@ const ImageComponent = ({ image, sx, ...props }) => {
           borderWidth: image.border || 0,
           borderColor: `white`,
           boxShadow: image.shadow || `unset`,
-          img: {
-            borderRadius: image.radius || `unset`
-          },
+          borderRadius: image.radius || `unset`,
           ...sx
         })}
         {...props}
@@ -57,7 +58,22 @@ const ContentImages = ({
   loading,
   sx
 }) => {
-  return images ? (
+  const { setActiveModal } = useContext(ModalContext)
+  const { setActiveTab } = useContext(TabsContext)
+
+  if (!images) return null
+
+  const { link } = images[0] || {}
+
+  const linkProps = link
+    ? buildLinkProps({
+        content: link,
+        setActiveModal,
+        setActiveTab
+      })?.linkProps
+    : {}
+
+  return (
     <>
       <Reveal
         effect={imageEffect || (reverse ? 'fadeInRight' : 'fadeInLeft')}
@@ -67,8 +83,10 @@ const ContentImages = ({
               ? 'center'
               : reverse
               ? `right`
-              : undefined
+              : undefined,
+          cursor: link ? `pointer` : `unset`
         })}
+        {...linkProps}
       >
         <ImageComponent
           image={images[0]}
@@ -101,7 +119,7 @@ const ContentImages = ({
           )
       )}
     </>
-  ) : null
+  )
 }
 
 ContentImages.defaultProps = {

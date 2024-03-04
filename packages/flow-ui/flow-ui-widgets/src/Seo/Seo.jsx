@@ -17,7 +17,8 @@ const Seo = ({
   timeToRead,
   children,
   thumbnail,
-  siteUrl
+  siteUrl,
+  locale
 }) => {
   const site = useSiteMetadata()
 
@@ -30,7 +31,9 @@ const Seo = ({
   const imageSrc = getSrc(getImageVariant(thumbnail, 'hero'))
   const imageUrl =
     imageSrc &&
-    (imageSrc.startsWith('//') ? imageSrc : siteUrl && `${siteUrl}${imageSrc}`)
+    (imageSrc.startsWith('//')
+      ? 'https:' + imageSrc
+      : siteUrl && `${siteUrl}${imageSrc}`)
 
   /**
    * Meta Tags
@@ -47,11 +50,12 @@ const Seo = ({
     { property: 'og:site_name', content: site.name },
     { property: 'og:image', content: imageUrl },
 
-    { name: 'twitter:card', content: 'summary' },
+    { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:site', content: site.name },
     { name: 'twitter:title', content: title },
     { name: 'twitter:description', content: description },
-    { name: 'twitter:creator', content: twitter.url }
+    { name: 'twitter:creator', content: twitter.url },
+    { name: 'twitter:image', content: imageUrl }
   ]
 
   if (keywords && keywords.length > 0) {
@@ -87,7 +91,12 @@ const Seo = ({
       '@type': 'Article',
       headline: title,
       image: imageUrl,
-      datePublished: date
+      datePublished: date,
+      author: {
+        '@type': 'Person',
+        name: author.name,
+        url: author.slug
+      }
     })
     scripts.push(articleJsonLd)
   }
@@ -118,7 +127,7 @@ const Seo = ({
   return (
     <Helmet
       htmlAttributes={{
-        lang: 'en'
+        lang: locale || 'en'
       }}
       title={title}
       titleTemplate={`%s | ${site.title}`}

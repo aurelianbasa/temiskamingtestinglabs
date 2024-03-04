@@ -1,10 +1,8 @@
 const button = {
-  fontFamily: `heading`,
-  fontSize: `18px`,
+  fontFamily: `body`,
   display: `inline-flex`,
   minWidth: `10rem`,
   alignItems: `center`,
-  fontWeight: `bolder`,
   justifyContent: `space-evenly`,
   outline: 0,
   userSelect: `none`,

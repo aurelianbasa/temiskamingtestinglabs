@@ -3,6 +3,73 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.0](https://github.com/ElegantStack/gatsby-themes/compare/@elegantstack/gatsby-starter-flexiblocks@3.9.0...@elegantstack/gatsby-starter-flexiblocks@4.0.0) (2023-03-11)
+
+
+### Features
+
+* upgrade to Gatsby v5 and update other dependencies ([aba9eb2](https://github.com/ElegantStack/gatsby-themes/commit/aba9eb243ebe39f0f02885b9693703a316c0a91f))
+
+
+### Bug Fixes
+
+* fix react warnings and hydration errors ([cd0f1e9](https://github.com/ElegantStack/gatsby-themes/commit/cd0f1e9dc127a426c95550e46b925047f1e7d1ca))
+
+
+### Refactor
+
+* enable DEV_SSR in gatsby ([abf906d](https://github.com/ElegantStack/gatsby-themes/commit/abf906dfe01a534371b94421296134df133ffcfa))
+* **gatsby-starter-flexiblocks:** change map demo location ([1aadb35](https://github.com/ElegantStack/gatsby-themes/commit/1aadb3519fb040fabb5451f4f312c468f79486b7))
+* refactor code for Gatsby v5 support ([f3852fd](https://github.com/ElegantStack/gatsby-themes/commit/f3852fd3b880cb7b77271f358b092ce730797334))
+* remove lerna from dependencies ([09c36c4](https://github.com/ElegantStack/gatsby-themes/commit/09c36c47fa2f488348a9f962acf2d696ff1dcde4))
+
+
+
+
+## [3.9.0](https://github.com/ElegantStack/gatsby-themes/compare/@elegantstack/gatsby-starter-flexiblocks@3.8.0...@elegantstack/gatsby-starter-flexiblocks@3.9.0) (2022-05-18)
+
+
+### Features
+
+* Upgrade Gatsby and React and other depenedencies ([144ccc1](https://github.com/ElegantStack/gatsby-themes/commit/144ccc14a11f5f5cb5721d744922a3f164410f17))
+
+
+
+## [3.8.0](https://github.com/ElegantStack/gatsby-themes/compare/@elegantstack/gatsby-starter-flexiblocks@3.7.0...@elegantstack/gatsby-starter-flexiblocks@3.8.0) (2022-02-28)
+
+
+### Features
+
+* upgrade Gatsby and other dependencies ([c42e47d](https://github.com/ElegantStack/gatsby-themes/commit/c42e47d5aea6364d7671bf5f75fbed7cee431c73))
+
+
+
+
+## [3.7.0](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/gatsby-starter-flexiblocks@3.6.0...@elegantstack/gatsby-starter-flexiblocks@3.7.0) (2021-11-15)
+
+
+### Features
+
+* upgrade to Gatsby v4 ([e481e4a](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/e481e4ab705d20c9d3daf3b2048f29eef308f420))
+
+
+
+
+## [3.6.0](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/gatsby-starter-flexiblocks@3.5.0...@elegantstack/gatsby-starter-flexiblocks@3.6.0) (2021-09-07)
+
+
+### Features
+
+* upgrade Gatsby and dependencies ([d59a731](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/d59a731107925db1a03367d9a24d7c40dae622e6))
+
+
+### Refactor
+
+* **gatsby-starter-flexiblocks:** remove unused assets/logo.png ([1973a43](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/1973a43d5cddf9e0b53e470a251bfd03597a2ac4))
+
+
+
+
 ## [3.5.0](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/gatsby-starter-flexiblocks@3.4.1...@elegantstack/gatsby-starter-flexiblocks@3.5.0) (2021-08-19)
 
 

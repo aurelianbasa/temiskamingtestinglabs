@@ -68,6 +68,9 @@ const buildLinkProps = ({
         target
       }
       break
+    case 'SUB':
+      linkProps = { as: 'div' }
+      break
     default:
       linkProps = {}
       break

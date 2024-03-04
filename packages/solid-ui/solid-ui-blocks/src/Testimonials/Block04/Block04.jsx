@@ -61,6 +61,7 @@ const TestimonialsBlock04 = ({ content: { text, collection }, reverse }) => {
           ({ text, avatar, icon }, index) =>
             index === state && (
               <Flex
+                key={`block-${index}`}
                 sx={{
                   alignItems: [null, `center`],
                   flexDirection: [
@@ -114,6 +115,7 @@ const TestimonialsBlock04 = ({ content: { text, collection }, reverse }) => {
         <Box sx={{ textAlign: `center` }}>
           {Array.from({ length: collection.length }, (_, i) => (
             <FaDotCircle
+              key={i}
               size={24}
               css={css(styles.control)}
               className={i === state ? 'active' : undefined}

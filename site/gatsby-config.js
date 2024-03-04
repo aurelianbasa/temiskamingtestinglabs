@@ -7,34 +7,6 @@ module.exports = {
     DEV_SSR: false
   },
   plugins: [
-    // {
-    //   resolve: 'gatsby-source-contentful',
-    //   options: {
-    //     spaceId: process.env.CONTENTFUL_SPACE_ID,
-    //     accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
-    //   }
-    // },
-    // {
-    //   resolve: 'gatsby-plugin-algolia',
-    //   options: {
-    //     appId: process.env.GATSBY_ALGOLIA_APP_ID,
-    //     apiKey: process.env.ALGOLIA_ADMIN_KEY,
-    //     chunkSize: 10000,
-    //     queries: require('@elegantstack/gatsby-blog-algolia/src/queries')
-    //   }
-    // },
-    // {
-    //   resolve: 'gatsby-plugin-disqus',
-    //   options: {
-    //     shortname: process.env.DISQUS_SHORTNAME
-    //   }
-    // },
-    // {
-    //   resolve: 'gatsby-plugin-mailchimp',
-    //   options: {
-    //     endpoint: process.env.MAILCHIMP_END_POINT
-    //   }
-    // },
     {
       resolve: 'gatsby-plugin-manifest',
       options: {

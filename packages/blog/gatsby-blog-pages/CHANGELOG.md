@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.2.0](https://github.com/ElegantStack/gatsby-themes/compare/@elegantstack/gatsby-blog-pages@3.1.1...@elegantstack/gatsby-blog-pages@3.2.0) (2022-05-18)
+
+
+### Features
+
+* Upgrade Gatsby and React and other depenedencies ([144ccc1](https://github.com/ElegantStack/gatsby-themes/commit/144ccc14a11f5f5cb5721d744922a3f164410f17))
+
+
+
+
+### [3.1.1](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/gatsby-blog-pages@3.1.0...@elegantstack/gatsby-blog-pages@3.1.1) (2021-09-07)
+
+
+### Bug Fixes
+
+* **gatsby-blog-pages:** fix react key warning in authors page ([a11f686](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/commit/a11f686708bb3b1d8b4af70a512ac6df160e362d))
+
+
+
+
 ## [3.1.0](https://gitlab.com/alimoosavi15/gatsby-theme-flexiblog/compare/@elegantstack/gatsby-blog-pages@3.0.0...@elegantstack/gatsby-blog-pages@3.1.0) (2021-08-01)
 
 

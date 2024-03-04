@@ -5,7 +5,9 @@ module.exports = pluginOptions => {
   const services = {
     algolia: getValue(pluginOptions, 'services.algolia', false),
     mailchimp: getValue(pluginOptions, 'services.mailchimp', false),
-    disqus: getValue(pluginOptions, 'services.disqus', false)
+    disqus: getValue(pluginOptions, 'services.disqus', false),
+    graphComment: getValue(pluginOptions, 'services.graphComment', false),
+    facebookComment: getValue(pluginOptions, 'services.facebookComment', false)
   }
 
   const sources = [
@@ -37,12 +39,17 @@ module.exports = pluginOptions => {
       name: 'strapi',
       enabled: getValue(pluginOptions, 'sources.strapi', false),
       sourcePlugin: 'gatsby-source-strapi',
+      sourcePluginVersion: '2.0.0',
+      sourcePluginUpgradeDocs:
+        'https://elegantstack.netlify.app/flexiblog/sourcing-data/strapi-cms/#migrating-from-strapi-v3-to-v4',
       imageNodeType: 'ImageSharp',
       typeDefs: typesDefs.strapi
     }
   ]
 
-  const siteUrl = pluginOptions.siteUrl || null
+  const siteUrl = pluginOptions.siteUrl
+    ? pluginOptions.siteUrl.replace(/\/$/, '')
+    : null
 
   const basePath = pluginOptions.basePath || '/'
 
@@ -120,6 +127,9 @@ module.exports = pluginOptions => {
   )
   const imageQuality = getValue(pluginOptions, 'imageQuality', 75)
 
+  const gatsbyRemarkPlugins = getValue(pluginOptions, 'gatsbyRemarkPlugins', [])
+  const remarkPlugins = getValue(pluginOptions, 'remarkPlugins', [])
+
   const pageContextOptions = {
     paginatePostsPage,
     basePath,
@@ -146,6 +156,8 @@ module.exports = pluginOptions => {
     paginatePostsPage,
     collectionPostsPerPage,
     slugSanitizeRegex,
-    pageContextOptions
+    pageContextOptions,
+    gatsbyRemarkPlugins,
+    remarkPlugins
   }
 }
