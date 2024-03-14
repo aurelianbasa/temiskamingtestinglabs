@@ -8,38 +8,38 @@ const heading = {
 export default {
   h1: {
     ...heading,
-    fontSize: 9,
+    fontSize: [6, 7],
     maxWidth: 650,
     mx: `auto`,
     mb: 4
   },
   h2: {
     ...heading,
-    fontSize: 8,
+    fontSize: 6,
     maxWidth: 650,
     mx: `auto`,
     mb: 4
   },
   h3: {
     ...heading,
-    fontSize: 7
+    fontSize: 5
   },
   h4: {
     ...heading,
-    fontSize: 6
+    fontSize: 4
   },
   h5: {
     ...heading,
-    fontSize: 5,
+    fontSize: 3,
     mb: 2
   },
   h6: {
     ...heading,
-    fontSize: 4,
+    fontSize: 2,
     mb: 0
   },
   medium: {
-    fontSize: 4,
+    fontSize: 3,
     mb: 3
   },
   small: {
@@ -51,7 +51,6 @@ export default {
     m: 0
   },
   p: {
-    fontSize: 4,
     fontFamily: `body`,
     mb: 3
   }

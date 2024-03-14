@@ -15,12 +15,15 @@ export const query = graphql`
     }
     width
     maxWidth
+    link {
+      ...BlockContentButton
+    }
     src {
       extension
       publicURL
       childImageSharp {
         gatsbyImageData(
-          placeholder: TRACED_SVG
+          placeholder: BLURRED
           transformOptions: { cropFocus: NORTH }
           outputPixelDensities: [0.5, 1]
           quality: 90

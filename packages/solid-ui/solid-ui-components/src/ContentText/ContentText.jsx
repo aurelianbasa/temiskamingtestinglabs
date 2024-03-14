@@ -25,7 +25,7 @@ const ContentText = ({ as: CustomComponent, content, children, ...props }) => {
 
     contentRest.mb = contentRest.space
 
-    const { variant, color, align, ...mergedProps } = mergeWith(
+    const { variant, color, ...mergedProps } = mergeWith(
       {},
       props,
       contentRest,
@@ -54,10 +54,7 @@ const ContentText = ({ as: CustomComponent, content, children, ...props }) => {
         variant={variant}
         as={variant}
         color={color}
-        sx={{
-          ...(color === 'gradient' ? gradient : {}),
-          textAlign: align || undefined
-        }}
+        sx={color === 'gradient' ? gradient : {}}
         {...mergedProps}
       >
         {children || textWithSpecial || text}
@@ -67,7 +64,6 @@ const ContentText = ({ as: CustomComponent, content, children, ...props }) => {
         key={`item-${index}`}
         variant={variant}
         color={color}
-        sx={{ textAlign: align || undefined }}
         {...mergedProps}
       >
         {children || text}

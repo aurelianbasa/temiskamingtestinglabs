@@ -64,7 +64,7 @@ const ContentForm = ({ id, form: { action, fields, buttons } = {} }) => {
       ...formValues,
       [formId]: {
         ...formValues?.[formId],
-        [e.target.name]: e.target.value
+        [e.target.name]: e.target.checked || e.target.value
       }
     })
   }

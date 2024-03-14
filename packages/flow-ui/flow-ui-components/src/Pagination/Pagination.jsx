@@ -11,7 +11,7 @@ const styles = {
   wrapper: {
     justifyContent: `space-between`,
     alignItems: `center`,
-    textAlign: `left`,
+    textAlign: `center`,
     borderRadius: `full`,
     bg: `contentBg`,
     maxWidth: [`none`, 500],

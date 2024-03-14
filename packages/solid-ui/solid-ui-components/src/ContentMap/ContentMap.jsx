@@ -3,10 +3,16 @@ import GoogleMapReact from 'google-map-react'
 import { FaMapMarkerAlt } from 'react-icons/fa'
 
 const MapMarker = ({ lat, lng }) => (
-  <FaMapMarkerAlt size='42' color='#222' lat={lat} lng={lng} />
+  <FaMapMarkerAlt
+    size='42'
+    color='#222'
+    lat={lat}
+    lng={lng}
+    style={{ transform: `translate(-50%,-100%)` }}
+  />
 )
 
-const GoogleMap = (content, { lat, lng, zoom }) => (
+const GoogleMap = ({ content, lat, lng, zoom }) => (
   <GoogleMapReact
     bootstrapURLKeys={{
       key: process.env.GATSBY_GOOGLE_MAP_KEY

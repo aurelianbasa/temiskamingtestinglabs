@@ -31,7 +31,6 @@ const FeaturesWithPhotoBlock03 = ({ content: { text, buttons, images } }) => (
             loading='eager'
             imagePosition='center'
             imageEffect='fadeInDown'
-            radius='lg'
           />
         </Box>
       </>

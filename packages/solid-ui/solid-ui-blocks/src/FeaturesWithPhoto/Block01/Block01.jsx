@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import { Container, Flex, Box } from 'theme-ui'
 import Reveal from '@solid-ui-components/Reveal'
 import Divider from '@solid-ui-components/Divider'
@@ -41,10 +41,10 @@ const FeaturesWithPhotoBlock01 = ({
               duration={1.5}
             >
               {collection.map((props, index) => (
-                <>
-                  <ListItem key={`item-${index}`} {...props} />
+                <Fragment key={`item-${index}`}>
+                  <ListItem {...props} />
                   <Divider space={2} />
-                </>
+                </Fragment>
               ))}
             </Reveal>
           </>

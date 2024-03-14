@@ -10,7 +10,7 @@ import WithDefaultContent from '@solid-ui-blocks/WithDefaultContent'
 const styles = {
   listItem: {
     flexBasis: [`100%`, `1/2`, null, `1/3`],
-    alignItems: `left`,
+    alignItems: `center`,
     justifyContent: `left`,
     p: 3
   }
