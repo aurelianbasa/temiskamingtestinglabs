@@ -1,20 +1,40 @@
 {
-  "name": "elegantstack",
+  "name": "temiskaminglabs",
+  "version": "0.0.0",
   "private": true,
-  "license": "",
-  "workspaces": ["packages/**", "site"],
+  "description": "Temiskaminglabs",
+  "author": "Tychyna Oleksandr",
+  "keywords": [
+    "Temiskaminglabs"
+  ],
   "scripts": {
-    "clean": "lerna clean",
-    "release": "lerna version",
-    "prettier:windows": "./node_modules/.bin/prettier --write \"{packages,starters}/**/*.{jsx,js}\""
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "lint": "eslint ./src",
+    "lint:fix": "eslint ./src --fix"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.0.4",
+    "autoprefixer": "^10.4.19",
+    "framer-motion": "^11.2.6",
+    "gatsby": "^5.13.5",
+    "gatsby-omni-font-loader": "^2.0.2",
+    "gatsby-plugin-alias-imports": "^1.0.5",
+    "gatsby-plugin-postcss": "^6.13.1",
+    "gatsby-plugin-robots-txt": "^1.8.0",
+    "gatsby-plugin-sitemap": "^6.13.1",
+    "iconoir-react": "^7.7.0",
+    "postcss": "^8.4.38",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "tailwindcss": "^3.4.3"
   },
   "devDependencies": {
-    "conventional-changelog-conventionalcommits": "^4.6.0",
-    "lerna": "^4.0.0",
-    "prettier": "^2.3.1"
-  },
-  "engines": {
-    "yarn": "^1.17.3",
-    "node": ">=12.13.0"
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-tailwindcss": "^3.17.0"
   }
 }
