@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Temiskaminglabs`,
-    siteUrl: `https://temiskaminglabs.com`,
+    title: 'Temiskaminglabs',
+    siteUrl: 'https://temiskaminglabs.com',
   },
   plugins: [
     'gatsby-plugin-postcss',
@@ -14,7 +14,13 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-sitemap`,
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        icon: 'src/media/common/favicon.png',
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-sitemap',
       options: {
         serialize: (page) => {
           const date = new Date();
@@ -27,20 +33,20 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-omni-font-loader`,
+      resolve: 'gatsby-omni-font-loader',
       options: {
         enableListener: true,
-        preconnect: [`https://fonts.googleapis.com`, `https://fonts.gstatic.com`],
+        preconnect: ['https://fonts.googleapis.com', 'https://fonts.gstatic.com'],
         web: [
           {
-            name: `Poppins`,
-            file: `https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap`,
+            name: 'Poppins',
+            file: 'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap',
           },
         ],
       },
     },
     {
-      resolve: `gatsby-plugin-alias-imports`,
+      resolve: 'gatsby-plugin-alias-imports',
       options: {
         alias: {
           '@media': 'src/media',

@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "description": "Temiskaminglabs",
-  "author": "Tychyna Oleksandr",
+  "author": "Ditych",
   "keywords": [
     "Temiskaminglabs"
   ],
@@ -22,6 +22,7 @@
     "gatsby": "^5.13.5",
     "gatsby-omni-font-loader": "^2.0.2",
     "gatsby-plugin-alias-imports": "^1.0.5",
+    "gatsby-plugin-manifest": "^5.13.1",
     "gatsby-plugin-postcss": "^6.13.1",
     "gatsby-plugin-robots-txt": "^1.8.0",
     "gatsby-plugin-sitemap": "^6.13.1",

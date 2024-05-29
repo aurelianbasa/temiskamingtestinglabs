@@ -4,5 +4,10 @@
 
 html {
   font-family: 'Poppins';
-  color: theme('colors.dark');
+  color: theme('colors.quaternary');
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
 }

@@ -1,7 +1,9 @@
 import * as React from 'react';
-import { Link } from 'gatsby';
+
+import { motion } from 'framer-motion';
 
 import Layout from '@components/layout';
+import Button from '@components/button';
 
 import MapImage from '@media/about/map.webp';
 import HeroImage from '@media/about/hero.webp';
@@ -12,35 +14,53 @@ export default function About() {
     <Layout>
       <div className='grid gap-32 pt-20 md:gap-60 md:pt-40'>
         <div className='container mx-auto grid items-center gap-16 px-4 md:px-8 lg:grid-cols-2'>
-          <img className='rounded-2xl' src={HeroImage} alt='Hero' />
+          <motion.div
+            viewport={{ once: true }}
+            transition={{ duration: 0.3, delay: 0.2 }}
+            initial={{ x: '-80px', opacity: 0 }}
+            whileInView={{ x: '0', opacity: 1 }}
+          >
+            <img className='rounded-2xl' src={HeroImage} alt='Factory building' />
+          </motion.div>
 
-          <div className='flex flex-col'>
+          <motion.div
+            className='flex flex-col'
+            viewport={{ once: true }}
+            transition={{ duration: 0.3, delay: 0.2 }}
+            initial={{ x: '80px', opacity: 0 }}
+            whileInView={{ x: '0', opacity: 1 }}
+          >
             <p className='mb-8 text-2xl font-bold text-primary'>ABOUT US</p>
-            <h2 className='mb-10 text-5xl font-bold'>Overview</h2>
-            <p className='mb-8 text-xl font-bold leading-normal text-gray'>
+            <h1 className='mb-10 text-5xl font-bold'>Overview</h1>
+            <p className='mb-8 text-xl font-bold leading-normal text-tertiary'>
               We are a team of mining and geotechnical experts with deep roots in the area. The facility known as
               Temiskaming Testing Labs is based in the historic town of Cobalt and has built a reputation around its
               processing of local ores, particularly silver ores.
             </p>
 
-            <Link
-              className='flex self-start rounded-full bg-primary px-10 py-3 text-lg font-black text-white'
-              to='/contact'
-            >
-              Contact Us
-            </Link>
-          </div>
+            <Button className='self-start' type='primary' text='Contact Us' href='/contact' />
+          </motion.div>
         </div>
 
-        <div className='grid gap-32 bg-whiteSmoke py-20 md:py-40'>
+        <div className='grid gap-32 bg-tertiary/5 py-20 md:py-40'>
           <div className='container mx-auto grid gap-16 px-4 md:px-8 lg:grid-cols-4-6'>
-            <div>
+            <motion.div
+              viewport={{ once: true }}
+              transition={{ duration: 0.3, delay: 0.2 }}
+              initial={{ x: '-80px', opacity: 0 }}
+              whileInView={{ x: '0', opacity: 1 }}
+            >
               <p className='mb-4 text-2xl font-bold text-primary'>A Public Initiative</p>
               <h2 className='text-3xl font-bold leading-normal'>Founded to Support Local Mine Operators</h2>
-            </div>
+            </motion.div>
 
-            <div>
-              <p className='leading-[1.8] text-gray'>
+            <motion.div
+              viewport={{ once: true }}
+              transition={{ duration: 0.3, delay: 0.2 }}
+              initial={{ x: '80px', opacity: 0 }}
+              whileInView={{ x: '0', opacity: 1 }}
+            >
+              <p className='leading-[1.8] text-tertiary'>
                 The Ontario Department of Mines established the Temiskaming Testing Laboratory in 1921 to serve local
                 mine operators. Since few of the mining operations were large enough to justify their own assay office
                 and specialized equipment, it was decided the provincical government should build and manage the
@@ -51,20 +71,32 @@ export default function About() {
                 precious metals. By the 1990s the operation was decommissioned due to a decrease in Silver mining in the
                 area.
               </p>
-            </div>
+            </motion.div>
           </div>
 
           <div className='container mx-auto grid items-center gap-16 px-4 md:px-8 lg:grid-cols-2'>
-            <div className='flex justify-center lg:justify-start'>
-              <img src={ProfileImage} alt='Profile' />
-            </div>
+            <motion.div
+              className='flex justify-center lg:justify-start'
+              viewport={{ once: true }}
+              transition={{ duration: 0.3, delay: 0.2 }}
+              initial={{ x: '-80px', opacity: 0 }}
+              whileInView={{ x: '0', opacity: 1 }}
+            >
+              <img src={ProfileImage} alt='Anthony Dapaah' />
+            </motion.div>
 
-            <div className='grid'>
+            <motion.div
+              className='grid'
+              viewport={{ once: true }}
+              transition={{ duration: 0.3, delay: 0.2 }}
+              initial={{ x: '80px', opacity: 0 }}
+              whileInView={{ x: '0', opacity: 1 }}
+            >
               <p className='mb-8 text-2xl font-bold text-primary'>LAB MANAGER</p>
               <h2 className='mb-10 text-5xl font-bold'>
                 Anthony Dapaah <span className='text-primary'>Ph.D.</span>
               </h2>
-              <p className='leading-[1.8] text-gray'>
+              <p className='leading-[1.8] text-tertiary'>
                 Anthony Dapaah has over 30 years experience in the laboratory industry, including 20 years in operations
                 and management. Dr. Dapaah obtained his Masters and PhD degrees in Japan and worked with Sumitomo Metals
                 Technology in Japan managing the ultra trace metals analysis department from 1998 to 2004; where he
@@ -75,37 +107,56 @@ export default function About() {
                 supervisor in the inorganic processing department for 4 years. After 6 years with Agat Laboratories, Dr.
                 Dapaah worked with SGS in New Jersey as general chemistry lab manager.
               </p>
-            </div>
+            </motion.div>
           </div>
 
           <div className='container mx-auto grid items-center gap-16 px-4 md:px-8 lg:grid-cols-2'>
-            <div>
-              <p className='mb-4 text-2xl font-bold text-gray'>IN THE HEART OF THE CAMP</p>
+            <motion.div
+              viewport={{ once: true }}
+              transition={{ duration: 0.3, delay: 0.2 }}
+              initial={{ x: '-80px', opacity: 0 }}
+              whileInView={{ x: '0', opacity: 1 }}
+            >
+              <p className='mb-4 text-2xl font-bold text-tertiary'>IN THE HEART OF THE CAMP</p>
               <h2 className='mb-8 text-4xl font-bold leading-normal'>Independently Operated</h2>
-              <p className='leading-[1.8] text-gray'>
+              <p className='leading-[1.8] text-tertiary'>
                 The perennial difficulty of timely assay results motivated the acquisition in the short term. The longer
                 term implications expand operational capability for a series of projects in the camp, and have the
                 benefit of contributing to the local economy.
               </p>
-            </div>
+            </motion.div>
 
-            <img className='rounded-2xl' src={MapImage} alt='Map' />
+            <motion.div
+              viewport={{ once: true }}
+              transition={{ duration: 0.3, delay: 0.2 }}
+              initial={{ x: '80px', opacity: 0 }}
+              whileInView={{ x: '0', opacity: 1 }}
+            >
+              <img className='rounded-2xl' src={MapImage} alt='Map' />
+            </motion.div>
           </div>
 
-          <div className='mx-auto w-full max-w-[1410px] rounded-[2rem] bg-dark px-8 py-16'>
+          <motion.div
+            className='mx-auto w-full max-w-[1410px] rounded-[2rem] bg-quaternary px-8 py-16'
+            viewport={{ once: true }}
+            transition={{ duration: 0.3, delay: 0.2 }}
+            initial={{ y: '80px', opacity: 0 }}
+            whileInView={{ y: '0', opacity: 1 }}
+          >
             <div className='container mx-auto grid items-center gap-16 lg:grid-cols-4-6'>
               <div className='flex flex-col'>
-                <p className='mb-4 text-2xl font-bold text-primaryLight'>Our Approach to Mining</p>
+                <p className='mb-4 text-2xl font-bold text-primary'>Our Approach to Mining</p>
                 <h2 className='mb-8 text-3xl font-bold leading-normal text-white'>
                   Securing the Facility was a Strategic decision to consolidate the camp
                 </h2>
 
-                <a
-                  className='self-start rounded-full bg-secondary px-10 py-3 text-lg font-black text-white'
+                <Button
+                  external
+                  className='self-start'
+                  type='secondary'
+                  text='Schedule a Consultation'
                   href='mailto:anthony@temiskaminglabs.com'
-                >
-                  Schedule a Consultation
-                </a>
+                />
               </div>
 
               <p className='text-xl font-bold leading-normal text-white'>
@@ -114,7 +165,7 @@ export default function About() {
                 ownership in 2020 it was relaunched as Temiskaming Testing Laboratories Inc.
               </p>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </Layout>
@@ -128,7 +179,7 @@ export function Head() {
       <title>About | TTL</title>
       <meta
         name='description'
-        content='We are a team of mining and geotechnical experts with deep roots in the area. The facility known as Temiskaming Testing Labs is based in the historic town of Cobalt and has built a reputation around its processing of local ores, particularly silver ores.'
+        content='We are a team of mining and geotechnical experts with deep roots in the area. The facility known as Temiskaming Testing Labs is based in the historic town of Cobalt.'
       />
     </>
   );

@@ -5,6 +5,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { NavArrowDown, Menu, Xmark } from 'iconoir-react';
 import { Popover, PopoverButton, PopoverPanel, Dialog, DialogPanel } from '@headlessui/react';
 
+import Button from '@components/button';
 import logo from '@media/common/logo.svg';
 
 export default function Header() {
@@ -31,13 +32,18 @@ export default function Header() {
           scrollYPosition > 0 ? 'shadow-md' : ''
         }`}
       >
-        <div className='container mx-auto p-4 md:px-8'>
+        <motion.div
+          className='container mx-auto p-4 md:px-8'
+          transition={{ duration: 0.3, delay: 0.2 }}
+          initial={{ y: '-100%', opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+        >
           <div className='flex justify-between'>
             <div className='flex items-center'>
               <Link to='/'>
-                <img className='w-24 min-w-32 sm:w-40 sm:min-w-32' src={logo} alt='Logo' />
+                <img className='w-24 min-w-32 sm:w-40 sm:min-w-32' src={logo} alt='Temiskaminglabs logo' />
               </Link>
-              <p className='ml-4 border-l-[3px] border-grayLigher px-4 text-sm font-bold text-gray'>
+              <p className='ml-4 border-l-[3px] border-tertiary/50 px-4 text-sm font-bold text-tertiary'>
                 Temiskaming
                 <br /> Testing
                 <br /> Labs
@@ -56,13 +62,11 @@ export default function Header() {
               </Link>
 
               <Popover>
-                <PopoverButton className='relative'>
+                <PopoverButton className='relative' as='div'>
                   {({ hover }) => (
                     <>
-                      <div className='flex items-center gap-1'>
-                        <Link className='py-4 text-xl font-bold hover:text-primary' to='/services'>
-                          Services
-                        </Link>
+                      <div className='flex cursor-pointer items-center gap-1 py-4 text-xl font-bold hover:text-primary'>
+                        Services
                         <NavArrowDown className='size-5' strokeWidth='2' />
                       </div>
                       {hover && (
@@ -92,19 +96,14 @@ export default function Header() {
                 </PopoverButton>
               </Popover>
 
-              <Link
-                className='flex self-center rounded-full bg-secondary px-5 py-3 font-black text-white'
-                to='/contact'
-              >
-                Contact Us
-              </Link>
+              <Button className='self-center' type='secondary' text='Contact Us' href='/contact' />
             </div>
 
-            <button className='mx-2 lg:hidden' onClick={() => setIsOpen(true)}>
-              <Menu className='size-7 text-gray' strokeWidth='3' />
+            <button className='mx-2 lg:hidden' onClick={() => setIsOpen(true)} aria-label='Open menu'>
+              <Menu className='size-7 text-tertiary' strokeWidth='3' />
             </button>
           </div>
-        </div>
+        </motion.div>
       </header>
 
       <AnimatePresence>
@@ -136,23 +135,17 @@ export default function Header() {
                 <Link className='py-2 text-xl font-bold hover:text-primary' to='/forms'>
                   Forms
                 </Link>
-                <Link className='py-2 text-xl font-bold hover:text-primary' to='/services'>
-                  Services
-                </Link>
+                <div className='cursor-pointer py-2 text-xl font-bold hover:text-primary'>Services</div>
                 <Link className='py-2 pl-6 text-lg font-bold hover:text-primary' to='/services/assay-lab'>
                   Assay Lab
                 </Link>
                 <Link className='py-2 pl-6 text-lg font-bold hover:text-primary' to='/services/geological-services'>
                   Geological Services
                 </Link>
-                <Link
-                  className='mt-auto w-full rounded-full bg-secondary px-5 py-3 text-center font-black text-white'
-                  to='/contact'
-                >
-                  Contact Us
-                </Link>
 
-                <button className='absolute right-8 top-8' onClick={() => setIsOpen(false)}>
+                <Button className='mt-auto w-full' type='secondary' text='Contact Us' href='/contact' />
+
+                <button className='absolute right-8 top-8' onClick={() => setIsOpen(false)} aria-label='Close menu'>
                   <Xmark className='size-7' strokeWidth='2' />
                 </button>
               </DialogPanel>

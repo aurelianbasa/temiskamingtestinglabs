@@ -6,18 +6,10 @@ module.exports = {
     },
     colors: {
       primary: '#4665A1', // blue
-      primaryLight: '#5D77AD',
       secondary: '#548D40', // green
-      secondaryLight: '#92B686',
-      dark: '#2d3748', // dark
-      gray: '#718096',
-      grayLight: '#a0aec0',
-      grayLigher: '#e2e8f0',
-      blue: '#9cc2dd', // TODO delete later?
-      whiteSmoke: '#f8f8f8',
-      aliceBlue: '#edf2f7',
+      tertiary: '#718096', // gray
+      quaternary: '#2d3748', // dark blue
       red: '#f56565',
-
       white: '#fff',
       black: '#000',
       transparent: 'transparent',
