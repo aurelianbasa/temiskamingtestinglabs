@@ -13,7 +13,7 @@ import FireAssayImage from '@media/home/fire-assay.webp';
 export default function Home() {
   return (
     <Layout>
-      <div className='grid gap-32 py-20 md:gap-60 md:py-40'>
+      <div className='grid gap-32 pb-20 pt-44 md:gap-60 md:pb-40 md:pt-64'>
         <div className='container mx-auto grid items-center gap-16 px-4 md:px-8 lg:grid-cols-4-6'>
           <motion.div
             viewport={{ once: true }}

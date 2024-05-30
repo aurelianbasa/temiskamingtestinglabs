@@ -37,7 +37,7 @@ export default function Contact() {
 
   return (
     <Layout>
-      <div className='grid bg-tertiary/5 py-20 md:py-40'>
+      <div className='grid bg-tertiary/5 pb-20 pt-44 md:pb-40 md:pt-64'>
         <div className='container mx-auto grid gap-16 px-4 md:px-8 lg:grid-cols-2-1'>
           <motion.div
             className='rounded-2xl bg-white p-8 shadow-md'
