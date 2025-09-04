@@ -150,7 +150,7 @@ export default function Contact() {
             <div className='flex flex-col items-center justify-center gap-2 md:flex-row'>
               <Mail className='size-8 text-primary' strokeWidth='2' />
               <a className='font-bold' href='mailto:aurelian@temiskaminglabs.com'>
-                aurelian@temiskaminglabs.com
+                email address
               </a>
             </div>
           </motion.div>
