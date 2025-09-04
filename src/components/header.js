@@ -27,17 +27,15 @@ export default function Header() {
 
   return (
     <>
-      <header
-        className={`sticky top-0 z-40 bg-white transition-all duration-300 ease-linear ${
+      <motion.header
+        className={`fixed top-0 z-40 flex h-24 w-full items-center bg-white transition-all duration-300 ${
           scrollYPosition > 0 ? 'shadow-md' : ''
         }`}
+        transition={{ duration: 0.3 }}
+        initial={{ y: '-100%', opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
       >
-        <motion.div
-          className='container mx-auto p-4 md:px-8'
-          transition={{ duration: 0.3, delay: 0.2 }}
-          initial={{ y: '-100%', opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-        >
+        <div className='container mx-auto px-4 md:px-8'>
           <div className='flex justify-between'>
             <div className='flex items-center'>
               <Link to='/'>
@@ -50,7 +48,7 @@ export default function Header() {
               </p>
             </div>
 
-            <div className='hidden gap-4 lg:flex'>
+            <nav className='hidden gap-4 lg:flex'>
               <Link className='py-4 text-xl font-bold hover:text-primary' to='/'>
                 Home
               </Link>
@@ -97,14 +95,14 @@ export default function Header() {
               </Popover>
 
               <Button className='self-center' type='secondary' text='Contact Us' href='/contact' />
-            </div>
+            </nav>
 
             <button className='mx-2 lg:hidden' onClick={() => setIsOpen(true)} aria-label='Open menu'>
               <Menu className='size-7 text-tertiary' strokeWidth='3' />
             </button>
           </div>
-        </motion.div>
-      </header>
+        </div>
+      </motion.header>
 
       <AnimatePresence>
         {isOpen && (

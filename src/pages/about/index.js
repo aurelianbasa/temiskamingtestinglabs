@@ -12,7 +12,7 @@ import ProfileImage from '@media/about/profile.webp';
 export default function About() {
   return (
     <Layout>
-      <div className='grid gap-32 pt-20 md:gap-60 md:pt-40'>
+      <div className='grid gap-32 pt-44 md:gap-60 md:pt-64'>
         <div className='container mx-auto grid items-center gap-16 px-4 md:px-8 lg:grid-cols-2'>
           <motion.div
             viewport={{ once: true }}

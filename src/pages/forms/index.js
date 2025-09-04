@@ -12,7 +12,7 @@ import RequestForAnalysisPDF from '@media/forms/requestforanalysis.pdf';
 export default function Forms() {
   return (
     <Layout>
-      <div className='grid gap-32 bg-tertiary/5 py-20 md:gap-60 md:py-40'>
+      <div className='grid gap-32 bg-tertiary/5 pb-20 pt-44 md:gap-60 md:pb-40 md:pt-64'>
         <div className='container mx-auto px-4 md:px-8'>
           <motion.div
             className='rounded-2xl bg-white p-8 text-center shadow-md'
