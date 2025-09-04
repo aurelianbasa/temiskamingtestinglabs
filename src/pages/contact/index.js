@@ -136,8 +136,6 @@ export default function Contact() {
             <div className='mb-2 flex flex-col items-center justify-center gap-2 md:flex-row'>
               <User className='size-8 text-primary' strokeWidth='2' />
               <p className='font-bold'>
-                Anthony Dapaah, PhD, C.Chem.
-                <br />
                 Laboratory Manager
               </p>
             </div>
@@ -151,8 +149,8 @@ export default function Contact() {
 
             <div className='flex flex-col items-center justify-center gap-2 md:flex-row'>
               <Mail className='size-8 text-primary' strokeWidth='2' />
-              <a className='font-bold' href='mailto:anthony@temiskaminglabs.com'>
-                anthony@temiskaminglabs.com
+              <a className='font-bold' href='mailto:aurelian@temiskaminglabs.com'>
+                aurelian@temiskaminglabs.com
               </a>
             </div>
           </motion.div>

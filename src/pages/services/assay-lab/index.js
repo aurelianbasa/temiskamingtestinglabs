@@ -56,7 +56,7 @@ export default function AssayLab() {
                 className='self-start'
                 type='secondary'
                 text='Schedule a Consultation'
-                href='mailto:anthony@temiskaminglabs.com'
+                href='mailto:aurelian@temiskaminglabs.com'
               />
             </div>
             <div>

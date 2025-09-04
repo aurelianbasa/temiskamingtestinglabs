@@ -7,7 +7,6 @@ import Button from '@components/button';
 
 import MapImage from '@media/about/map.webp';
 import HeroImage from '@media/about/hero.webp';
-import ProfileImage from '@media/about/profile.webp';
 
 export default function About() {
   return (
@@ -76,42 +75,6 @@ export default function About() {
 
           <div className='container mx-auto grid items-center gap-16 px-4 md:px-8 lg:grid-cols-2'>
             <motion.div
-              className='flex justify-center lg:justify-start'
-              viewport={{ once: true }}
-              transition={{ duration: 0.3, delay: 0.2 }}
-              initial={{ x: '-80px', opacity: 0 }}
-              whileInView={{ x: '0', opacity: 1 }}
-            >
-              <img src={ProfileImage} alt='Anthony Dapaah' />
-            </motion.div>
-
-            <motion.div
-              className='grid'
-              viewport={{ once: true }}
-              transition={{ duration: 0.3, delay: 0.2 }}
-              initial={{ x: '80px', opacity: 0 }}
-              whileInView={{ x: '0', opacity: 1 }}
-            >
-              <p className='mb-8 text-2xl font-bold text-primary'>LAB MANAGER</p>
-              <h2 className='mb-10 text-5xl font-bold'>
-                Anthony Dapaah <span className='text-primary'>Ph.D.</span>
-              </h2>
-              <p className='leading-[1.8] text-tertiary'>
-                Anthony Dapaah has over 30 years experience in the laboratory industry, including 20 years in operations
-                and management. Dr. Dapaah obtained his Masters and PhD degrees in Japan and worked with Sumitomo Metals
-                Technology in Japan managing the ultra trace metals analysis department from 1998 to 2004; where he
-                improved analytical methods for the determination of ultratrace impurities in semiconductor related
-                materials and in high purity metal alloys.
-                <br />
-                <br /> On immigrating to Canada, Dr. Dapaah worked with Maxxam Analytics (now Bureau Veritas) as
-                supervisor in the inorganic processing department for 4 years. After 6 years with Agat Laboratories, Dr.
-                Dapaah worked with SGS in New Jersey as general chemistry lab manager.
-              </p>
-            </motion.div>
-          </div>
-
-          <div className='container mx-auto grid items-center gap-16 px-4 md:px-8 lg:grid-cols-2'>
-            <motion.div
               viewport={{ once: true }}
               transition={{ duration: 0.3, delay: 0.2 }}
               initial={{ x: '-80px', opacity: 0 }}
@@ -155,7 +118,7 @@ export default function About() {
                   className='self-start'
                   type='secondary'
                   text='Schedule a Consultation'
-                  href='mailto:anthony@temiskaminglabs.com'
+                  href='mailto:aurelian@temiskaminglabs.com'
                 />
               </div>
 
