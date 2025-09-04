@@ -142,8 +142,8 @@ export default function Contact() {
 
             <div className='mb-2 flex flex-col items-center justify-center gap-2 md:flex-row'>
               <Phone className='size-8 text-primary' strokeWidth='2' />
-              <a className='font-bold' href='tel:+5192152995'>
-                519-215-2995
+              <a className='font-bold' href='tel:+17056795500'>
+                phone number
               </a>
             </div>
 
