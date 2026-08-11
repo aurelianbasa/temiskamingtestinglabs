@@ -20,7 +20,7 @@ export default function Footer() {
             <Link to='/'>
               <img className='w-40' src={logo} alt='Temiskaminglabs logo' />
             </Link>
-            <p className='pt-4 text-xs text-tertiary'>© 2024, All Rights Reserved.</p>
+            <p className='pt-4 text-xs text-tertiary'>© 2026, All Rights Reserved.</p>
             <a
               className='flex items-center gap-2 hover:text-primary'
               href='https://www.resourceactive.com/documentation'
