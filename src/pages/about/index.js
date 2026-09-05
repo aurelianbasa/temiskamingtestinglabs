@@ -1,149 +1,166 @@
 import * as React from 'react';
-
-import { motion } from 'framer-motion';
-
 import Layout from '@components/layout';
-import Button from '@components/button';
+import SiteHead from '@components/site-head';
+import { PageIntro, ActionLink, ContactBand } from '@components/page-parts';
+import ExteriorImage from '@media/home/hero.webp';
+import HistoricalImage from '@media/about/hero.webp';
+import PrepImage from '@media/home/prep-lab.webp';
+import BenchImage from '@media/services/assay-lab/hero.webp';
 
-import MapImage from '@media/about/map.webp';
-import HeroImage from '@media/about/hero.webp';
-
-export default function About() {
+export default function Facility() {
   return (
     <Layout>
-      <div className='grid gap-32 pt-44 md:gap-60 md:pt-64'>
-        <div className='container mx-auto grid items-center gap-16 px-4 md:px-8 lg:grid-cols-2'>
-          <motion.div
-            viewport={{ once: true }}
-            transition={{ duration: 0.3, delay: 0.2 }}
-            initial={{ x: '-80px', opacity: 0 }}
-            whileInView={{ x: '0', opacity: 1 }}
-          >
-            <img className='rounded-2xl' src={HeroImage} alt='Factory building' />
-          </motion.div>
-
-          <motion.div
-            className='flex flex-col'
-            viewport={{ once: true }}
-            transition={{ duration: 0.3, delay: 0.2 }}
-            initial={{ x: '80px', opacity: 0 }}
-            whileInView={{ x: '0', opacity: 1 }}
-          >
-            <p className='mb-8 text-2xl font-bold text-primary'>ABOUT US</p>
-            <h1 className='mb-10 text-5xl font-bold'>Overview</h1>
-            <p className='mb-8 text-xl font-bold leading-normal text-tertiary'>
-              We are a team of mining and geotechnical experts with deep roots in the area. The facility known as
-              Temiskaming Testing Labs is based in the historic town of Cobalt and has built a reputation around its
-              processing of local ores, particularly silver ores.
+      <PageIntro eyebrow='The facility · Cobalt, Ontario' title='A real place. A useful starting point.'>
+        <p>
+          At 1 Presley Street, TTL’s laboratory and mineral-testing heritage provides a setting for
+          conversations about samples, technical work and the facility’s next chapter.
+        </p>
+        <div className='hero-actions'>
+          <ActionLink to='/contact/?type=partnership'>Discuss a facility opportunity</ActionLink>
+          <ActionLink secondary to='/services/assay-lab/'>
+            Explore laboratory enquiries
+          </ActionLink>
+        </div>
+      </PageIntro>
+      <section className='site-container facility-story section-bottom'>
+        <figure>
+          <img
+            src={ExteriorImage}
+            width='650'
+            height='340'
+            alt='Brick buildings beside the water in Cobalt, from the TTL archive.'
+          />
+          <figcaption>The Cobalt facility · archive photograph</figcaption>
+        </figure>
+        <div>
+          <p className='eyebrow'>1 Presley Street</p>
+          <h2>Connect the project to the place.</h2>
+          <p>
+            A material program needs more than a list of equipment. It needs a suitable location, an agreed
+            approach and a clear understanding of what the work requires.
+          </p>
+          <p>
+            Tell us about your laboratory, preparation or operating requirements. We can discuss the spaces,
+            the proposed scope and whether a site visit would be a useful next step.
+          </p>
+        </div>
+      </section>
+      <section className='soft-section'>
+        <div className='site-container section-space'>
+          <div className='section-heading'>
+            <p className='eyebrow'>Inside the TTL archive</p>
+            <h2>A closer look at the working spaces.</h2>
+            <p className='section-description'>
+              These photographs document the facility’s laboratory history. Discuss current equipment and
+              space requirements with TTL when planning a program.
             </p>
-
-            <Button className='self-start' type='primary' text='Contact Us' href='/contact' />
-          </motion.div>
+          </div>
+          <div className='photo-pair'>
+            <figure>
+              <img
+                src={PrepImage}
+                width='370'
+                height='370'
+                loading='lazy'
+                alt='Blue sample preparation machinery inside the laboratory.'
+              />
+              <figcaption>Sample preparation area · archive photograph</figcaption>
+            </figure>
+            <figure>
+              <img
+                src={BenchImage}
+                width='640'
+                height='480'
+                loading='lazy'
+                alt='An analytical instrument on a laboratory bench.'
+              />
+              <figcaption>Analytical bench · archive photograph</figcaption>
+            </figure>
+          </div>
         </div>
-
-        <div className='grid gap-32 bg-tertiary/5 py-20 md:py-40'>
-          <div className='container mx-auto grid gap-16 px-4 md:px-8 lg:grid-cols-4-6'>
-            <motion.div
-              viewport={{ once: true }}
-              transition={{ duration: 0.3, delay: 0.2 }}
-              initial={{ x: '-80px', opacity: 0 }}
-              whileInView={{ x: '0', opacity: 1 }}
-            >
-              <p className='mb-4 text-2xl font-bold text-primary'>A Public Initiative</p>
-              <h2 className='text-3xl font-bold leading-normal'>Founded to Support Local Mine Operators</h2>
-            </motion.div>
-
-            <motion.div
-              viewport={{ once: true }}
-              transition={{ duration: 0.3, delay: 0.2 }}
-              initial={{ x: '80px', opacity: 0 }}
-              whileInView={{ x: '0', opacity: 1 }}
-            >
-              <p className='leading-[1.8] text-tertiary'>
-                The Ontario Department of Mines established the Temiskaming Testing Laboratory in 1921 to serve local
-                mine operators. Since few of the mining operations were large enough to justify their own assay office
-                and specialized equipment, it was decided the provincical government should build and manage the
-                service.
-                <br />
-                <br /> The facility was extensively renovated and updated over the years by the Ministry of Northern
-                Development & Mines as a technically advanced bulk sampling and testing station for minerals and
-                precious metals. By the 1990s the operation was decommissioned due to a decrease in Silver mining in the
-                area.
-              </p>
-            </motion.div>
-          </div>
-
-          <div className='container mx-auto grid items-center gap-16 px-4 md:px-8 lg:grid-cols-2'>
-            <motion.div
-              viewport={{ once: true }}
-              transition={{ duration: 0.3, delay: 0.2 }}
-              initial={{ x: '-80px', opacity: 0 }}
-              whileInView={{ x: '0', opacity: 1 }}
-            >
-              <p className='mb-4 text-2xl font-bold text-tertiary'>IN THE HEART OF THE CAMP</p>
-              <h2 className='mb-8 text-4xl font-bold leading-normal'>Independently Operated</h2>
-              <p className='leading-[1.8] text-tertiary'>
-                The perennial difficulty of timely assay results motivated the acquisition in the short term. The longer
-                term implications expand operational capability for a series of projects in the camp, and have the
-                benefit of contributing to the local economy.
-              </p>
-            </motion.div>
-
-            <motion.div
-              viewport={{ once: true }}
-              transition={{ duration: 0.3, delay: 0.2 }}
-              initial={{ x: '80px', opacity: 0 }}
-              whileInView={{ x: '0', opacity: 1 }}
-            >
-              <img className='rounded-2xl' src={MapImage} alt='Map' />
-            </motion.div>
-          </div>
-
-          <motion.div
-            className='mx-auto w-full max-w-[1410px] rounded-[2rem] bg-quaternary px-8 py-16'
-            viewport={{ once: true }}
-            transition={{ duration: 0.3, delay: 0.2 }}
-            initial={{ y: '80px', opacity: 0 }}
-            whileInView={{ y: '0', opacity: 1 }}
-          >
-            <div className='container mx-auto grid items-center gap-16 lg:grid-cols-4-6'>
-              <div className='flex flex-col'>
-                <p className='mb-4 text-2xl font-bold text-primary'>Our Approach to Mining</p>
-                <h2 className='mb-8 text-3xl font-bold leading-normal text-white'>
-                  Securing the Facility was a Strategic decision to consolidate the camp
-                </h2>
-
-                <Button
-                  external
-                  className='self-start'
-                  type='secondary'
-                  text='Schedule a Consultation'
-                  href='mailto:aurelian@temiskaminglabs.com'
-                />
+      </section>
+      <section className='site-container section-space history-layout'>
+        <div>
+          <p className='eyebrow'>Roots in the Cobalt camp</p>
+          <h2>A history with more than one chapter.</h2>
+          <figure className='history-photo'>
+            <img
+              src={HistoricalImage}
+              width='937'
+              height='660'
+              loading='lazy'
+              alt='Black-and-white archival photograph of the historic industrial facility.'
+            />
+            <figcaption>Historical facility photograph · TTL archive</figcaption>
+          </figure>
+        </div>
+        <div>
+          <ol className='timeline'>
+            <li>
+              <span>1921</span>
+              <div>
+                <h3>The early facility</h3>
+                <p>
+                  The facility’s published history dates its establishment to 1921. Its industrial history
+                  includes a later period of decommissioning.
+                </p>
               </div>
-
-              <p className='text-xl font-bold leading-normal text-white'>
-                PolyMet Labs first purchased the facility in 2000 and began operating as an Assay Laboratory, and Bulk
-                Sampling, Crushing, Grinding, Processing, Upgrading, and Smelting Plant. When the facility changed
-                ownership in 2020 it was relaunched as Temiskaming Testing Laboratories Inc.
-              </p>
-            </div>
-          </motion.div>
+            </li>
+            <li>
+              <span>2000</span>
+              <div>
+                <h3>The PolyMet chapter</h3>
+                <p>
+                  PolyMet Labs purchased the facility and developed its laboratory and mineral-testing role.
+                </p>
+              </div>
+            </li>
+            <li>
+              <span>2020</span>
+              <div>
+                <h3>Relaunched as TTL</h3>
+                <p>A change of ownership brought the Temiskaming Testing Laboratories name.</p>
+              </div>
+            </li>
+            <li>
+              <span>Next</span>
+              <div>
+                <h3>A project with a purpose</h3>
+                <p>New work begins with a defined requirement and a conversation about the facility’s fit.</p>
+              </div>
+            </li>
+          </ol>
+          <p className='small-copy'>
+            Historical milestones are drawn from TTL’s previously published facility history.
+          </p>
         </div>
-      </div>
+      </section>
+      <section className='site-container split-content section-bottom location-section'>
+        <div>
+          <p className='eyebrow'>Two distinct locations</p>
+          <h2>Confirm where the work belongs.</h2>
+        </div>
+        <div>
+          <p>
+            The laboratory address is <strong>1 Presley Street, Cobalt, Ontario P0J 1C0</strong>. The
+            geological-support coreshack described in TTL’s published information is on Highway 11 in Coleman.
+          </p>
+          <p>Contact TTL to confirm the location and arrangements before visiting or shipping material.</p>
+          <ActionLink secondary to='/services/geological-services/'>
+            Read about geological support
+          </ActionLink>
+        </div>
+      </section>
+      <ContactBand category='partnership' title='See a role for this facility in your project?'>
+        Tell us about the work, the opportunity and what you would need to move it forward.
+      </ContactBand>
     </Layout>
   );
 }
-
-export function Head() {
-  return (
-    <>
-      <html lang='en' />
-      <title>About | TTL</title>
-      <meta
-        name='description'
-        content='We are a team of mining and geotechnical experts with deep roots in the area. The facility known as Temiskaming Testing Labs is based in the historic town of Cobalt.'
-      />
-    </>
-  );
-}
+export const Head = () => (
+  <SiteHead
+    title='The Cobalt facility & its history'
+    path='/about/'
+    description='Explore TTL’s facility at 1 Presley Street in Cobalt, its laboratory heritage and opportunities to discuss project-specific work and facility development.'
+  />
+);

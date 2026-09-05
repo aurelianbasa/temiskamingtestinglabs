@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Temiskaminglabs',
+    title: 'Temiskaming Testing Laboratories',
     siteUrl: 'https://temiskaminglabs.com',
   },
   plugins: [
@@ -33,26 +33,13 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-omni-font-loader',
-      options: {
-        enableListener: true,
-        preconnect: ['https://fonts.googleapis.com', 'https://fonts.gstatic.com'],
-        web: [
-          {
-            name: 'Poppins',
-            file: 'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap',
-          },
-        ],
-      },
-    },
-    {
       resolve: 'gatsby-plugin-alias-imports',
       options: {
         alias: {
           '@media': 'src/media',
           '@components': 'src/components',
         },
-        extensions: ['js'],
+        extensions: ['.js', '.mjs'],
       },
     },
   ],

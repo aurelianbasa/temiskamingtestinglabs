@@ -1,156 +1,112 @@
 import * as React from 'react';
 import { Link } from 'gatsby';
-
-import { AnimatePresence, motion } from 'framer-motion';
-import { NavArrowDown, Menu, Xmark } from 'iconoir-react';
-import { Popover, PopoverButton, PopoverPanel, Dialog, DialogPanel } from '@headlessui/react';
-
-import Button from '@components/button';
+import {
+  Dialog,
+  DialogPanel,
+  DialogTitle,
+  Popover,
+  PopoverButton,
+  PopoverPanel,
+  CloseButton,
+} from '@headlessui/react';
 import logo from '@media/common/logo.svg';
 
+const navigation = [
+  ['Facility', '/about/'],
+  ['Project opportunities', '/project-opportunities/'],
+  ['Sample information', '/forms/'],
+];
 export default function Header() {
   const [isOpen, setIsOpen] = React.useState(false);
-  const [scrollYPosition, setScrollYPosition] = React.useState(0);
-
-  function handleScroll() {
-    const newScrollYPosition = window.scrollY;
-    setScrollYPosition(newScrollYPosition);
-  }
-
-  React.useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
   return (
     <>
-      <motion.header
-        className={`fixed top-0 z-40 flex h-24 w-full items-center bg-white transition-all duration-300 ${
-          scrollYPosition > 0 ? 'shadow-md' : ''
-        }`}
-        transition={{ duration: 0.3 }}
-        initial={{ y: '-100%', opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-      >
-        <div className='container mx-auto px-4 md:px-8'>
-          <div className='flex justify-between'>
-            <div className='flex items-center'>
-              <Link to='/'>
-                <img className='w-24 min-w-32 sm:w-40 sm:min-w-32' src={logo} alt='Temiskaminglabs logo' />
+      <a className='skip-link' href='#main-content'>
+        Skip to content
+      </a>
+      <header className='site-header'>
+        <div className='site-container header-inner'>
+          <Link className='brand' to='/' aria-label='Temiskaming Testing Laboratories — home'>
+            <img src={logo} width='130' height='52' alt='TTL' />
+            <span>
+              Temiskaming
+              <br />
+              Testing Laboratories
+            </span>
+          </Link>
+          <nav className='desktop-nav' aria-label='Main navigation'>
+            <Popover className='services-menu'>
+              <PopoverButton className='nav-button'>
+                Laboratory services <span aria-hidden='true'>⌄</span>
+              </PopoverButton>
+              <PopoverPanel className='services-panel'>
+                <CloseButton as={Link} to='/services/assay-lab/'>
+                  Sample preparation & assays
+                </CloseButton>
+                <CloseButton as={Link} to='/services/geological-services/'>
+                  Geological support
+                </CloseButton>
+              </PopoverPanel>
+            </Popover>
+            {navigation.map(([label, path]) => (
+              <Link key={path} to={path} activeClassName='nav-active'>
+                {label}
               </Link>
-              <p className='ml-4 border-l-[3px] border-tertiary/50 px-4 text-sm font-bold text-tertiary'>
-                Temiskaming
-                <br /> Testing
-                <br /> Labs
-              </p>
-            </div>
-
-            <nav className='hidden gap-4 lg:flex'>
-              <Link className='py-4 text-xl font-bold hover:text-primary' to='/'>
-                Home
-              </Link>
-              <Link className='py-4 text-xl font-bold hover:text-primary' to='/about'>
-                About
-              </Link>
-              <Link className='py-4 text-xl font-bold hover:text-primary' to='/forms'>
-                Forms
-              </Link>
-
-              <Popover>
-                <PopoverButton className='relative' as='div'>
-                  {({ hover }) => (
-                    <>
-                      <div className='flex cursor-pointer items-center gap-1 py-4 text-xl font-bold hover:text-primary'>
-                        Services
-                        <NavArrowDown className='size-5' strokeWidth='2' />
-                      </div>
-                      {hover && (
-                        <AnimatePresence>
-                          <PopoverPanel
-                            static
-                            as={motion.div}
-                            initial={{ opacity: 0, scale: 0.95 }}
-                            animate={{ opacity: 1, scale: 1 }}
-                            exit={{ opacity: 0, scale: 0.95 }}
-                            className='absolute left-1/2 z-50 flex w-max -translate-x-1/2 !transform flex-col gap-4 rounded-lg bg-white p-6 shadow-md'
-                          >
-                            <Link className='py-1 text-xl font-bold hover:text-primary' to='/services/assay-lab'>
-                              Assay Lab
-                            </Link>
-                            <Link
-                              className='py-1 text-xl font-bold hover:text-primary'
-                              to='/services/geological-services'
-                            >
-                              Geological Services
-                            </Link>
-                          </PopoverPanel>
-                        </AnimatePresence>
-                      )}
-                    </>
-                  )}
-                </PopoverButton>
-              </Popover>
-
-              <Button className='self-center' type='secondary' text='Contact Us' href='/contact' />
-            </nav>
-
-            <button className='mx-2 lg:hidden' onClick={() => setIsOpen(true)} aria-label='Open menu'>
-              <Menu className='size-7 text-tertiary' strokeWidth='3' />
-            </button>
-          </div>
+            ))}
+            <Link className='header-contact' to='/contact/' activeClassName='nav-active'>
+              Contact <span aria-hidden='true'>↗</span>
+            </Link>
+          </nav>
+          <button
+            className='menu-toggle'
+            type='button'
+            onClick={() => setIsOpen(true)}
+            aria-label='Open menu'
+            aria-expanded={isOpen}
+          >
+            <span>Menu</span>
+            <span className='menu-lines' aria-hidden='true'>
+              <i />
+              <i />
+            </span>
+          </button>
         </div>
-      </motion.header>
-
-      <AnimatePresence>
-        {isOpen && (
-          <Dialog static open={isOpen} onClose={() => setIsOpen(false)} className='relative z-50'>
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              className='fixed inset-0 bg-black/75'
-            />
-            <div className='fixed inset-0 flex w-screen items-center justify-end'>
-              <DialogPanel
-                as={motion.div}
-                initial={{ x: '100%' }}
-                animate={{ x: 0 }}
-                exit={{ x: '100%' }}
-                transition={{
-                  ease: 'linear',
-                }}
-                className='relative flex size-full max-w-lg flex-col items-start bg-white p-12'
+      </header>
+      <Dialog open={isOpen} onClose={setIsOpen} className='mobile-dialog'>
+        <div className='dialog-backdrop' aria-hidden='true' />
+        <div className='mobile-dialog-position'>
+          <DialogPanel className='mobile-panel'>
+            <div className='mobile-menu-top'>
+              <DialogTitle>Explore TTL</DialogTitle>
+              <button
+                type='button'
+                className='close-button'
+                onClick={() => setIsOpen(false)}
+                aria-label='Close menu'
               >
-                <Link className='py-2 text-xl font-bold hover:text-primary' to='/'>
-                  Home
-                </Link>
-                <Link className='py-2 text-xl font-bold hover:text-primary' to='/about'>
-                  About
-                </Link>
-                <Link className='py-2 text-xl font-bold hover:text-primary' to='/forms'>
-                  Forms
-                </Link>
-                <div className='cursor-pointer py-2 text-xl font-bold hover:text-primary'>Services</div>
-                <Link className='py-2 pl-6 text-lg font-bold hover:text-primary' to='/services/assay-lab'>
-                  Assay Lab
-                </Link>
-                <Link className='py-2 pl-6 text-lg font-bold hover:text-primary' to='/services/geological-services'>
-                  Geological Services
-                </Link>
-
-                <Button className='mt-auto w-full' type='secondary' text='Contact Us' href='/contact' />
-
-                <button className='absolute right-8 top-8' onClick={() => setIsOpen(false)} aria-label='Close menu'>
-                  <Xmark className='size-7' strokeWidth='2' />
-                </button>
-              </DialogPanel>
+                Close <span aria-hidden='true'>×</span>
+              </button>
             </div>
-          </Dialog>
-        )}
-      </AnimatePresence>
+            <nav aria-label='Mobile navigation'>
+              {[
+                ['Home', '/'],
+                ['Sample preparation & assays', '/services/assay-lab/'],
+                ['Geological support', '/services/geological-services/'],
+                ...navigation,
+                ['Contact', '/contact/'],
+              ].map(([label, path]) => (
+                <Link key={path} to={path} activeClassName='nav-active' onClick={() => setIsOpen(false)}>
+                  {label}
+                  <span aria-hidden='true'>↗</span>
+                </Link>
+              ))}
+            </nav>
+            <div className='mobile-contact'>
+              <p>Cobalt, Ontario</p>
+              <a href='tel:+17056795500'>(705) 679-5500</a>
+            </div>
+          </DialogPanel>
+        </div>
+      </Dialog>
     </>
   );
 }

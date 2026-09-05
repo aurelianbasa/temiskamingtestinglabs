@@ -13,7 +13,8 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "lint": "eslint ./src",
-    "lint:fix": "eslint ./src --fix"
+    "lint:fix": "eslint ./src --fix",
+    "test": "node --test tests/*.test.mjs"
   },
   "dependencies": {
     "@headlessui/react": "^2.0.4",

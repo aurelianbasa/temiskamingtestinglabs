@@ -1,151 +1,149 @@
 import * as React from 'react';
-
-import { motion } from 'framer-motion';
-import { TestTube, Hammer } from 'iconoir-react';
-
+import { Link } from 'gatsby';
 import Layout from '@components/layout';
-import HeroImage from '@media/home/hero.webp';
-import PrepLabImage from '@media/home/prep-lab.webp';
-import WetAssayImage from '@media/home/wet-assay.webp';
-import AssayLabImage from '@media/home/assay-lab.webp';
-import FireAssayImage from '@media/home/fire-assay.webp';
+import SiteHead from '@components/site-head';
+import { ActionLink, ProjectSteps, AcceptanceNote } from '@components/page-parts';
+import HeroImage from '@media/home/ttl-fire-assay-1400.webp';
+import HeroSmall from '@media/home/ttl-fire-assay-700.webp';
+import ExteriorImage from '@media/home/hero.webp';
 
 export default function Home() {
   return (
     <Layout>
-      <div className='grid gap-32 pb-20 pt-44 md:gap-60 md:pb-40 md:pt-64'>
-        <div className='container mx-auto grid items-center gap-16 px-4 md:px-8 lg:grid-cols-4-6'>
-          <motion.div
-            viewport={{ once: true }}
-            transition={{ duration: 0.3, delay: 0.2 }}
-            initial={{ x: '-80px', opacity: 0 }}
-            whileInView={{ x: '0', opacity: 1 }}
-          >
-            <h1 className='mb-8 text-5xl font-bold leading-normal'>
-              <span className='text-primary'>Fast Turnaround</span> with Competitive Pricing
-            </h1>
-            <p className='text-xl font-bold'>
-              Temiskaming Testing Labs is a full service assay lab that also offers geological services.
-            </p>
-          </motion.div>
-
-          <motion.div
-            viewport={{ once: true }}
-            transition={{ duration: 0.3, delay: 0.2 }}
-            initial={{ x: '80px', opacity: 0 }}
-            whileInView={{ x: '0', opacity: 1 }}
-          >
-            <img className='w-full rounded-2xl' src={HeroImage} alt='Factory building' />
-          </motion.div>
+      <section className='site-container home-hero'>
+        <div className='hero-copy'>
+          <p className='eyebrow'>Cobalt, Ontario</p>
+          <h1>
+            Start with
+            <br />
+            the material<span className='green-stop'>.</span>
+          </h1>
+          <p className='hero-description'>
+            Discuss sample preparation, assay requirements and mineral project opportunities with Temiskaming
+            Testing Laboratories.
+          </p>
+          <div className='hero-actions'>
+            <ActionLink to='/contact/'>Discuss a project</ActionLink>
+            <ActionLink secondary to='/services/assay-lab/'>
+              Explore laboratory services
+            </ActionLink>
+          </div>
+          <Link className='utility-link' to='/forms/'>
+            Sample submission information <span aria-hidden='true'>→</span>
+          </Link>
         </div>
-
-        <div className='container mx-auto grid items-center gap-16 px-4 md:px-8 lg:grid-cols-2'>
-          <motion.div
-            viewport={{ once: true }}
-            transition={{ duration: 0.3, delay: 0.2 }}
-            initial={{ x: '-80px', opacity: 0 }}
-            whileInView={{ x: '0', opacity: 1 }}
-          >
-            <img className='self-center rounded-2xl' src={AssayLabImage} alt='Assay lab' />
-          </motion.div>
-
-          <motion.div
-            viewport={{ once: true }}
-            transition={{ duration: 0.3, delay: 0.2 }}
-            initial={{ x: '80px', opacity: 0 }}
-            whileInView={{ x: '0', opacity: 1 }}
-          >
-            <p className='mb-4 text-2xl font-bold text-tertiary'>OUR FACILITY</p>
-            <h2 className='mb-8 text-4xl font-bold leading-normal'>Temiskaming Testing Laboratories</h2>
-            <p className='font-bold'>
-              The assay lab is housed in the former regional office of the Ministry of Mines. An expanded suite of
-              exploration and analytical services are also offered through a geological office along the Trans-Canada
-              highway.
-            </p>
-
-            <div className='mt-8 flex items-start gap-4'>
-              <div className='rounded-2xl bg-primary/80 p-4'>
-                <TestTube className='size-8' strokeWidth='2' />
-              </div>
-              <div>
-                <p className='mb-2 text-xl font-bold text-tertiary'>Assay Lab</p>
-                <p className='text-tertiary'>Operated independently with commercial analytical experience.</p>
-              </div>
-            </div>
-
-            <div className='mt-8 flex items-start gap-4'>
-              <div className='rounded-2xl bg-secondary/80 p-4'>
-                <Hammer className='size-8' strokeWidth='2' />
-              </div>
-              <div>
-                <p className='mb-2 text-xl font-bold text-tertiary'>Geological Services</p>
-                <p className='text-tertiary'>
-                  Our team is well equipped to provide exploration and analytical services to the entire region.
-                </p>
-              </div>
-            </div>
-          </motion.div>
+        <figure className='hero-image'>
+          <img
+            src={HeroImage}
+            srcSet={HeroSmall + ' 700w, ' + HeroImage + ' 1400w'}
+            sizes='(max-width: 800px) calc(100vw - 40px), (max-width: 1340px) 45vw, 588px'
+            alt='Glowing crucibles at the laboratory furnace.'
+            width='1400'
+            height='1090'
+          fetchpriority='high'
+          />
+          <figcaption>
+            <span>Material. Preparation. Understanding.</span>
+            <span>TTL laboratory archive</span>
+          </figcaption>
+        </figure>
+      </section>
+      <section className='site-container service-paths' aria-label='Ways to work with TTL'>
+        {[
+          [
+            '01',
+            'Sample preparation & assays',
+            'Discuss your sample type, analytical requirements and reporting needs.',
+            '/services/assay-lab/',
+            'Explore laboratory services',
+          ],
+          [
+            '02',
+            'Geological support',
+            'Discuss core handling, exploration support and project workspace requirements.',
+            '/services/geological-services/',
+            'Explore geological support',
+          ],
+          [
+            '03',
+            'Project & facility partnerships',
+            'Explore a defined test program, an operating collaboration or a facility development opportunity.',
+            '/project-opportunities/',
+            'Explore an opportunity',
+          ],
+        ].map(([number, title, copy, path, action]) => (
+          <article key={number}>
+            <span className='section-number'>{number}</span>
+            <h2>{title}</h2>
+            <p>{copy}</p>
+            <ActionLink secondary to={path}>
+              {action}
+            </ActionLink>
+          </article>
+        ))}
+      </section>
+      <section className='site-container facility-story section-space'>
+        <figure>
+          <img
+            src={ExteriorImage}
+            width='650'
+            height='340'
+            loading='lazy'
+            alt='Historic brick buildings beside the water in Cobalt.'
+          />
+          <figcaption>Cobalt, Ontario · from the TTL archive</figcaption>
+        </figure>
+        <div>
+          <p className='eyebrow'>A real place to begin</p>
+          <h2>
+            A technical facility.
+            <br />A history in the camp.
+          </h2>
+          <p>
+            At 1 Presley Street in Cobalt, TTL brings a laboratory and mineral-testing heritage to
+            conversations about the work ahead.
+          </p>
+          <p>
+            Explore the facility, the laboratory spaces and the opportunities for a project-specific program.
+          </p>
+          <ActionLink secondary to='/about/'>
+            Explore the facility
+          </ActionLink>
         </div>
-
-        <div className='container mx-auto px-4 md:px-8'>
-          <motion.div
-            viewport={{ once: true }}
-            transition={{ duration: 0.3, delay: 0.2 }}
-            initial={{ y: '80px', opacity: 0 }}
-            whileInView={{ y: '0', opacity: 1 }}
-          >
-            <h2 className='mb-16 text-center text-5xl font-bold text-tertiary'>Assay Lab</h2>
-          </motion.div>
-
-          <div className='grid gap-8 sm:grid-cols-2 md:grid-cols-3'>
-            <motion.div
-              className='rounded-2xl p-4 shadow-md'
-              viewport={{ once: true }}
-              transition={{ duration: 0.3, delay: 0.2 }}
-              initial={{ y: '80px', opacity: 0 }}
-              whileInView={{ y: '0', opacity: 1 }}
-            >
-              <img className='w-full rounded-2xl' src={PrepLabImage} alt='Prep Lab' />
-              <p className='p-8 text-center text-2xl font-bold'>Prep Lab</p>
-            </motion.div>
-
-            <motion.div
-              className='rounded-2xl p-4 shadow-md'
-              viewport={{ once: true }}
-              transition={{ duration: 0.3, delay: 0.2 }}
-              initial={{ y: '80px', opacity: 0 }}
-              whileInView={{ y: '0', opacity: 1 }}
-            >
-              <img className='w-full rounded-2xl' src={WetAssayImage} alt='Wet Assay' />
-              <p className='p-8 text-center text-2xl font-bold'>Wet Assay</p>
-            </motion.div>
-
-            <motion.div
-              className='rounded-2xl p-4 shadow-md'
-              viewport={{ once: true }}
-              transition={{ duration: 0.3, delay: 0.2 }}
-              initial={{ y: '80px', opacity: 0 }}
-              whileInView={{ y: '0', opacity: 1 }}
-            >
-              <img className='w-full rounded-2xl' src={FireAssayImage} alt='Fire Assay' />
-              <p className='p-8 text-center text-2xl font-bold'>Fire Assay</p>
-            </motion.div>
+      </section>
+      <section className='opportunity-band'>
+        <div className='site-container opportunity-inner'>
+          <div>
+            <p className='eyebrow'>Room for the next idea</p>
+            <h2>Have a project that needs more than an assay?</h2>
+          </div>
+          <div>
+            <p>
+              We welcome discussions with material owners, technical teams and prospective operating partners
+              about defined test programs and facility development.
+            </p>
+            <p className='opportunity-support'>
+              Some projects begin with a sample. Others need a longer program, equipment or an operating
+              partner. Tell us what you are trying to achieve.
+            </p>
+            <ActionLink to='/project-opportunities/'>Discuss a project opportunity</ActionLink>
           </div>
         </div>
-      </div>
+      </section>
+      <section className='site-container section-space'>
+        <div className='section-heading'>
+          <p className='eyebrow'>From a question to a work plan</p>
+          <h2>A practical next step.</h2>
+        </div>
+        <ProjectSteps />
+        <AcceptanceNote />
+      </section>
     </Layout>
   );
 }
-
-export function Head() {
-  return (
-    <>
-      <html lang='en' />
-      <title>Home | TTL</title>
-      <meta
-        name='description'
-        content='Temiskaming Testing Labs is a full service assay lab that also offers geological services.'
-      />
-    </>
-  );
-}
+export const Head = () => (
+  <SiteHead
+    title='Sample preparation, assays & project opportunities in Cobalt'
+    description='Discuss sample preparation, assay requirements and mineral project opportunities with Temiskaming Testing Laboratories in Cobalt, Ontario.'
+  />
+);

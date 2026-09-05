@@ -1,0 +1,16 @@
+import * as React from 'react';
+import Layout from '@components/layout';
+import EnquiryForm from '@components/enquiry-form';
+import { submitEnquiry } from '../lib/enquiry.mjs';
+export default function FormReview() {
+  if (process.env.NODE_ENV === 'production') throw new Error('Remove the local form review fixture before production builds.');
+  const pending = React.useRef(null);
+  const [count, setCount] = React.useState(0);
+  const [payload, setPayload] = React.useState('');
+  const transport = values => submitEnquiry(values, { timeoutMs: 300000, fetchImpl: async (_, options) => {
+    setCount(n => n + 1); setPayload(JSON.stringify(Object.fromEntries(options.body.entries()), null, 2));
+    return new Promise(resolve => { pending.current = resolve; });
+  }});
+  return <Layout><div className='site-container section-space'><h1>Local form verification</h1><p>No network transport: this fixture uses an injected mock. Requests: {count}</p><button onClick={() => pending.current?.(new Response('{}', { status: 422 }))}>Resolve failure</button>{' · '}<button onClick={() => pending.current?.(new Response('{}', { status: 200 }))}>Resolve success</button><div className='contact-layout'><EnquiryForm search='?type=partnership' transport={transport}/><pre style={{whiteSpace:'pre-wrap'}}>{payload}</pre></div></div></Layout>;
+}
+export const Head = () => <><title>Local form verification</title><meta name='robots' content='noindex'/></>;
