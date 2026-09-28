@@ -197,7 +197,7 @@ export default function EnquiryForm({ search = '', transport = submitEnquiry }) 
           <p>{status === 'invalid' ? 'Please check the highlighted fields.' : failure}</p>
           {status === 'error' && (
             <p>
-              <a href='mailto:aurelian@temiskaminglabs.com'>aurelian@temiskaminglabs.com</a> ·{' '}
+              <a href='mailto:aurelian@temiskaminglabs.com'>Email us</a> ·{' '}
               <a href='tel:+17056795500'>+1 (705) 679-5500</a>
             </p>
           )}
@@ -205,8 +205,8 @@ export default function EnquiryForm({ search = '', transport = submitEnquiry }) 
       )}
       <noscript>
         <p className='error-message'>
-          The enquiry form needs JavaScript. Please email{' '}
-          <a href='mailto:aurelian@temiskaminglabs.com'>aurelian@temiskaminglabs.com</a> or call{' '}
+          The enquiry form needs JavaScript. Please{' '}
+          <a href='mailto:aurelian@temiskaminglabs.com'>email us</a> or call{' '}
           <a href='tel:+17056795500'>+1 (705) 679-5500</a>.
         </p>
       </noscript>

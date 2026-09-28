@@ -30,8 +30,8 @@ export default function Privacy() {
         </p>
         <h2>Questions about your information</h2>
         <p>
-          For questions about information you have provided to TTL, contact{' '}
-          <a href='mailto:aurelian@temiskaminglabs.com'>aurelian@temiskaminglabs.com</a> or{' '}
+          For questions about information you have provided to TTL,{' '}
+          <a href='mailto:aurelian@temiskaminglabs.com'>email us</a> or call{' '}
           <a href='tel:+17056795500'>+1 (705) 679-5500</a>.
         </p>
         <p className='small-copy'>Updated 5 September 2026.</p>

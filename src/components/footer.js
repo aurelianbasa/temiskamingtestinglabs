@@ -22,7 +22,7 @@ export default function Footer() {
           </div>
           <div>
             <h2>Start a conversation</h2>
-            <a href='mailto:aurelian@temiskaminglabs.com'>aurelian@temiskaminglabs.com</a>
+            <a href='mailto:aurelian@temiskaminglabs.com'>Email us</a>
             <a href='tel:+17056795500'>+1 (705) 679-5500</a>
             <address>
               1 Presley Street
